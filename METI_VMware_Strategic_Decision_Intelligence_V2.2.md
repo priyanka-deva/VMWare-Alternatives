@@ -25,7 +25,7 @@
 | **6. Market position and demonstrated migration capability are not the same measure.** | S&P 451's **2026 primary-platform survey** reports approximately **43% VMware** (27% vSphere/vSphere Foundation plus 16% VCF), **28% Microsoft Hyper-V**, **12% Oracle**, **7% Red Hat**, **3% OpenStack**, and **2% Nutanix**. Separately, Nutanix has the **MSIG Asia ~2,000-VM** VMware-origin case; Microsoft documents VMware-to-Azure Local migration functionality, but the cited **CDW 800+ VMs** do **not** establish VMware origin for all those systems. [R6:S01–S02; R4:S04, S06, S18; R5:S23–S24] | VMware leads **reported primary-platform preferences**, not an audited worldwide share of VMs or revenue. Nutanix's 2% survey response does **not** negate its named migration case, and Microsoft migration functionality does **not** prove a completed customer VMware exit. Competitor suitability remains **platform- and workload-specific**. |
 | **7. OT manufacturer evidence already differentiates supported hypervisors, but only within precise product scope.** | **Siemens TIA Portal V21** guidance names **VMware ESXi 8.0+** and **Microsoft Hyper-V Server 2019+** for specified configurations. **Rockwell FactoryTalk Services Platform 6.60** general documentation names **VMware, Hyper-V and Nutanix**, while deferring to product-level restrictions. **Emerson DeltaV v15 FP3** discusses VMware/Hyper-V for **simulation, training and virtual FAT** functions. [R5:OT01, OT03, OT10] | Hyper-V support for a named Siemens release is **not automatic Azure Local approval**. Rockwell's general Nutanix reference is **not universal AHV certification**; Emerson simulation support does **not** extend to all production DCS functions. No enterprise-wide OT compatibility conclusion is justified from these examples. |
 
-### Implications for Cloud Infrastructure Leadership
+### Why it matters
 
 **The public evidence does not support either a broad customer exit from VMware or an assumption of continued enterprise-wide dependence.** It establishes a **five-year renewal at LSEG**, a **VCF 9 selection at ING**, a **live factory application at Audi**, and **reported VMware-origin migrations** at Gilead, MSIG Asia, Estracom and Virtual Computing. The migration examples cover defined environments and do not disclose how much VMware capacity remained in each company. The separate S&P 451 survey captures **selective reduction as a stated approach**, not as an independently measured completed customer migration rate. [R3:E17; R2:S06, S09; R1:S05–S06; R4:S04, S09, S12; R6:S03]
 
@@ -239,7 +239,7 @@ The existing documentation does **not** cover every MES, SCADA/HMI, historian, D
 
 ---
 
-# 6. Implications for Cloud Infrastructure Leadership
+# 6. Why it matters
 
 | Strategic path | Potential rationale | Conditions that would change the decision |
 |---|---|---|
