@@ -3,19 +3,19 @@
 
 **Version:** 2.2 — evidence-gated executive edition  
 **Prepared:** 29 October 2026  
-**Research basis:** Original six-report METI research baseline, V1.0–V2.1 and their source-ledger classifications; no new research, primary-document retrieval or independent customer verification undertaken in V2.2  
+**Evidence basis:** Public financial filings, company and supplier disclosures, research surveys and industrial manufacturer documentation cited throughout this report  
 **Audience:** Cloud & Infrastructure Technology Leadership — global biopharma  
 **Scope:** Public external information, predominantly **2019–2026**, with older explicitly dated material. No assumptions regarding internal systems, contracts, suppliers or technology decisions.  
-**Evidence policy:** Principal claims must cite **original company filings or statements, original survey publishers, original product manufacturers or named customer cases published by their direct suppliers**. Original supplier stories are primary evidence **of the publisher's reported account**, not independent audits. Secondary directories, media retellings and third-party-hosted earnings transcripts are retained for research traceability but **not used to establish customer deployments**.  
-**Independence:** METI research synthesis; not authored, reviewed or endorsed by EY.
+**Evidence standard:** Findings draw on original publications. Supplier-reported customer outcomes are attributed, not independently audited. Secondary-only references remain in the appendices and are not presented as established deployments.  
+**Prepared by:** METI | External technology intelligence assessment.
 
 ---
 
-# Executive Findings — What Named Evidence Establishes
+# Executive Summary
 
-**Assessment date: 29 October 2026.** The findings below distinguish **customer contracts and live deployments**, **reported VMware-origin migrations**, and **survey-reported intentions**. These are different measures of customer response. Each conclusion is limited to the cited original publication, not extrapolated to VMware's entire customer base.
+**As of 29 October 2026.** The findings distinguish **customer contracts and deployed services**, **reported VMware-origin migrations** and **survey-reported intentions**. The third column presents the implications of the cited evidence, rather than an additional customer fact.
 
-| Finding | Specific original-source evidence | Executive interpretation — analyst synthesis |
+| Finding | Published evidence | What it means for Cloud Infrastructure Leadership |
 |---|---|---|
 | **1. Continued VMware commitments are evidenced, but the level of adoption varies.** | **LSEG** announced a **five-year** Broadcom agreement on **19 May 2026**. **ING** selected **VCF 9** in **December 2025**. **Audi** reported a **live VCF-enabled virtual-PLC factory application** in **March 2025**. **Standard Chartered** reported approximately **70% of its global infrastructure footprint** on its new private-cloud architecture in **July 2026**. [R3:E17; R2:S06, S09, S11] | A renewal, product selection and reported operational deployment establish **different levels of commitment**. These cases demonstrate continued use or investment at named enterprises, **not** that each has adopted VCF across its entire estate or that the customer base is growing. |
 | **2. VMware-origin migrations have been reported at meaningful project scale—not merely proposed.** | **Gilead:** AWS describes **more than 2,000 on-premises VMware-source servers migrated** to AWS-native services and **more than 1,400 systems retired** in its **2024–2025** case; these are separate measures. **MSIG Asia:** Nutanix reports approximately **2,000 VMware VMs** moved to AHV by **April 2025**. **Estracom:** Proxmox reports **320 VMs** migrated in **2025**. **Virtual Computing:** Vates reports **550 VMs** migrated in **2026**. [R1:S05–S06; R4:S04, S09, S12] | These are **named supplier/customer-reported implementations**, establishing replacement feasibility for **defined workload groups**. They do **not** establish the customers' residual VMware estates, independently audited savings, full-VCF functional parity or an industry migration rate. |
@@ -25,7 +25,7 @@
 | **6. Market position and demonstrated migration capability are not the same measure.** | S&P 451's **2026 primary-platform survey** reports approximately **43% VMware** (27% vSphere/vSphere Foundation plus 16% VCF), **28% Microsoft Hyper-V**, **12% Oracle**, **7% Red Hat**, **3% OpenStack**, and **2% Nutanix**. Separately, Nutanix has the **MSIG Asia ~2,000-VM** VMware-origin case; Microsoft documents VMware-to-Azure Local migration functionality, but the cited **CDW 800+ VMs** do **not** establish VMware origin for all those systems. [R6:S01–S02; R4:S04, S06, S18; R5:S23–S24] | VMware leads **reported primary-platform preferences**, not an audited worldwide share of VMs or revenue. Nutanix's 2% survey response does **not** negate its named migration case, and Microsoft migration functionality does **not** prove a completed customer VMware exit. Competitor suitability remains **platform- and workload-specific**. |
 | **7. OT manufacturer evidence already differentiates supported hypervisors, but only within precise product scope.** | **Siemens TIA Portal V21** guidance names **VMware ESXi 8.0+** and **Microsoft Hyper-V Server 2019+** for specified configurations. **Rockwell FactoryTalk Services Platform 6.60** general documentation names **VMware, Hyper-V and Nutanix**, while deferring to product-level restrictions. **Emerson DeltaV v15 FP3** discusses VMware/Hyper-V for **simulation, training and virtual FAT** functions. [R5:OT01, OT03, OT10] | Hyper-V support for a named Siemens release is **not automatic Azure Local approval**. Rockwell's general Nutanix reference is **not universal AHV certification**; Emerson simulation support does **not** extend to all production DCS functions. No enterprise-wide OT compatibility conclusion is justified from these examples. |
 
-### Integrated conclusion — analyst synthesis
+### Implications for Cloud Infrastructure Leadership
 
 **The public evidence does not support either a broad customer exit from VMware or an assumption of continued enterprise-wide dependence.** It establishes a **five-year renewal at LSEG**, a **VCF 9 selection at ING**, a **live factory application at Audi**, and **reported VMware-origin migrations** at Gilead, MSIG Asia, Estracom and Virtual Computing. The migration examples cover defined environments and do not disclose how much VMware capacity remained in each company. The separate S&P 451 survey captures **selective reduction as a stated approach**, not as an independently measured completed customer migration rate. [R3:E17; R2:S06, S09; R1:S05–S06; R4:S04, S09, S12; R6:S03]
 
@@ -35,9 +35,9 @@
 
 # 1. Observed Customer Behavior: Commitments, Workload Movements and Residual Dependence
 
-## 1.1 Actual customer action versus contractual indication
+## 1.1 Named contracts, selections and deployed uses
 
-**Original issuer/customer publications:** The cases below are described at their disclosed stage, rather than being aggregated into a single “going all in” category.
+**Published customer and supplier records:** The following cases distinguish agreements, product selections and reported deployment stages rather than treating them as identical enterprise-wide commitments.
 
 | Customer | Publicly reported action | Interpretation boundary |
 |---|---|---|
@@ -50,11 +50,11 @@
 | **NTT DOCOMO** | October 2026: announced ten-year VMware software relationship. [R2:S16] | Official publication indexed; full reopening unsuccessful in underlying run. |
 | **FedEx** | October 2026: supplier says it continues to use VCF and other Broadcom products. [R2:S17] | Official publication indexed; full reopening unsuccessful in underlying run. |
 
-### Conclusion — analyst synthesis
+### Customer commitment: what the cases establish
 
 **The cases establish contractual renewal, platform selection, intended rollout and selected operational implementation, not a common enterprise-wide VCF adoption result.** Customer-specific deployed capacity and subsequent contract outcomes remain separate evidence categories. The selected announcements cannot be used to infer worldwide customer retention or increase. [R2:S06–S11, S16–S17]
 
-## 1.2 VMware-source migrations in original supplier accounts
+## 1.2 Named VMware-to-alternative migrations
 
 | Target platform | Customer and published context | Reported migration outcome | Evidence qualification |
 |---|---|---|---|
@@ -68,17 +68,17 @@
 | **Vates / XCP-ng** | **Fujifilm MicroChannel**, Mar 2026 | Named VMware-to-Vates transition. [R4:S17] | **IT services business**, not evidence of pharmaceutical manufacturing at FUJIFILM. |
 | **VergeOS** | **Alinsco Insurance**, Jan 2026 | Named VMware/VxRail exit and hardware reuse. [R4:S13] | Supplier-reported zero-downtime outcome is not independently audited. |
 
-### Conclusion — analyst synthesis
+### Customer migrations: what the cases establish
 
 **Suppliers and named customers report completed or underway source-to-destination migrations for defined workloads.** In contrast, a target platform's customer case without identified VMware origin does not establish displacement. Neither migration VM counts nor seller-reported savings should be summed into a global rate or accepted as independently audited. [R1:S05–S06; R4:S04–S13, S17]
 
-## 1.3 What is established about retaining while minimizing?
+## 1.3 Evidence of reducing VMware dependence while retaining it
 
 The original publisher's **separate 2026 S&P 451 private-cloud study** reports approximately **one quarter of current VMware users** shifting some workloads to alternative private-cloud platforms while keeping a reduced VMware estate; around **one third** evaluating or transitioning; and **6% undecided**. These were **survey responses about approaches**, not independently observed migration completion, and should not be merged with the separate primary-platform survey. [R6:S03](https://blog.451alliance.com/security-and-operational-control-drive-expansion-in-organizations-it-environments/)
 
 Original **ETR Research** also reported respondent-level cost and migration-strategy concerns in 2026. That is a survey of respondents, not a named verified completed migration. [R3:E11](https://research.etr.ai/etr-data-drop/vmware-customers-face-a-cost-reckoning)
 
-### Conclusion — analyst synthesis
+### VMware reduction: survey evidence and limitations
 
 **Partial diversification is supported as a stated strategy, while the named migration cases demonstrate scoped implementation.** The research does not verify a representative share of worldwide VMware customers who have both migrated workloads and continued operating a residual VMware estate. This is the relevant distinction behind mixed external accounts. [R6:S03; R1:S05–S06; R4:S04, S09–S13]
 
@@ -88,7 +88,7 @@ Original **ETR Research** also reported respondent-level cost and migration-stra
 
 **Research period:** 2019–2026 primary lookback, retaining separately dated earlier evidence such as Sanofi's 2012 VMware private-cloud deployment and AstraZeneca's 2017 environment. **No claim is made that each company was exhaustively assessed for every year.**
 
-## 2.1 Nineteen-company evidence table
+## 2.1 VMware/Broadcom relationships across 19 biopharma peers
 
 The source material covers 19 peers. For **J&J**, the V2.1 VMware-specific event account is secondary media reporting; **Pfizer** has a secondary-hosted earnings transcript; and AstraZeneca's historical **CA Clarity PPM** reference comes from a secondary commercial directory. These leads remain in the appendices but are **not counted as primary-verified VMware/CA customer deployments**. Company/partner-published cloud evidence in the table does **not**, by itself, show VMware origin, renewal or replacement.
 
@@ -114,13 +114,13 @@ The source material covers 19 peers. For **J&J**, the V2.1 VMware-specific event
 | **argenx** | No attributable Broadcom portfolio product deployment established in the reviewed evidence. | No qualifying public enterprise infrastructure record found in scoped research. [R1 Appendix E] |
 | **Teva** | No attributable deployment established. Unverified VMware/Nutanix recruitment material was **not classified as a customer relationship**. [R1 Appendix D] | No qualifying original-source cloud/hypervisor deployment established in scope. |
 
-### Conclusion — analyst synthesis
+### Biopharma relationships: established evidence
 
 **The strongest product-specific historical primary-publication records are Roche Diagnostics (VMware customer case), AstraZeneca (Morpheus case) and Sanofi (Dell/EMC original release).** Gilead's original AWS publication separately establishes a VMware-source estate for the disclosed migration. AbbVie's employer-authored vacancy is a VMware operational-responsibility signal, **not production inventory**. These records do not establish active VMware contracts for the 19-company group in 2026. [R1:S05–S07, S30; BP01–BP02]
 
 **Post-acquisition strategy cannot be inferred for the cohort.** Gilead is the only member of the scoped 19 with a **quantified VMware-origin post-acquisition migration** meeting the original research threshold. The other 18 cannot be classified as retaining, expanding or leaving VMware from this evidence. This describes the research's public visibility, not sector-wide prevalence. [R1:S05–S06; R1 Appendix E]
 
-## 2.2 What selected original biopharma publications illustrate
+## 2.2 What the biopharma cases establish
 
 | Original publication | Established fact | Interpretation limit |
 |---|---|---|
@@ -130,7 +130,7 @@ The source material covers 19 peers. For **J&J**, the V2.1 VMware-specific event
 | [Novo Nordisk original August 2026 statement](https://www.novonordisk.com/news-and-media/news-and-ir-materials/news-details.html?id=916594) [R1:S10] | AWS named preferred provider, with separate documented Azure applications. | A cloud-provider arrangement, not VMware-origin migration. |
 | [Roche original March 2026 AI release](https://www.roche.com/media/releases/med-cor-2026-03-16) [R1:S09] | Expanded on-premises AI compute investments. | On-premises AI is not synonymous with VMware/VCF. |
 
-### Conclusion — analyst synthesis
+### Biopharma decisions: limits of inference
 
 **Biopharma cloud-provider choices and VMware hypervisor decisions are separate observations.** Without an original VMware source, renewal or decommissioning record, the public cloud initiatives of a peer cannot be classified as Broadcom retention or exit. The disclosed cases demonstrate different workload types; they are not a comparable sample of post-acquisition VMware decisions. [R1:S05–S11; R1:S30]
 
@@ -138,7 +138,7 @@ The source material covers 19 peers. For **J&J**, the V2.1 VMware-specific event
 
 # 3. Broadcom Commercial Outcomes and Virtualization Market Indicators
 
-## 3.1 What the issuer filings establish
+## 3.1 Broadcom revenue growth and VMware customer growth
 
 | Broadcom disclosure | Earlier value | Later value | Appropriate interpretation |
 |---|---:|---:|---|
@@ -151,11 +151,11 @@ Broadcom's original February 2026 publication states **more than 90% of its top 
 
 The original FY2025 filing attributes software results in part to subscription conversion and accounting for non-terminable software arrangements. Potential VMware-specific price/packaging effects were **not quantified** in the reviewed disclosures. The aggregate infrastructure-software segment includes more than VMware. [R2:S01](https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/avgo-20251102.htm)
 
-### Conclusion — analyst synthesis
+### VMware customer growth: inconclusive
 
 **Net VMware customer growth: INCONCLUSIVE.** The reviewed original issuer records do not supply comparable worldwide customer additions, departures, retention or deployed VM totals. Higher software-segment revenue is consistent with several commercial or accounting mechanisms; it cannot determine VMware customer count. The Q3 FY2026 originals were publisher-indexed in the prior research, not fully reopened, and are not presented here as independently revalidated. [R2:S01, S03–S05]
 
-## 3.2 2026 market position: use the correct measures
+## 3.2 VMware's 2026 virtualization market position
 
 ![S&P Global 451 Research 2026 primary-platform response share; not worldwide market share](assets/primary-virtualization-platform-2026-survey.svg)
 
@@ -174,7 +174,7 @@ The original FY2025 filing attributes software results in part to subscription c
 
 A separate S&P 451 study reported **nearly 90% VMware presence within surveyed private-cloud environments** and **37% intent to retain the bulk of VMware workloads**. Its reported group outside bulk retention includes evaluation, partial migration and **6% undecided**; treating **63% as completed VMware exits is unsupported**. This is a **different respondent population** from the primary-platform survey. [R6:S03](https://blog.451alliance.com/security-and-operational-control-drive-expansion-in-organizations-it-environments/)
 
-### Conclusion — analyst synthesis
+### VMware's 2026 survey position
 
 **VMware is the largest reported primary-platform category in the cited 2026 survey; the public research does not establish a comparable global installed-VM or revenue market-share trend.** Primary-platform preference, installed presence and intended future approaches have different denominators and must remain separate. [R6:S01–S03]
 
@@ -197,11 +197,11 @@ The comparison distinguishes **original platform specifications**, **analyst-ass
 | **Vates VMS / XCP-ng** | Xen/Xen Orchestra virtualization and management | Xen-based virtualization and conversion tooling for scoped estates. | Guest driver/firmware and enterprise backup/OT ISV ecosystem. [R4:S12, S17] | **Virtual Computing:** **550 VMs**, around 20 hosts, moved from VMware; **Fujifilm MicroChannel:** IT-services VMware move, **not FUJIFILM pharma manufacturing**. [R4:S12, S17] |
 | **VergeOS** | Integrated compute/storage/network virtualization stack | Integrated compute/storage/network platform and potential reuse of existing compatible hardware. | Smaller-vendor support, resilience, ecosystem and application support. [R4:S13] | **Alinsco Insurance:** supplier-reported VMware/VxRail migration and reuse of hardware; **downtime claim not independently audited**. [R4:S13] |
 
-### Conclusion — analyst synthesis
+### Alternative platforms: documented scope and limitations
 
 **Alternative hypervisors and infrastructure stacks have documented capabilities and some named VMware-source migrations for defined workloads.** These original supplier records do not establish general financial superiority, comparable global customer share, or universal full-VCF replacement. Product scope, migration destination and support ecosystem differ by option. [R4:S04–S18; R5:S21–S33]
 
-## Full-stack replacement differs from a hypervisor replacement
+## Hypervisor replacement versus full VCF-stack replacement
 
 | VMware dependency / service | Required comparison for an alternative | Risk if unproven |
 |---|---|---|
@@ -231,7 +231,7 @@ The comparison distinguishes **original platform specifications**, **analyst-ass
 
 **Limit of the evidence:** The cited AVEVA original publication is a **guide announcement**; complete guide clauses were not inspected. Rockwell's general FactoryTalk documentation names VMware, Hyper-V and Nutanix but defers to application-specific restrictions. Emerson's cited DeltaV virtual SZ release concerns simulation/training/virtual FAT, not broad production DCS eligibility. [R5:OT03, OT09–OT10]
 
-### Conclusion — analyst synthesis
+### OT application support: documented scope
 
 **The original documents establish particular manufacturer-published hypervisor references, not enterprise-wide OT compatibility.** A Hyper-V-supported application is not automatically Azure Local-approved; generic KVM product capability is not manufacturer approval of every KVM platform; historical or simulation support is not current plant control certification. [R5:OT01–OT05, OT09–OT10]
 
@@ -239,7 +239,7 @@ The existing documentation does **not** cover every MES, SCADA/HMI, historian, D
 
 ---
 
-# 6. Leadership Decision Conditions
+# 6. Implications for Cloud Infrastructure Leadership
 
 | Strategic path | Potential rationale | Conditions that would change the decision |
 |---|---|---|
@@ -247,7 +247,7 @@ The existing documentation does **not** cover every MES, SCADA/HMI, historian, D
 | **Hybrid, targeted substitution** | Some workload groups can migrate while critical or uneconomic classes remain supported | Demonstrate migration/rollback, operational parity, supplier support, requalification needs and net economics by segment. |
 | **Substantial VMware replacement** | Larger estate redesign may be economically/architecturally justified after a validated proof program | Requires comprehensive application support, platform-service parity, resilience, skills, transition financing and acceptable interruption risk. |
 
-### Conclusion — analyst synthesis
+### Conditions for an enterprise decision
 
 **The public evidence supports evaluating three alternative paths, not selecting a supplier or assuming either wholesale retention or replacement.** Exact VMware stack dependencies, workload criticality, supplier support, migration/restoration tests and risk-adjusted economics are required before those paths can be distinguished for a particular enterprise. [R4:S04–S18; R5:OT01–OT10]
 
@@ -260,7 +260,7 @@ The existing documentation does **not** cover every MES, SCADA/HMI, historian, D
 | **5. Migration and recovery proof** | Pilot conversions, dependent services, downtime, data integrity, backup/restore and rollback | Establish feasibility and operational acceptance |
 | **6. Comparable full economics** | 3–5-year software, hardware, services, migration, dual-run, skills, DR, validation and exit costs | Compare optimize, selective diversification and substantial replacement under common assumptions |
 
-### Overall conclusion
+### Final assessment
 
 **The mixed feedback reported by enterprises is consistent with the evidence measuring different decisions: contract continuity, workload migration, and future plans.** Original source publications show that all three occur, but do not establish how common each is among worldwide VMware customers or biopharma peers. **Broadcom's net VMware customer growth is inconclusive;** the existence of named migration cases does not show a sector-wide exit. [R2:S01, S03, S06–S11; R6:S03; R1:S05–S06; R4:S04, S09–S13]
 
