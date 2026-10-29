@@ -199,6 +199,8 @@ The shortlist follows technical relevance and architectural diversity in the ori
 
 # 5. Peer Biopharma Infrastructure Strategies
 
+**Historical research context (2019–2026):** The peer relationship analysis uses a **2019–2026 lookback** because enterprise infrastructure and software relationships can span multiple years, including periods before and after Broadcom's acquisition of VMware in November 2023. Material earlier references (such as Sanofi's 2012 and AstraZeneca's 2017 VMware deployments) are retained as clearly dated historical baselines. **This is a contextual evidence window, not a claim that every company was comprehensively assessed in every year.** Historical product use does not establish a current Broadcom contract, VMware deployment or VCF renewal.
+
 ## 5.1. What Broadcom customer disclosures and financial filings establish
 
 The research examined Broadcom's published customer/cohort disclosures, FY2025 Form 10-K, FY2026 Q3 financial statements and earnings, and selected public financial and infrastructure records for named biopharma peers. **It was not a comprehensive audit of all 19 companies' private infrastructure contracts or every peer's 10-K.**
