@@ -66,6 +66,8 @@ The table preserves the published metrics, attribution and source limitations. I
 
 Broadcom's public statements provide a selected cohort's **VCF purchasing/conversion milestones** beginning after the **22 November 2023** acquisition.
 
+“Signed up,” “adoption” and “purchased” should retain their original wording. None is synonymous with a quantified production rollout, individual renewal retention or worldwide market share.
+
 | Disclosure date | Reported position | Scope and source integrity |
 |---|---|---|
 | 22 Nov 2023 | Acquisition completed; **no like-for-like top-10,000 conversion baseline** | No zero baseline should be plotted. [R2:S01] |
@@ -80,9 +82,9 @@ Broadcom's public statements provide a selected cohort's **VCF purchasing/conver
 
 **Large-account VCF purchasing/conversion does not establish how many distinct VMware customers were added or lost, nor how many VCF workloads entered production.** The milestone terms and denominators are not interchangeable with retention or deployed capacity.
 
-“Signed up,” “adoption” and “purchased” should retain their original wording. None is synonymous with a quantified production rollout, individual renewal retention or worldwide market share.
-
 ## Facts — Broadcom financial disclosures
+
+Broadcom cited VCF demand, a transition to subscriptions, non-terminable license contracts and post-integration labor cost reductions as relevant revenue or income drivers. Price and packaging may also affect results, but **the reviewed record does not isolate a VMware-specific realized price increase accounting for all growth**. [R2:S01, S04]
 
 | Broadcom disclosure | Earlier value | Later value | Appropriate interpretation |
 |---|---:|---:|---|
@@ -95,9 +97,9 @@ Broadcom's public statements provide a selected cohort's **VCF purchasing/conver
 
 **Infrastructure-software revenue and operating-income growth do not establish VMware-only customer-base growth.** Broadcom's reported segment includes other software, and the research cannot separate customer count, price, deployment volume and accounting effects.
 
-Broadcom cited VCF demand, a transition to subscriptions, non-terminable license contracts and post-integration labor cost reductions as relevant revenue or income drivers. Price and packaging may also affect results, but **the reviewed record does not isolate a VMware-specific realized price increase accounting for all growth**. [R2:S01, S04]
-
 ## Facts — named Broadcom customer announcements
+
+**Evidence boundary:** The eight named cases are a selected sample, not a customer census; individual financial consideration was not established.
 
 | Customer | Publicly reported action | Interpretation boundary |
 |---|---|---|
@@ -114,14 +116,14 @@ Broadcom cited VCF demand, a transition to subscriptions, non-terminable license
 
 **These eight announcements show selected customer agreements, product decisions and deployment examples—not the total VMware installed base.** No named deal values were established, and planned rollouts must not be treated as completed deployments. The total VMware customer/VM population trend since acquisition remains unresolved.
 
-**Evidence boundary:** The eight named cases are a selected sample, not a customer census; individual financial consideration was not established.
-
 
 ---
 
 # 3. Enterprise Virtualization Market Position — 2026
 
 ## Facts — 2026 primary-platform survey
+
+**Evidence qualification:** These figures are attributed to S&P Global 451 Research's *Virtualization 2026*. The originating article and detailed crosstabs were **not fully reopened** in the original research, although the article was publisher-indexed and an official archive corroborated publication. The publisher's methodology material describes approximately **789 survey respondents**, with approximately **230 current hypervisor users** in a relevant survey portion (May–June 2026). Exact platform-question denominator/weighting were not established from inspected full materials. **Do not describe these as independently revalidated worldwide revenue, customer or installed-VM shares.** [R6:S01–S02, S08]
 
 | Primary platform family | Approximate share of responses | Read as |
 |---|---:|---|
@@ -138,11 +140,11 @@ Broadcom cited VCF demand, a transition to subscriptions, non-terminable license
 
 **VMware is the leading primary platform in the reported survey responses, not an audited global installed-VM, revenue or unique-customer share.** The figures remain attributed to publisher-indexed S&P 451 material; the article and detailed crosstabs were not fully reopened in the original research.
 
-**Evidence qualification:** These figures are attributed to S&P Global 451 Research's *Virtualization 2026*. The originating article and detailed crosstabs were **not fully reopened** in the original research, although the article was publisher-indexed and an official archive corroborated publication. The publisher's methodology material describes approximately **789 survey respondents**, with approximately **230 current hypervisor users** in a relevant survey portion (May–June 2026). Exact platform-question denominator/weighting were not established from inspected full materials. **Do not describe these as independently revalidated worldwide revenue, customer or installed-VM shares.** [R6:S01–S02, S08]
-
 ## Facts — installed presence and intentions in a separate survey
 
 A different, directly opened S&P 451 private-cloud article reports that **nearly 90%** of surveyed private-cloud environments contained VMware-based workloads. Within that surveyed population, **37%** intended to keep most VMware workloads; its broader remaining **63%** includes multiple approaches and **6% undecided**. Around one quarter described shifting **some** workloads while retaining a smaller footprint, and around one third described either evaluating alternatives or already transitioning. **These are not completed migration percentages**. [R6:S03]
+
+Other 2026 studies (CloudBolt, HPE and ETR) offer directional evidence of reconsideration, often vendor-sponsored or based on **intentions**. Gartner's September 2026 server-virtualization research evaluates **17 vendors** but its publicly available abstract is not a market-share dataset. [R3:E11, R4:M01, R6:S04–S09]
 
 | Measure | What it describes | What it does not describe |
 |---|---|---|
@@ -153,8 +155,6 @@ A different, directly opened S&P 451 private-cloud article reports that **nearly
 ### Conclusion — analyst synthesis
 
 **Primary-platform choice, VMware presence and intended future action are different measures from different survey populations.** The 63% group cannot be described as completed VMware exits or customer churn, and the data cannot support a 2023–2026 worldwide market-share trendline.
-
-Other 2026 studies (CloudBolt, HPE and ETR) offer directional evidence of reconsideration, often vendor-sponsored or based on **intentions**. Gartner's September 2026 server-virtualization research evaluates **17 vendors** but its publicly available abstract is not a market-share dataset. [R3:E11, R4:M01, R6:S04–S09]
 
 
 ---
@@ -188,11 +188,11 @@ The shortlist follows technical relevance and architectural diversity in the ori
 
 **An ESXi substitute is not necessarily a VCF substitute.** A platform assessment must separately prove the relevant capabilities formerly provided by vSphere/vCenter, vSAN, NSX/network security, live migration and high availability, automation, monitoring, backup/recovery and service governance. A functional VM boot is insufficient to establish operational equivalence. [R4:S06, S08, S14, S23]
 
+**Relative market position cannot be inferred from vendor-specific denominators.** Nutanix reported **over 32,000 end customers** across its portfolio in its FY2026 Form 10-K; Proxmox reported **over 2.3 million active VE servers** in a supplier announcement. Those are different populations, and the original source-access record is qualified. Neither figure establishes comparative virtualization market share or migrated VMware customer counts. [R4:M02–M03; R5:S03, S12]
+
 ### Conclusion — analyst synthesis
 
 **Enterprise alternatives should be evaluated against the VMware services actually used—hypervisor, management, storage, networking, availability, recovery and automation—and against application support.** Vendor installation and customer totals cannot be combined into a comparative market-share ranking.
-
-**Relative market position cannot be inferred from vendor-specific denominators.** Nutanix reported **over 32,000 end customers** across its portfolio in its FY2026 Form 10-K; Proxmox reported **over 2.3 million active VE servers** in a supplier announcement. Those are different populations, and the original source-access record is qualified. Neither figure establishes comparative virtualization market share or migrated VMware customer counts. [R4:M02–M03; R5:S03, S12]
 
 
 ---
