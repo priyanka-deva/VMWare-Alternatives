@@ -6,7 +6,7 @@
 **Research cutoff:** 28–29 October 2026, as recorded in the six source reports  
 **Audience:** Global Cloud & Infrastructure Technology Leadership, global biopharma  
 **Scope:** External public evidence; no internal infrastructure, contracts, application inventory or supplier decisions assumed  
-**Evidence basis:** Six METI research reports reconciled 29 October 2026; no new external research or live source verification undertaken for this version  
+**Evidence basis:** Six METI research reports reconciled 29 October 2026, plus dated and explicitly identified Section 5 supplemental source records in Annex E  
 **Independence:** METI editorial synthesis. Consulting-style structure only; not authored, reviewed or endorsed by EY.
 **Presentation rule:** Sections 1–9 distinguish source-supported **Facts** from explicitly labeled **Conclusions — analyst synthesis**. The research annexes retain their original evidence and source-access qualifications.
 
@@ -215,43 +215,43 @@ The research examined Broadcom's published customer/cohort disclosures, FY2025 F
 
 **Broadcom's large-account VCF purchasing and financial growth cannot establish that biopharma peers are collectively expanding, retaining or exiting VMware.** The disclosures do not provide attributable VMware spending, retention, VM capacity or renewal decisions for the named 19 companies. The financial evidence describes supplier-side commercial performance; the peer-specific documents below describe selected customer-side infrastructure activity. **Both forms of evidence are useful, but they answer different questions.**
 
-## 5.2. Nineteen biopharma peers — documented infrastructure activity
+## 5.2. Nineteen biopharma peers — Broadcom portfolio relationships
 
-This is an **evidence-led comparison of 19 selected companies**, not a representative census of industry infrastructure. “Evidence category” describes the public record's relevance to VMware and workload decisions; it does **not** assign a company-wide keep/exit status. Original publications, supplier attribution and historical dates remain in the source references and Annexes A, B and D.
+The comparison covers **Broadcom's broader product portfolio**, including historical products from VMware, CA Technologies and other acquired businesses. A named pre-acquisition VMware or CA deployment is evidence of a relationship with a **business now in the Broadcom portfolio**, **not** a confirmed current Broadcom contract or 2026 VCF renewal. Separate AWS/Azure/cloud activities are contextual, **not** evidence of Broadcom product use.
 
-| Biopharma company | Publicly documented infrastructure activity | Evidence category |
+| Company | Named Broadcom portfolio relationship — exact product and period | Other documented infrastructure context |
 |---|---|---|
-| **Eli Lilly** | Delivery partner describes an AWS-based business-intelligence data-automation workflow. [R1:S23] | Named cloud application; **not VMware-origin migration** |
-| **Johnson & Johnson** | Company announced Azure as preferred for **MedTech digital surgery** in **2022**. [R1:S14] | Historical, business-unit-specific cloud strategy |
-| **AbbVie** | Company-authored infrastructure role describes VMware data-center operations and lifecycle responsibilities. [R1:S07] | VMware operational-requirement evidence; **not production inventory** |
-| **Roche** | **2022 Roche Diagnostics:** VMware ESXi/vCenter/Horizon and VMware Cloud on AWS supported virtual training/simulation. **March 2026:** Roche announced **2,176 additional on-premises Blackwell GPUs**, with **more than 3,500** across on-premises/cloud AI compute. [R1:S30, S09] | Historical deployed VMware use; separate 2026 AI compute investment |
-| **Novartis** | AWS describes a patient-services cloud application/platform. [R1:S15] | Named cloud application |
-| **AstraZeneca** | AWS describes genomics/research and EC2/EKS drug-design compute workloads. [R1:S16, S25] | Research and scientific cloud compute |
-| **Amgen** | AWS reports genomics workflows and describes SAP-on-AWS in a supplier directory; the FY2025 10-K separately discloses capitalized cloud-computing implementation costs. [R1:S03, S17, S24] | Named cloud workflows and financial cloud-arrangement context; **not VMware costs** |
-| **Gilead Sciences** | AWS conference material reports **more than 2,000 servers migrated from on-premises VMware to AWS-native services**, and **more than 1,400 systems retired**. [R1:S05–S06] | **Explicit VMware-origin migration — specified program only** |
-| **Novo Nordisk** | Company designated **AWS its preferred cloud provider on 10 August 2026**; companion research also documents Azure clinical/research applications. [R1:S10; R3:E07, E22] | Preferred-cloud agreement plus distinct cloud applications |
-| **Pfizer** | AWS describes the PACT collaboration's **14 research and manufacturing-analytics projects/prototypes**. [R1:S18] | Scientific and manufacturing-data cloud projects |
-| **Vertex Pharmaceuticals** | AWS describes cryo-EM/HPC and serverless image processing, substantially dating to **2022–2023**. [R1:S19–S20] | Historical research-compute modernization |
-| **Bristol Myers Squibb** | AWS/Accenture describe historical SAP S/4HANA on AWS serving **44 markets, 12 manufacturing sites and 13,000 users**; later AWS cloud automation was also documented. [R1:S21–S22] | Historical enterprise application/cloud-platform implementation |
-| **GSK** | Microsoft reports **Azure Local** for edge processing and AI inference in medicine/vaccine manufacturing and R&D laboratories. [R1:S11] | Named hybrid/edge platform deployment; VMware displacement **not stated** |
-| **Sanofi** | AWS describes the **Digital Accelerator** using cloud-native data, ML and application services. [R1:S26] | Named digital/cloud application platform |
-| **Regeneron** | AWS reports Regeneron Genetics Center cloud-genomics workloads and a jointly authored 2023 AWS Proton automation example. [R1:S27–S28] | Historical genomics and cloud-platform operations |
-| **Moderna** | Historical VMware life-sciences material quotes a Moderna executive **without specifying ESXi/VCF systems**. AWS separately describes manufacturing/data platforms; Google describes Looker with Amazon Redshift. [R1:S12–S13, S31–S32] | Historical VMware promotional reference; named cloud/data implementations |
-| **Takeda** | Company announced a **2020 AWS/Accenture cloud-first agreement** with an **80% application-to-cloud target**. [R1:S29] | Announced cloud strategy and target; completion not shown by that announcement |
-| **argenx** | No qualifying company-specific enterprise infrastructure-provider or VMware deployment record was established in the scoped research. [R1 Appendix E] | No attributable infrastructure position in this evidence set |
-| **Teva** | No qualifying company-authored VMware, alternative-hypervisor or cloud deployment was established from directly inspected sources. [R1 Appendix D] | No attributable infrastructure position in this evidence set |
+| **Eli Lilly** | No attributable Broadcom portfolio product deployment established in the reviewed evidence. | Partner-described AWS business-intelligence data automation. [R1:S23] |
+| **Johnson & Johnson** | **VMware:** In a **2017** VMworld account, a J&J infrastructure leader describes a VMware team and integration with **vSphere Storage APIs for Data Protection (VADP)**. The reported SDDC VM count is not verified as VMware-only. [BP03] | Azure preferred for historical **MedTech digital surgery**, not company-wide pharma IT. [R1:S14] |
+| **AbbVie** | **VMware:** Company infrastructure role describes VMware data-center/lifecycle responsibilities. This is an **operations requirement**, not an audited deployment or renewal. [R1:S07] | No separate enterprise-wide provider decision established in the original research. |
+| **Roche** | **VMware:** A **2022 Roche Diagnostics** case explicitly identifies **ESXi, vCenter, Horizon, Workspace ONE Access and VMware Cloud on AWS** for training/simulation environments. [R1:S30] | Distinct 2026 on-premises GPU infrastructure investment. [R1:S09] |
+| **Novartis** | No attributable Broadcom portfolio product deployment established in the reviewed evidence. | AWS patient-services application platform. [R1:S15] |
+| **AstraZeneca** | **VMware:** A 2021 customer case describes **VMware ESX** in a 2017 private-cloud deployment and later hybrid-cloud automation. **CA Technologies:** A commercial customer directory lists **CA Clarity PPM** use in **2011**; this is **secondary reported adoption**, not an independently verified active contract. [BP01, BP05] | AWS research/genomics compute. [R1:S16, S25] |
+| **Amgen** | No named Broadcom portfolio product deployment established in the reviewed evidence. A supplier VMware migration funding scenario was **not executed migration proof**. [R1 Appendix D] | AWS genomics/SAP context and capitalized cloud implementation costs; **not VMware spending**. [R1:S03, S17, S24] |
+| **Gilead Sciences** | **VMware:** AWS reports **more than 2,000 servers** migrated from on-premises VMware to AWS-native services, plus **more than 1,400 systems retired**. This establishes a VMware source estate for that program, **not a full enterprise exit**. [R1:S05–S06] | AWS-native destination for the documented migration. |
+| **Novo Nordisk** | No attributable Broadcom portfolio product deployment established in the reviewed evidence. | AWS **preferred** provider (August 2026) and separate Azure application cases. [R1:S10; R3:E07, E22] |
+| **Pfizer** | **VMware:** In VMware's **November 2019** earnings-call discussion, its CEO named Pfizer as a **VMware Cloud on AWS customer reference**. **This is management-attributed evidence**, not a documented production VM inventory or 2026 renewal. [BP04] | AWS PACT scientific/manufacturing-analytics work. [R1:S18] |
+| **Vertex Pharmaceuticals** | No attributable Broadcom portfolio product deployment established in the reviewed evidence. | Historical AWS cryo-EM/HPC and serverless image processing. [R1:S19–S20] |
+| **Bristol Myers Squibb** | No attributable Broadcom portfolio product deployment established in the reviewed evidence. | Historical SAP S/4HANA on AWS and cloud automation. [R1:S21–S22] |
+| **GSK** | No attributable Broadcom portfolio product deployment established in the reviewed evidence. | Microsoft-reported Azure Local manufacturing/R&D edge use. [R1:S11] |
+| **Sanofi** | **VMware:** Dell/EMC's **2012** customer release explicitly describes **VMware vSphere** in Sanofi's global private cloud. **Historical deployment**, not a 2026 Broadcom contract. [BP02] | AWS Digital Accelerator/cloud-native application services. [R1:S26] |
+| **Regeneron** | No attributable Broadcom portfolio product deployment established in the reviewed evidence. | AWS genomics and 2023 AWS Proton automation case. [R1:S27–S28] |
+| **Moderna** | **VMware:** Historical VMware life-sciences material quotes a Moderna executive, **without identifying ESXi/VCF deployment, VM count or renewal**. [R1:S31] | AWS manufacturing/data and Google Looker–AWS Redshift architecture. [R1:S12–S13, S32] |
+| **Takeda** | No attributable Broadcom portfolio product deployment established in the reviewed evidence. | AWS/Accenture 2020 cloud-first plan; 80% migration figure was a **target**. [R1:S29] |
+| **argenx** | No attributable Broadcom portfolio product deployment established in the reviewed evidence. | No qualifying public enterprise infrastructure record found in scoped research. [R1 Appendix E] |
+| **Teva** | No attributable deployment established. Unverified VMware/Nutanix recruitment material was **not classified as a customer relationship**. [R1 Appendix D] | No qualifying original-source cloud/hypervisor deployment established in scope. |
 
 ### Conclusion — analyst synthesis
 
-**1. Gilead is the clearest named example of actual VMware displacement among these peers.** Its published migration identifies the **source, destination and approximate scale**. The reported migrated and retired figures are distinct and must not be added. The record does **not** establish full enterprise VMware exit, remaining VMware footprint, migration economics or that Broadcom was the exclusive cause.
+**1. Broadcom's inherited VMware portfolio has an established historical biopharma footprint.** The researched records document named VMware implementations at **Johnson & Johnson, Roche, AstraZeneca and Sanofi**. Gilead's post-acquisition migration also establishes an on-premises VMware source estate in the disclosed scope. This does **not** establish that those five firms are active 2026 VCF customers.
 
-**2. Other peers demonstrate distinct infrastructure choices, not additional proven VMware exits.** GSK's Azure Local site use, Roche's historic VMware simulation and separate on-premises AI investment, and Novo Nordisk's preferred AWS relationship show different workload and infrastructure approaches. None of those published developments states which VMware workloads, if any, were replaced.
+**2. Other relationship signals have different evidentiary status.** **Pfizer** was named in VMware management commentary; **Moderna** appears in a historical VMware testimonial; **AbbVie** documented VMware operational responsibilities. None should be presented as equivalent to a contract, a quantified production estate or confirmed current license.
 
-**3. Cloud-modernization evidence is much broader than VMware-replacement evidence.** Named peers document scientific compute, genomics, data/AI platforms, SAP, manufacturing analytics and digital applications in cloud environments. These support **workload-level architecture comparisons**, but the original VMware hypervisor is usually not identified.
+**3. Non-VMware Broadcom relationships deserve explicit visibility.** A commercial customer database reports historical **CA Clarity PPM** adoption at **AstraZeneca**. This is a **secondary-source relationship lead** and should not be upgraded to a verified 2026 Clarity contract. The reviewed records do not substantiate a broad claim that all 19 use CA, Symantec, VCF or other Broadcom products.
 
-**4. The public research does not reveal an industry-wide VMware retention or exit pattern.** For **18 of the 19 companies**, no qualifying **post-acquisition VMware strategic decision** was established from the inspected records. That is a **research-coverage finding**, not evidence that those organizations retained or abandoned VMware. Selectively published cloud customer cases can overrepresent visible modernization activity relative to private renewal/steady-state decisions.
+**4. The critical post-acquisition question remains open.** Broadcom's aggregate VCF purchasing/earnings disclosures cannot identify which peer companies renewed, expanded or reduced their VMware or other Broadcom products. **Gilead** is the scoped VMware-origin migration reference, not proof of a company-wide exit or a market-wide trend.
 
-**5. The combined supplier-and-peer evidence favors workload-specific strategic analysis over a vendor logo count.** A large VCF purchasing share among Broadcom's biggest accounts can coexist with reported migrations in selected customer programs. The evidence supports considering **where alternatives might fit**; it does not justify a sector-wide conclusion that VMware is being systematically replaced or retained.
+**5. Leadership implication.** Treat the **historical Broadcom portfolio relationship map** and the **current VMware replacement decision** as related but separate analyses. They identify potential customer familiarity and architecture history, but cannot substitute for attributable renewal, estate or procurement evidence.
 
 ## 5.3. Decision relevance by biopharma workload
 
@@ -432,7 +432,7 @@ For any application whose certification or qualification cannot be confirmed, th
 
 ## Provenance and source-key interpretation
 
-This report is **editorially derived** from the separate 29 October 2026 combined Markdown baseline, not from newly performed web research. The source registers below are reproduced from that baseline. Where registers contain “opened” or “checked,” those verbs refer **only to the historical research run** described in the source document.
+This report is **editorially derived** from the 29 October 2026 combined Markdown baseline; supplemental dated external research for Section 5 is recorded separately in Annex E. The original six report source registers below are preserved from that baseline. Where registers contain “opened” or “checked,” those verbs refer **only to the historical research run** described in the source document.
 
 - **R1** — Peer Biopharma — VMware Footprint and Cloud Infrastructure: source IDs Sxx, Xxx, claim IDs Cxxx.
 - **R2** — Broadcom/VMware Customer Base: source IDs Sxx; SEC, executive-transcript and named-customer distinctions.
@@ -1317,4 +1317,21 @@ Codes: **P** = original publisher material; **F** = original regulatory/financia
 
 ---
 
-**Editorial provenance:** METI VMware Strategic Decision Intelligence V1.0, 29 October 2026. Derived exclusively from METI_FINAL_SIX_REPORTS_COMBINED_2026-10-29.md (source blob SHA 9d24e92756b9e6c4a4e66e5b516dff95cec1c6ea). Research and source-access qualifications retain their original report attribution. No new external research was conducted. The combined baseline was not edited.
+
+---
+
+## Annex E — Additional peer-company Broadcom portfolio relationship sources (29 October 2026)
+
+These are **supplementary dated public sources for Section 5**. Earlier VMware/CA activity refers to a business or technology subsequently within Broadcom's portfolio and is not itself a 2026 Broadcom agreement.
+
+| Reference | Source | What it directly establishes | Historical and verification boundary |
+|---|---|---|---|
+| **BP01** | [Morpheus Data — AstraZeneca customer case study (2021)](https://morpheusdata.com/wp-content/uploads/content/Morpheus-CMP-Case-Study-AstraZeneca-2021.pdf) | VMware ESX used for 2017 private-cloud provisioning; Morpheus hybrid-cloud operations in 2021 | Original supplier-hosted case, PDF page 2 visually inspected in the research. The **8-data-center** deployment concerns Morpheus automation, not a verified all-VMware deployment; no 2026 VCF claim. |
+| **BP02** | [Dell/EMC — Sanofi Transforms Data Center (May 2012)](https://www.dell.com/en-us/dt/corporate/newsroom/announcements/2012/05/20120605-02.htm) | VMware vSphere named in Sanofi private cloud with EMC storage | Named vendor/customer historical case; no later VMware retention established. |
+| **BP03** | [iTnews — Johnson & Johnson SDDC, VMworld 2017](https://www.itnews.com.au/news/johnson-johnson-goes-tapeless-to-get-to-sddc-475687) | Customer-attributed VMware team and vSphere VADP use in J&J's SDDC | Named-leader reporting by a secondary publisher; quoted global SDDC VM count not independently established as VMware-only. |
+| **BP04** | [VMware Q3 FY2020 earnings call, 26 Nov 2019 — secondary-hosted transcript](https://www.fool.com/earnings/call-transcripts/2019/11/26/vmware-inc-vmw-q3-2020-earnings-call-transcript.aspx) | VMware CEO names Pfizer among VMware Cloud on AWS customer references | Management-reported, not a named production scope or contemporary contract. |
+| **BP05** | [Apps Run The World — Broadcom Clarity PPM (ex CA PPM) customer directory](https://www.appsruntheworld.com/customers-database/products/view/broadcom-clarity-ppm-ex-ca-ppm) | Database lists AstraZeneca as a historical 2011 CA Clarity PPM implementation | Commercial secondary technographic record; no customer-authored implementation or 2026 procurement independently verified. |
+
+---
+
+**Editorial provenance:** METI VMware Strategic Decision Intelligence V1.0, 29 October 2026. Base report reconciled from METI_FINAL_SIX_REPORTS_COMBINED_2026-10-29.md (source blob SHA 9d24e92756b9e6c4a4e66e5b516dff95cec1c6ea), with separately identified supplementary public Section 5 references in Annex E (29 October 2026). Historical source-access qualifications are preserved; newly reviewed references do not verify 2026 Broadcom contracts. The combined baseline was not edited.
