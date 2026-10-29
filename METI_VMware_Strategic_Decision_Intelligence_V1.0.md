@@ -23,7 +23,7 @@ The table preserves the published metrics, attribution and source limitations. I
 | Leadership question | Source-supported evidence and stated limits |
 |---|---|
 | **Is VMware still a major enterprise platform?** | Yes. A 2026 S&P Global 451 survey reports VMware as the primary platform for approximately **43%** of relevant responses, ahead of Microsoft Hyper-V at about **28%**. **The headline figures are publisher-indexed, not fully reopened**, and are survey responses—not audited worldwide market share. [R6:S01–S02] |
-| **Has Broadcom grown its VMware customer base?** | **Not determinable.** More than **90% of its top 10,000 VMware customers** had reportedly **purchased** VCF by February 2026, and infrastructure-software revenue rose; neither measures total active customers or installed VM growth. [R2:S01, S03] |
+| **Has Broadcom grown its VMware customer base?** | **Inconclusive.** The reviewed disclosures do not provide comparable total VMware customer counts, additions or departures. Broadcom reported increased infrastructure-software revenue and VCF purchases among **more than 90% of its largest 10,000 VMware customers**; neither figure establishes **net customer growth**. Subscription conversion and contract revenue recognition can influence revenue, while possible pricing changes are not quantified as a cause. [R2:S01, S03–S04] |
 | **Which historic Broadcom-portfolio relationships are documented among peers?** | Dated records identify VMware use or integration at **Johnson & Johnson, Roche, AstraZeneca and Sanofi**. Gilead's later migration establishes a VMware source estate. Pfizer is named in VMware management commentary; Moderna is a historical testimonial, and AbbVie has an operational-requirement record. AstraZeneca also has a secondary-directory CA Clarity PPM listing. **These do not establish active 2026 contracts.** [BP01–BP05; R1:S07, S30–S31] |
 | **Are peers moving away from VMware?** | In this 19-company set, AWS reports **one publicly quantified VMware-origin migration** after acquisition: Gilead moved **more than 2,000 servers** to AWS-native services and retired **more than 1,400 systems**. The two counts describe different activities; the reported program does **not** establish enterprise-wide VMware exit or exclusive Broadcom causation. [R1:S05–S06] |
 | **Are replacements credible?** | Yes for **selected scopes**. Named customer cases describe completed VMware migrations to Nutanix AHV, Proxmox, Vates/XCP-ng and VergeOS. Microsoft, Red Hat, HPE and other suppliers offer additional viable architectural options, but proof varies by product and reference. [R4:S04, S09–S13; R5:S27–S33] |
@@ -36,7 +36,7 @@ The table preserves the published metrics, attribution and source limitations. I
 
 ## Principal conclusions — analyst synthesis
 
-**1. Broadcom's commercial success and VMware's installed-base trajectory are separate questions.** Broadcom's FY2025 infrastructure-software revenue rose **26%** from FY2024; the company describes VCF demand, subscription conversion and contract recognition among the drivers. There is no disclosed like-for-like VMware active-customer series to translate this into net customer growth. [R2:S01]
+**1. Broadcom's net VMware customer growth is inconclusive.** Broadcom reported **26% growth in FY2025 infrastructure-software revenue**, but this segment includes non-VMware businesses. VCF demand, subscription conversion and contract revenue recognition are disclosed drivers; changes in pricing or packaging are also possible influences, **not a quantified explanation**. Without comparable VMware customer counts and churn, higher revenue cannot establish net customer growth. [R2:S01, S04]
 
 **2. Named supplier-hosted cases report scoped VMware migrations.** These examples establish reported source-to-destination transitions for defined workloads, but do not independently audit savings, operational resilience, full-VCF equivalence or regulated application support. [R4:S04–S13]
 
@@ -81,7 +81,7 @@ Broadcom's public statements provide a selected cohort's **VCF purchasing/conver
 
 ### Conclusion — analyst synthesis
 
-**Large-account VCF purchasing/conversion does not establish how many distinct VMware customers were added or lost, nor how many VCF workloads entered production.** The milestone terms and denominators are not interchangeable with retention or deployed capacity.
+**Net VMware customer growth: inconclusive.** The VCF purchasing/conversion milestones measure product purchases within a selected large-account cohort; they do **not** measure customer additions, departures, overall retention or VCF production deployments. None provides a comparable net VMware customer-count series.
 
 ## Facts — Broadcom financial disclosures
 
@@ -96,7 +96,7 @@ Broadcom cited VCF demand, a transition to subscriptions, non-terminable license
 
 ### Conclusion — analyst synthesis
 
-**Infrastructure-software revenue and operating-income growth do not establish VMware-only customer-base growth.** Broadcom's reported segment includes other software, and the research cannot separate customer count, price, deployment volume and accounting effects.
+**Net VMware customer growth: inconclusive despite higher reported revenue.** Broadcom's **+26% FY2025** and **+29% Q3 FY2026** infrastructure-software revenue movements are segment-wide, not VMware-only customer-count measures. Revenue can be influenced by **subscription conversion and contract revenue recognition** (documented in Broadcom disclosures), as well as **possible pricing or packaging changes** (not quantified by the reviewed sources). The evidence cannot determine whether VMware's total customer base increased, stayed flat or declined. [R2:S01, S04–S05]
 
 ## Facts — named Broadcom customer announcements
 
@@ -115,7 +115,7 @@ Broadcom cited VCF demand, a transition to subscriptions, non-terminable license
 
 ### Conclusion — analyst synthesis
 
-**These eight announcements show selected customer agreements, product decisions and deployment examples—not the total VMware installed base.** No named deal values were established, and planned rollouts must not be treated as completed deployments. The total VMware customer/VM population trend since acquisition remains unresolved.
+**These eight announcements establish selected customer agreements, product decisions and deployment examples—not net VMware customer growth.** No named deal values were established; planned rollouts are not completed deployments. **Overall customer-count direction remains inconclusive** because the disclosures do not provide comparable additions, departures or churn.
 
 
 ---
@@ -224,7 +224,7 @@ The research examined Broadcom's published customer/cohort disclosures, FY2025 F
 
 ### Conclusion — analyst synthesis
 
-**Broadcom's large-account VCF purchasing and financial growth cannot establish that biopharma peers are collectively expanding, retaining or exiting VMware.** The disclosures do not provide attributable VMware spending, retention, VM capacity or renewal decisions for the named 19 companies. The financial evidence describes supplier-side commercial performance; the peer-specific documents below describe selected customer-side infrastructure activity. **Both forms of evidence are useful, but they answer different questions.**
+**Conclusion: net VMware customer growth is inconclusive, both worldwide and within the 19-peer biopharma comparison.** Broadcom's reported infrastructure-software revenue increase may reflect VCF demand, subscription conversion and contract accounting, with pricing and packaging also possible but unquantified influences. Neither higher revenue nor VCF purchases among the largest accounts proves more VMware customers. The filings do not disclose named-peer VMware spending, additions, departures or renewals. **Supplier financial performance and peer infrastructure choices answer different questions.** [R2:S01, S03–S05]
 
 ## 5.2. Nineteen biopharma peers — Broadcom portfolio relationships
 
@@ -372,7 +372,7 @@ For any application whose certification or qualification cannot be confirmed, th
 
 
 
-**A. Commercial retention, production deployment and migration are independent states.** A VCF purchase can coexist with VMware workloads that have not yet been moved to the purchased platform, while an enterprise may migrate selected VMs and retain other contractual commitments. Broadcom purchasing penetration and vendor migration stories therefore are not contradictory. [R2:S01, S03; R4:S04–S13]
+**A. Net VMware customer growth is inconclusive; commercial conversion and workload migration are independent states.** Subscription conversion, revenue recognition and potentially pricing or packaging can change Broadcom's revenue without proving more customers. VCF purchases can coexist with continued legacy workloads or selected migrations elsewhere. Broadcom's cohort purchasing and named vendor migration cases therefore do not establish net customer additions, departures or churn. [R2:S01, S03–S04; R4:S04–S13]
 
 **B. The replacement unit changes the business case.** An application rehost, a 300-VM service-provider conversion, a multi-site manufacturing platform and a complete private-cloud operating model impose different network, storage, recovery, support and organizational obligations. Comparisons must align source architecture, destination architecture, implementation stage and business-criticality before borrowing reported outcomes. [R4:S04–S13; R5:OT01–OT10]
 
