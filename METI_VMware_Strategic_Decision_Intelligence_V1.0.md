@@ -125,6 +125,12 @@ Broadcom cited VCF demand, a transition to subscriptions, non-terminable license
 
 **Evidence qualification:** These figures are attributed to S&P Global 451 Research's *Virtualization 2026*. The originating article and detailed crosstabs were **not fully reopened** in the original research, although the article was publisher-indexed and an official archive corroborated publication. The publisher's methodology material describes approximately **789 survey respondents**, with approximately **230 current hypervisor users** in a relevant survey portion (May–June 2026). Exact platform-question denominator/weighting were not established from inspected full materials. **Do not describe these as independently revalidated worldwide revenue, customer or installed-VM shares.** [R6:S01–S02, S08]
 
+**Exhibit 3.1 — 2026 primary-platform survey response distribution**
+
+![Bar chart: 2026 S&P Global 451 Research primary-platform survey responses, VMware 43%, Hyper-V 28%, Oracle 12%, Red Hat 7%, OpenStack 3%, Nutanix 2%.](assets/primary-virtualization-platform-2026-survey.svg)
+
+*Figure source: S&P Global 451 Research, **Virtualization 2026** (publisher-indexed August 2026 research; not independently reopened in the original source run). Chart recreated from the supplied image using the same six approximate percentages. **This is not a chart of worldwide virtualization market share, installed VMs, customer counts or revenue.** [R6:S01–S02, S08]*
+
 | Primary platform family | Approximate share of responses | Read as |
 |---|---:|---|
 | VMware vSphere / vSphere Foundation | **27%** | Component of combined VMware figure |
@@ -144,7 +150,9 @@ Broadcom cited VCF demand, a transition to subscriptions, non-terminable license
 
 A different, directly opened S&P 451 private-cloud article reports that **nearly 90%** of surveyed private-cloud environments contained VMware-based workloads. Within that surveyed population, **37%** intended to keep most VMware workloads; its broader remaining **63%** includes multiple approaches and **6% undecided**. Around one quarter described shifting **some** workloads while retaining a smaller footprint, and around one third described either evaluating alternatives or already transitioning. **These are not completed migration percentages**. [R6:S03]
 
-Other 2026 studies (CloudBolt, HPE and ETR) offer directional evidence of reconsideration, often vendor-sponsored or based on **intentions**. Gartner's September 2026 server-virtualization research evaluates **17 vendors** but its publicly available abstract is not a market-share dataset. [R3:E11, R4:M01, R6:S04–S09]
+**Additional 2026 survey context (different populations and questions):** The uploaded market-position evidence report also distinguishes **CloudBolt's vendor-commissioned January 2026 survey of 302 North American IT decision-makers** (86% self-reported actively reducing some VMware footprint; supplier commentary separately cites 4% fully moved away) from **HPE-sponsored December 2025–January 2026 research of nearly 400 senior IT decision-makers** (more than two-thirds planned material virtualization changes; only 5% reported full readiness). CloudBolt's original publication was publisher-indexed but not fully opened in the underlying research; HPE's original report announcement was inspected. Neither measures completed worldwide VMware customer churn or primary-platform share. Gartner's September 2026 analysis covered **17 vendors**, but its public abstract does not give a comparable market-share table. [R6:S04–S05, S09; R3:E11]
+
+**Research-source reconciliation:** This section and Annex D's **R6** evidence ledger already contain the substance of the supplied *METI Server Virtualization Market Position 2026 Evidence Report*. The attached chart now serves as the visible executive exhibit rather than repeating a second full research report.
 
 | Measure | What it describes | What it does not describe |
 |---|---|---|
