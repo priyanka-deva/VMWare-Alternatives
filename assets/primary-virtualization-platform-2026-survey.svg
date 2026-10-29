@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="chart-title chart-desc">
+<title id="chart-title">Primary virtualization platform — 2026 survey (%)</title>
+<desc id="chart-desc">S&amp;P Global 451 Research publisher-indexed survey responses: VMware 43%, Hyper-V 28%, Oracle 12%, Red Hat 7%, OpenStack 3%, Nutanix 2%. Percentages approximate, not worldwide installed VM, customer or revenue market share.</desc>
+<rect width="1200" height="720" fill="#ffffff"/>
+<text x="600" y="60" text-anchor="middle" fill="#1c2025" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="400">Primary virtualization platform — 2026 survey (%)</text>
+<text x="600" y="88" text-anchor="middle" fill="#50565d" font-family="Arial, Helvetica, sans-serif" font-size="16">Approximate share of respondents naming their primary platform</text>
+<line x1="113" y1="565.0" x2="120" y2="565.0" stroke="#26282b" stroke-width="2"/>
+<text x="101" y="572.0" text-anchor="end" fill="#26282b" font-family="Arial, Helvetica, sans-serif" font-size="21">0</text>
+<line x1="113" y1="475.6" x2="120" y2="475.6" stroke="#26282b" stroke-width="2"/>
+<text x="101" y="482.6" text-anchor="end" fill="#26282b" font-family="Arial, Helvetica, sans-serif" font-size="21">10</text>
+<line x1="113" y1="386.2" x2="120" y2="386.2" stroke="#26282b" stroke-width="2"/>
+<text x="101" y="393.2" text-anchor="end" fill="#26282b" font-family="Arial, Helvetica, sans-serif" font-size="21">20</text>
+<line x1="113" y1="296.8" x2="120" y2="296.8" stroke="#26282b" stroke-width="2"/>
+<text x="101" y="303.8" text-anchor="end" fill="#26282b" font-family="Arial, Helvetica, sans-serif" font-size="21">30</text>
+<line x1="113" y1="207.4" x2="120" y2="207.4" stroke="#26282b" stroke-width="2"/>
+<text x="101" y="214.4" text-anchor="end" fill="#26282b" font-family="Arial, Helvetica, sans-serif" font-size="21">40</text>
+<line x1="113" y1="118.0" x2="120" y2="118.0" stroke="#26282b" stroke-width="2"/>
+<text x="101" y="125.0" text-anchor="end" fill="#26282b" font-family="Arial, Helvetica, sans-serif" font-size="21">50</text>
+<line x1="120" y1="118" x2="120" y2="565" stroke="#202428" stroke-width="3"/>
+<line x1="120" y1="565" x2="1164" y2="565" stroke="#202428" stroke-width="3"/>
+<text x="37" y="335" transform="rotate(-90 37 335)" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" fill="#202428">Respondents (%)</text>
+<rect x="150.2" y="180.6" width="112" height="384.4" fill="#fff1d8"/>
+<text x="206.2" y="168.6" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#202428">43%</text>
+<line x1="206.2" y1="565" x2="206.2" y2="575" stroke="#202428" stroke-width="2"/>
+<text x="206.2" y="606" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#202428">VMware</text>
+<rect x="322.5" y="314.7" width="112" height="250.3" fill="#fff1d8"/>
+<text x="378.5" y="302.7" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#202428">28%</text>
+<line x1="378.5" y1="565" x2="378.5" y2="575" stroke="#202428" stroke-width="2"/>
+<text x="378.5" y="606" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#202428">Hyper-V</text>
+<rect x="494.8" y="457.7" width="112" height="107.3" fill="#fff1d8"/>
+<text x="550.8" y="445.7" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#202428">12%</text>
+<line x1="550.8" y1="565" x2="550.8" y2="575" stroke="#202428" stroke-width="2"/>
+<text x="550.8" y="606" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#202428">Oracle</text>
+<rect x="667.2" y="502.4" width="112" height="62.6" fill="#fff1d8"/>
+<text x="723.2" y="490.4" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#202428">7%</text>
+<line x1="723.2" y1="565" x2="723.2" y2="575" stroke="#202428" stroke-width="2"/>
+<text x="723.2" y="606" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#202428">Red Hat</text>
+<rect x="839.5" y="538.2" width="112" height="26.8" fill="#fff1d8"/>
+<text x="895.5" y="526.2" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#202428">3%</text>
+<line x1="895.5" y1="565" x2="895.5" y2="575" stroke="#202428" stroke-width="2"/>
+<text x="895.5" y="606" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#202428">OpenStack</text>
+<rect x="1011.8" y="547.1" width="112" height="17.9" fill="#fff1d8"/>
+<text x="1067.8" y="535.1" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#202428">2%</text>
+<line x1="1067.8" y1="565" x2="1067.8" y2="575" stroke="#202428" stroke-width="2"/>
+<text x="1067.8" y="606" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#202428">Nutanix</text>
+<line x1="68" y1="637" x2="1135" y2="637" stroke="#d6dce0" stroke-width="1"/>
+<text x="600" y="664" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#40474f">Source: S&amp;P Global 451 Research, Virtualization 2026 — publisher-indexed figures; original article not fully reopened.</text>
+<text x="600" y="692" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#333a42">Not worldwide virtualization customer, revenue or installed-VM market share.</text>
+</svg>
