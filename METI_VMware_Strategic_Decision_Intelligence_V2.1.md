@@ -1236,9 +1236,6 @@ These are **supplementary dated public sources for Section 5**. Earlier VMware/C
 
 ---
 
-
----
-
 ## Annex F — V2.0 analytical detail retained for reference
 
 The following material is relocated from the V2.0 executive narrative without changing its original stated evidence and source qualifications. The V2.1 tables are an editorial comparison of that same material, **not additional verified research**.
