@@ -8,6 +8,7 @@
 **Scope:** External public evidence; no internal infrastructure, contracts, application inventory or supplier decisions assumed  
 **Evidence basis:** Six METI research reports reconciled 29 October 2026; no new external research or live source verification undertaken for this version  
 **Independence:** METI editorial synthesis. Consulting-style structure only; not authored, reviewed or endorsed by EY.
+**Presentation rule:** Sections 1–9 distinguish source-supported **Facts** from explicitly labeled **Conclusions — analyst synthesis**. The research annexes retain their original evidence and source-access qualifications.
 
 > **Executive reading guide.** Sections 1–9 are the decision-intelligence report. Section 10 explains the evidence structure; annexes retain company and competitor dossiers, detailed OT specifications and the six original source/claim registers. The original six-report combined baseline remains a separate, unchanged research artifact. Source tags use **R1–R6** to distinguish the original report: for example, **[R1:S05]** refers to source S05 in Report 1's annexed source register. Source IDs are **not globally unique without the R-prefix**. An attribution to a vendor, customer or survey publisher is not an independent audit.
 
@@ -15,22 +16,24 @@
 
 # 1. Executive Summary and Principal Findings
 
-## Executive conclusion
+## Facts — six questions answered by the research
+
+The table preserves the published metrics, attribution and source limitations. It does not convert survey responses, vendor claims or missing public disclosures into independently verified enterprise deployments.
+
+| Leadership question | Source-supported evidence and stated limits |
+|---|---|
+| **Is VMware still a major enterprise platform?** | Yes. A 2026 S&P Global 451 survey reports VMware as the primary platform for approximately **43%** of relevant responses, ahead of Microsoft Hyper-V at about **28%**. **The headline figures are publisher-indexed, not fully reopened**, and are survey responses—not audited worldwide market share. [R6:S01–S02] |
+| **Has Broadcom grown its VMware customer base?** | **Not determinable.** More than **90% of its top 10,000 VMware customers** had reportedly **purchased** VCF by February 2026, and infrastructure-software revenue rose; neither measures total active customers or installed VM growth. [R2:S01, S03] |
+| **Are peers moving away from VMware?** | The 19-company set has **one publicly quantified, post-acquisition VMware-origin migration case** meeting the research threshold: AWS reports Gilead moved **more than 2,000 servers** from on-premises VMware to AWS-native services and retired **more than 1,400 systems**. This is a project scope, **not** a full-company exit or proof Broadcom caused the move. [R1:S05–S06] |
+| **Are replacements credible?** | Yes for **selected scopes**. Named customer cases describe completed VMware migrations to Nutanix AHV, Proxmox, Vates/XCP-ng and VergeOS. Microsoft, Red Hat, HPE and other suppliers offer additional viable architectural options, but proof varies by product and reference. [R4:S04, S09–S13; R5:S27–S33] |
+| **What do OT records establish?** | Some Siemens, Rockwell, Schneider, AVEVA and Emerson materials explicitly mention VMware, Hyper-V and, in a Rockwell general statement, Nutanix. Approval remains tied to **specific application releases and configurations**. [R5:OT01–OT05, OT09–OT10] |
+| **Is there a defensible one-number global market-share or customer-churn chart?** | **No.** The accessible sources do not supply a like-for-like worldwide installed-VM, revenue or active-customer series. Intentions, purchasing, deployment and primary-platform survey responses cannot be merged. [R2:S01–S05; R6:S01–S09] |
+
+### Conclusion — analyst synthesis
 
 **VMware remains a major enterprise virtualization platform, while credible alternatives are increasingly evidenced in actual customer deployments.** The available record supports **workload-segmented competition and measured diversification**; it does not support either an industry-wide VMware exit narrative or an assumption that any single alternative can replace the complete VMware Cloud Foundation (VCF) stack across corporate, scientific and validated manufacturing workloads.
 
-The research resolves six leadership questions:
-
-| Leadership question | Evidence-grounded answer | Decision significance |
-|---|---|---|
-| **Is VMware still a major enterprise platform?** | Yes. A 2026 S&P Global 451 survey reports VMware as the primary platform for approximately **43%** of relevant responses, ahead of Microsoft Hyper-V at about **28%**. **The headline figures are publisher-indexed, not fully reopened**, and are survey responses—not audited worldwide market share. [R6:S01–S02] | Maintain a distinction between market presence, primary-platform preference and deployed VM share. |
-| **Has Broadcom grown its VMware customer base?** | **Not determinable.** More than **90% of its top 10,000 VMware customers** had reportedly **purchased** VCF by February 2026, and infrastructure-software revenue rose; neither measures total active customers or installed VM growth. [R2:S01, S03] | Do not use segment revenue or commercial conversion as proof of customer growth, retention or churn. |
-| **Are peers moving away from VMware?** | The 19-company set has **one publicly quantified, post-acquisition VMware-origin migration case** meeting the research threshold: AWS reports Gilead moved **more than 2,000 servers** from on-premises VMware to AWS-native services and retired **more than 1,400 systems**. This is a project scope, **not** a full-company exit or proof Broadcom caused the move. [R1:S05–S06] | Use named projects as technical analogues, not a statistical biopharma migration rate. |
-| **Are replacements credible?** | Yes for **selected scopes**. Named customer cases describe completed VMware migrations to Nutanix AHV, Proxmox, Vates/XCP-ng and VergeOS. Microsoft, Red Hat, HPE and other suppliers offer additional viable architectural options, but proof varies by product and reference. [R4:S04, S09–S13; R5:S27–S33] | Evaluate both actual migration outcomes and fit with the services bundled around a hypervisor. |
-| **What do OT records establish?** | Some Siemens, Rockwell, Schneider, AVEVA and Emerson materials explicitly mention VMware, Hyper-V and, in a Rockwell general statement, Nutanix. Approval remains tied to **specific application releases and configurations**. [R5:OT01–OT05, OT09–OT10] | For regulated/plant workloads, written application-vendor support and qualification are gating requirements. |
-| **Is there a defensible one-number global market-share or customer-churn chart?** | **No.** The accessible sources do not supply a like-for-like worldwide installed-VM, revenue or active-customer series. Intentions, purchasing, deployment and primary-platform survey responses cannot be merged. [R2:S01–S05; R6:S01–S09] | Avoid false precision and fabricated cross-year market trends. |
-
-## Principal findings
+## Principal conclusions — analyst synthesis
 
 **1. Broadcom's commercial success and VMware's installed-base trajectory are separate questions.** Broadcom's FY2025 infrastructure-software revenue rose **26%** from FY2024; the company describes VCF demand, subscription conversion and contract recognition among the drivers. There is no disclosed like-for-like VMware active-customer series to translate this into net customer growth. [R2:S01]
 
@@ -42,7 +45,16 @@ The research resolves six leadership questions:
 
 **5. Decision readiness depends on the enterprise workload and dependency baseline.** The research identifies credible options but **does not recommend a specific vendor for an undisclosed company estate**. A defensible decision requires the current VMware stack dependencies, application and site segmentation, support terms, migration validation and total economics.
 
-## Analyst conclusion
+**Decision implications drawn from the evidence:**
+
+- Maintain a distinction between market presence, primary-platform preference and deployed VM share.
+- Do not use segment revenue or commercial conversion as proof of customer growth, retention or churn.
+- Use named projects as technical analogues, not a statistical biopharma migration rate.
+- Evaluate both actual migration outcomes and fit with the services bundled around a hypervisor.
+- For regulated/plant workloads, written application-vendor support and qualification are gating requirements.
+- Avoid false precision and fabricated cross-year market trends.
+
+### Overall conclusion
 
 **Compete where evidence can be established; protect unsupported or unqualified workloads from unproven substitution.** The strategic choice is not simply “stay on VMware” versus “leave VMware.” The realistic decision is which workload segments should remain, optimize, diversify or migrate, under defined support and economic conditions.
 
@@ -50,9 +62,9 @@ The research resolves six leadership questions:
 
 # 2. Broadcom / VMware Customer and Commercial Position
 
-## Commercial conversion is visible; total customer evolution is not
+## Facts — VCF purchasing milestones
 
-Broadcom's public statements provide a selected cohort's **VCF purchasing/conversion milestones**, not the number of distinct VMware customers added or lost since the **22 November 2023** acquisition.
+Broadcom's public statements provide a selected cohort's **VCF purchasing/conversion milestones** beginning after the **22 November 2023** acquisition.
 
 | Disclosure date | Reported position | Scope and source integrity |
 |---|---|---|
@@ -64,9 +76,13 @@ Broadcom's public statements provide a selected cohort's **VCF purchasing/conver
 | 13 Feb 2026 | **More than 90% of the top 10,000 had purchased VCF** | Broadcom/VMware original; selected **existing large-customer cohort**, not all VMware customers. [R2:S03] |
 | Sep–Oct 2026 | No later comparable cohort percentage established in the reviewed disclosures | An evidence gap, **not** proof of stalling or contraction. [R2:S04–S05] |
 
+### Conclusion — analyst synthesis
+
+**Large-account VCF purchasing/conversion does not establish how many distinct VMware customers were added or lost, nor how many VCF workloads entered production.** The milestone terms and denominators are not interchangeable with retention or deployed capacity.
+
 “Signed up,” “adoption” and “purchased” should retain their original wording. None is synonymous with a quantified production rollout, individual renewal retention or worldwide market share.
 
-## Financial performance: the accounting denominator matters
+## Facts — Broadcom financial disclosures
 
 | Broadcom disclosure | Earlier value | Later value | Appropriate interpretation |
 |---|---:|---:|---|
@@ -75,9 +91,13 @@ Broadcom's public statements provide a selected cohort's **VCF purchasing/conver
 | Infrastructure-software revenue, quarterly | Q3 FY2025 **$6.786bn** | Q3 FY2026 **$8.752bn** | **+29%**, comparable quarters, segment-wide. [R2:S04–S05] |
 | VMware-attributable net revenue | FY2024 **$12.384bn** | No comparable FY2025–26 VMware-only series verified | Historical FY2024 acquisition-related disclosure. **Do not** splice into segment totals. [R2:S01] |
 
+### Conclusion — analyst synthesis
+
+**Infrastructure-software revenue and operating-income growth do not establish VMware-only customer-base growth.** Broadcom's reported segment includes other software, and the research cannot separate customer count, price, deployment volume and accounting effects.
+
 Broadcom cited VCF demand, a transition to subscriptions, non-terminable license contracts and post-integration labor cost reductions as relevant revenue or income drivers. Price and packaging may also affect results, but **the reviewed record does not isolate a VMware-specific realized price increase accounting for all growth**. [R2:S01, S04]
 
-## Named customer continuity exists, but is not a customer census
+## Facts — named Broadcom customer announcements
 
 | Customer | Publicly reported action | Interpretation boundary |
 |---|---|---|
@@ -90,15 +110,18 @@ Broadcom cited VCF demand, a transition to subscriptions, non-terminable license
 | **NTT DOCOMO** | October 2026: announced ten-year VMware software relationship. [R2:S16] | Official publication indexed; full reopening unsuccessful in underlying run. |
 | **FedEx** | October 2026: supplier says it continues to use VCF and other Broadcom products. [R2:S17] | Official publication indexed; full reopening unsuccessful in underlying run. |
 
-These **eight publicly selected cases** demonstrate different agreement and deployment states. They are neither an exhaustive account list nor comparable contract sizes; individual financial consideration was not established.
+### Conclusion — analyst synthesis
 
-**Section conclusion.** Broadcom demonstrates large-account purchasing penetration and strong software-segment monetization. Whether the **total VMware customer population**, active deployments or production VMs expanded or contracted after acquisition **remains unresolved** in these disclosures.
+**These eight announcements show selected customer agreements, product decisions and deployment examples—not the total VMware installed base.** No named deal values were established, and planned rollouts must not be treated as completed deployments. The total VMware customer/VM population trend since acquisition remains unresolved.
+
+**Evidence boundary:** The eight named cases are a selected sample, not a customer census; individual financial consideration was not established.
+
 
 ---
 
 # 3. Enterprise Virtualization Market Position — 2026
 
-## VMware leads a surveyed primary-platform category, not an audited global census
+## Facts — 2026 primary-platform survey
 
 | Primary platform family | Approximate share of responses | Read as |
 |---|---:|---|
@@ -111,9 +134,13 @@ These **eight publicly selected cases** demonstrate different agreement and depl
 | OpenStack solutions | **3%** | Publisher's category |
 | Nutanix | **2%** | Primary platform, **not** total AHV adoption |
 
+### Conclusion — analyst synthesis
+
+**VMware is the leading primary platform in the reported survey responses, not an audited global installed-VM, revenue or unique-customer share.** The figures remain attributed to publisher-indexed S&P 451 material; the article and detailed crosstabs were not fully reopened in the original research.
+
 **Evidence qualification:** These figures are attributed to S&P Global 451 Research's *Virtualization 2026*. The originating article and detailed crosstabs were **not fully reopened** in the original research, although the article was publisher-indexed and an official archive corroborated publication. The publisher's methodology material describes approximately **789 survey respondents**, with approximately **230 current hypervisor users** in a relevant survey portion (May–June 2026). Exact platform-question denominator/weighting were not established from inspected full materials. **Do not describe these as independently revalidated worldwide revenue, customer or installed-VM shares.** [R6:S01–S02, S08]
 
-## Installed presence and future intentions: a separate survey
+## Facts — installed presence and intentions in a separate survey
 
 A different, directly opened S&P 451 private-cloud article reports that **nearly 90%** of surveyed private-cloud environments contained VMware-based workloads. Within that surveyed population, **37%** intended to keep most VMware workloads; its broader remaining **63%** includes multiple approaches and **6% undecided**. Around one quarter described shifting **some** workloads while retaining a smaller footprint, and around one third described either evaluating alternatives or already transitioning. **These are not completed migration percentages**. [R6:S03]
 
@@ -123,19 +150,22 @@ A different, directly opened S&P 451 private-cloud article reports that **nearly
 | **Nearly 90% VMware presence** | Separate private-cloud survey's VMware-containing environments | Exclusive or primary platform, or 90% of all enterprises |
 | **37% maintain bulk / 63% other approaches** | Respondents' future approaches in that second survey | Executed churn, or 63% completed/committed VMware exits |
 
+### Conclusion — analyst synthesis
+
+**Primary-platform choice, VMware presence and intended future action are different measures from different survey populations.** The 63% group cannot be described as completed VMware exits or customer churn, and the data cannot support a 2023–2026 worldwide market-share trendline.
+
 Other 2026 studies (CloudBolt, HPE and ETR) offer directional evidence of reconsideration, often vendor-sponsored or based on **intentions**. Gartner's September 2026 server-virtualization research evaluates **17 vendors** but its publicly available abstract is not a market-share dataset. [R3:E11, R4:M01, R6:S04–S09]
 
-**Section conclusion.** VMware's primary-platform position and existing presence are meaningful. Competition and evaluation activity are also evident. The record does not support a single audited worldwide 2026 share figure or a 2023–2026 market-share trendline built from incompatible metrics.
 
 ---
 
 # 4. Competitive Landscape — Ten VMware Alternatives
 
-## Competition exists across different operating models, not ten identical VCF substitutes
+## Facts — ten researched alternative platforms
 
 The shortlist follows technical relevance and architectural diversity in the original research; it is **unranked** and is **not** an independently measured market-share top ten.
 
-| Alternative | Architectural proposition | Potential fit to examine | Primary qualification |
+| Alternative | Documented architecture | Potential fit (analyst assessment) | Qualification requiring validation |
 |---|---|---|---|
 | **Nutanix AHV / Cloud Infrastructure** | Integrated hypervisor, HCI storage and Prism operations | Enterprise VM and HCI substitution; selected VMware migration references | Hardware/storage economics, network/security, recovery, OT support and licensing scope. [R4:S04–S05] |
 | **Microsoft Hyper-V / Azure Local** | Microsoft virtualization and Azure-connected hybrid/edge infrastructure | Windows/Linux VMs, hybrid estates, certain explicitly named industrial uses | **Hyper-V approval does not automatically approve Azure Local**, every guest version or every plant app. [R4:S06, OT01–OT03] |
@@ -148,23 +178,30 @@ The shortlist follows technical relevance and architectural diversity in the ori
 | **Vates VMS / XCP-ng** | Xen/Xen Orchestra virtualization and management | Select legacy estates, phased conversion, independently managed infrastructure | Guest driver/firmware and enterprise backup/OT ISV ecosystem. [R4:S12, S17] |
 | **VergeOS** | Integrated compute/storage/network virtualization stack | Selected consolidated infrastructure and hardware reuse | Smaller-vendor support, resilience, ecosystem and application support. [R4:S13] |
 
+### Conclusion — analyst synthesis
+
+**The documented products represent different architectures and intended workload segments; they are not ten equivalent substitutions for VMware Cloud Foundation.** The potential-fit column is **analyst interpretation**, not a claim that every deployment has demonstrated the stated fit. The shortlist is unranked and is not an independently measured top ten by market share.
+
 **Public cloud is a separate choice.** AWS-native services, Azure VMs and other hyperscaler destinations can replace VMware hosting for a **particular application**, but should not be compared as one-for-one on-premises hypervisor substitutes.
 
-## What constitutes equivalent replacement?
+## Facts and evaluation requirements — full stack versus hypervisor
 
 **An ESXi substitute is not necessarily a VCF substitute.** A platform assessment must separately prove the relevant capabilities formerly provided by vSphere/vCenter, vSAN, NSX/network security, live migration and high availability, automation, monitoring, backup/recovery and service governance. A functional VM boot is insufficient to establish operational equivalence. [R4:S06, S08, S14, S23]
 
+### Conclusion — analyst synthesis
+
+**Enterprise alternatives should be evaluated against the VMware services actually used—hypervisor, management, storage, networking, availability, recovery and automation—and against application support.** Vendor installation and customer totals cannot be combined into a comparative market-share ranking.
+
 **Relative market position cannot be inferred from vendor-specific denominators.** Nutanix reported **over 32,000 end customers** across its portfolio in its FY2026 Form 10-K; Proxmox reported **over 2.3 million active VE servers** in a supplier announcement. Those are different populations, and the original source-access record is qualified. Neither figure establishes comparative virtualization market share or migrated VMware customer counts. [R4:M02–M03; R5:S03, S12]
 
-**Section conclusion.** The realistic competitive field is broad but differentiated. Enterprise evaluation should shortlist by **workload architecture, operational support, platform completeness and migration evidence**, not by an invented overall ranking.
 
 ---
 
 # 5. Peer Biopharma Infrastructure Strategies
 
-## Nineteen-company evidence-led comparison
+## Facts — nineteen-company biopharma peer comparison
 
-The original research examined **19 named companies**, not a statistically representative industry sample. Within this set, **Gilead is the single qualified post-acquisition quantified VMware-source migration case**. **Eighteen of 19 lack a verified publicly disclosed post-acquisition VMware strategic decision** in the reviewed record. This is a **research visibility count, not evidence that 18 retained VMware**. [R1:S05–S06; R1 Appendix E]
+The original research examined **19 named companies**, not a statistically representative industry sample. The table distinguishes directly documented VMware migration from historical VMware mentions, alternative infrastructure deployments and cases without an established VMware decision. [R1:S05–S06; R1 Appendix E]
 
 | Company | Relevant documented infrastructure signal | What the record establishes about VMware after acquisition |
 |---|---|---|
@@ -188,7 +225,11 @@ The original research examined **19 named companies**, not a statistically repre
 | **argenx** | No qualifying company-specific infrastructure record in this research. [R1 Appendix E] | No VMware conclusion possible. |
 | **Teva** | VMware/Nutanix recruitment reference was inaccessible in the original research. [R1 Appendix D] | No confirmed mixed production estate or renewal/exit. |
 
-## Comparable peer cases require a shared unit of analysis
+### Conclusion — analyst synthesis
+
+**Only Gilead has a publicly quantified post-acquisition VMware-origin migration within the 19-company research set.** AWS's Gilead account does **not** establish an enterprise-wide VMware exit. GSK's Azure Local use, Roche's historical VMware Diagnostics simulation and separate 2026 AI/GPU expansion, and Novo Nordisk's preferred AWS agreement are **different infrastructure developments**, none of which establishes VMware displacement. For **18 of the 19**, no qualifying post-acquisition VMware strategic decision was established in the reviewed public evidence; this is a **research visibility count**, not proof those companies retained or stopped using VMware. [R1:S05–S11, S30; R1 Appendix E]
+
+## Analyst comparison — different workload types
 
 | Workload archetype | Named example | Appropriate comparison |
 |---|---|---|
@@ -199,17 +240,20 @@ The original research examined **19 named companies**, not a statistically repre
 | Preferred hyperscaler relationship | **Novo Nordisk** | Announced commercial direction; application use and hosting outcomes separately |
 | Regulated SAP/manufacturing cloud | **BMS, Moderna** | Application transformation, validation scope and provenance; **not assumed VMware replacement** |
 
+### Conclusion — analyst synthesis
+
+**The peer cases are not directly equivalent VMware decisions.** Compare them by originating architecture, workload, destination, implementation stage and regulatory scope rather than counting cloud deployments as virtualization exits.
+
 ## Wider life-sciences reference points, distinct from the 19
 
 The source research also identifies **IHMA** as a Nutanix-hosted laboratory VMware-to-AHV case, **Astellas** as an Azure migration/data-center-closure case **without verified VMware VM attribution**, and **Himalaya Wellness** as a Nutanix HCI use case. These may inform technical discussion but **must not be counted as additional evidence for any of the named 19**. [R3:E12–E16]
 
-**Section conclusion.** Publicly documented biopharma cloud and compute decisions are more diverse than a single “VMware stay/leave” narrative. Named alternatives and cloud projects establish selected workload choices, not a complete peer virtualization inventory.
 
 ---
 
 # 6. Customer Migration and Platform Replacement Evidence
 
-## VMware-origin displacement: named, scoped and attributed
+## Facts — VMware-origin customer migrations
 
 | Target platform | Customer and published context | Reported migration outcome | Evidence qualification |
 |---|---|---|---|
@@ -223,7 +267,11 @@ The source research also identifies **IHMA** as a Nutanix-hosted laboratory VMwa
 | **Vates / XCP-ng** | **Fujifilm MicroChannel**, Mar 2026 | Named VMware-to-Vates transition. [R4:S17] | **IT services business**, not evidence of pharmaceutical manufacturing at FUJIFILM. |
 | **VergeOS** | **Alinsco Insurance**, Jan 2026 | Named VMware/VxRail exit and hardware reuse. [R4:S13] | Supplier-reported zero-downtime outcome is not independently audited. |
 
-## Other substantial deployments are not automatically VMware exits
+### Conclusion — analyst synthesis
+
+**Published named cases demonstrate real VMware-origin migrations for specific workloads, sometimes numbering hundreds or thousands of VMs.** They do not establish an industry migration rate, independently verified savings, equal operating outcomes or suitability for validated manufacturing applications.
+
+## Facts — other platform deployments with different evidence scope
 
 **Red Hat / Emirates NBD:** The customer case describes a large OpenShift Virtualization deployment/migration program involving approximately **9,000 VMs**, but the opened source **does not establish VMware as the source**; do not label it “9,000 VMware VMs replaced” or an independently reconciled completed count. [R4:S07; R5:S25]
 
@@ -233,13 +281,16 @@ The source research also identifies **IHMA** as a Nutanix-hosted laboratory VMwa
 
 **Oracle, Canonical, Scale Computing:** The scoped original documentation demonstrates capabilities and migration approaches but does not provide sufficiently verified named VMware-exit completions for each supplier. **Absence of a substantiated example in this research is not proof no such customer exists.** [R4:S14–S16]
 
-**Section conclusion.** Meaningful VMware migrations **do happen**, at hundreds to thousands of VMs in named published customer cases. These cases establish feasibility in their disclosed scope, not global migration prevalence, regulated-plant equivalence or uniform financial return.
+### Conclusion — analyst synthesis
+
+**A sizeable destination deployment or documented conversion capability does not by itself establish that VMware was the source platform.** Emirates NBD, CDW and HPE must be kept separate from confirmed VMware-origin customer migrations.
+
 
 ---
 
 # 7. OT Application Compatibility and Manufacturing Considerations
 
-## Application-manufacturer evidence is the decisive boundary
+## Facts — application-manufacturer virtualization guidance
 
 | Industrial application / release | Named virtual environments in inspected material | What leadership can conclude |
 |---|---|---|
@@ -251,21 +302,35 @@ The source research also identifies **IHMA** as a Nutanix-hosted laboratory VMwa
 | **AVEVA System Platform / OMI** | Official community guide announcement covers **VMware vSphere and Hyper-V**. [R5:OT09] | Full detailed guide and exact release clauses were not inspected; no universal certification claim. |
 | **Emerson DeltaV v15 FP3 virtual SZ** | VMware and Hyper-V for specified **simulation/training/virtual FAT** functions. [R5:OT10] | **Not** approval for all production DCS control nodes. |
 
+### Conclusion — analyst synthesis
+
+**OT suitability is determined by application product, version and deployment configuration.** Some inspected industrial materials explicitly support or discuss Hyper-V, but this does **not** automatically certify Azure Local or every OT workload. Rockwell's general Nutanix mention is not blanket AHV approval, and a generic KVM-capable VM does not confer manufacturer support or GxP qualification. These conclusions describe the documentation **inspected**, not universal exclusions.
+
 **The key distinction:** The application publisher may name a particular Hyper-V release, but that does **not** automatically grant approved status to every Azure Local deployment. Similarly, generic KVM support does not establish manufacturer support for Red Hat OpenShift Virtualization, Proxmox, Oracle OLVM, HPE HVM or Canonical; nor does technical bootability establish a validated GxP state.
 
-## Minimum plant application acceptance requirements
+## Analyst recommendation — plant application acceptance requirements
 
 Before an industrial or regulated workload is selected for migration, establish **in writing** its supported application/build, guest OS, hypervisor/version, host firmware and I/O devices; network/field topology, clock accuracy, backup/snapshot restrictions, availability and recovery design, qualified operating state, support entitlement, change-impact assessment and rollback/restore evidence. Obtain application-owner, infrastructure, security, OT and Quality agreement for the actual change.
 
 For any application whose certification or qualification cannot be confirmed, the research supports **retaining the currently supported environment or seeking a formally governed exception**, not inferring safety from another customer's case study.
 
-**Section conclusion.** OT suitability is determined **per application and configuration**. The reviewed documents show more explicit Hyper-V support references than support for other shortlisted platforms in the named industrial cases, but this is an observation about **inspected documentation**, not a universal exclusion of competing hypervisors. Full original-source and compatibility catalogs appear in the annexes.
 
 ---
 
 # 8. Cross-Industry Strategic Analysis
 
-## Four cross-cutting observations
+## Facts — basis of cross-industry analysis
+
+| Evidence topic | Existing source-supported observation |
+|---|---|
+| **Broadcom** | Broadcom reports selected-cohort VCF purchases and software-segment financial performance, without a comparable total active VMware customer-count series. [R2:S01, S03] |
+| **VMware-origin migrations** | Multiple supplier-hosted customer case studies describe specified VMware-to-alternative migrations. [R4:S04–S13] |
+| **Source assurance** | The original registers distinguish opened publisher records, vendor-hosted customer claims, and indexed-only or inaccessible originals. [R3 Appendix A; R4 Appendix A; R5 Section 10] |
+| **Biopharma** | Gilead, GSK, Roche and Novo Nordisk have documented **different kinds of infrastructure activity** with different evidence boundaries. [R1:S05–S11, S30] |
+
+### Conclusions — analyst synthesis
+
+
 
 **A. Commercial retention, production deployment and migration are independent states.** A VCF purchase can coexist with VMware workloads that have not yet been moved to the purchased platform, while an enterprise may migrate selected VMs and retain other contractual commitments. Broadcom purchasing penetration and vendor migration stories therefore are not contradictory. [R2:S01, S03; R4:S04–S13]
 
@@ -275,7 +340,7 @@ For any application whose certification or qualification cannot be confirmed, th
 
 **D. Peer biopharma infrastructure is workload-specific and selectively visible.** Gilead's AWS migration, GSK's site-level Azure Local, historical Roche simulation/VDI, Roche's separate on-premises AI hardware, and Novo Nordisk's preferred cloud relationship answer **different architecture questions**. They do not collectively reveal the undisclosed virtualization strategies of 19 enterprises. [R1:S05–S11, S30]
 
-## Three defensible strategic paths (analyst options, not facts about the enterprise)
+## Analyst strategic options — not observed peer decisions
 
 | Strategic path | Potential rationale | Conditions that would change the decision |
 |---|---|---|
@@ -283,15 +348,23 @@ For any application whose certification or qualification cannot be confirmed, th
 | **Hybrid, targeted substitution** | Some workload groups can migrate while critical or uneconomic classes remain supported | Demonstrate migration/rollback, operational parity, supplier support, requalification needs and net economics by segment. |
 | **Substantial VMware replacement** | Larger estate redesign may be economically/architecturally justified after a validated proof program | Requires comprehensive application support, platform-service parity, resilience, skills, transition financing and acceptable interruption risk. |
 
-**Analyst assessment.** The current public record most strongly supports **examining segmented substitution**, while leaving the choice of retained vs displaced workloads to estate-specific evidence. It does not provide a defensible mandate to replace VMware enterprise-wide or to stay indefinitely.
+### Conclusion — analyst synthesis
+
+**The public record supports examining segmented substitution without preselecting an outcome.** Retention, hybrid coexistence and substantial replacement should be compared against the specific enterprise estate. The research does not establish a general mandate to replace VMware or maintain it indefinitely.
+
+
 
 ---
 
 # 9. Implications for Cloud Infrastructure Decision-Making
 
-## The decision leadership can make now
+## Facts — established limits relevant to the decision
 
-**Authorize an evidence-based evaluation of selected infrastructure alternatives—without deciding the outcome or assuming any proprietary enterprise current state.** The evaluation should make three decisions separately: (1) which VM classes are portable; (2) which competing architecture actually meets operating and application-support obligations; and (3) whether change is economically justified after all transition costs.
+- Named VMware-source migrations are documented for specific workloads, but universal VMware Cloud Foundation parity and uniform migration economics are not established. [R4:S04–S13]
+- Manufacturing and OT application vendors publish release- and configuration-specific support conditions; these do not disclose an individual enterprise's validated application estate. [R5:OT01–OT10]
+- The reviewed Broadcom disclosures and market surveys do not provide a company-specific VM estate or a comparable global VMware customer-churn series. [R2:S01–S05; R6:S01–S09]
+
+## Analyst decision framework — proposed, not an enterprise current-state claim
 
 | Decision dimension | Necessary inputs | Suggested decision output |
 |---|---|---|
@@ -301,6 +374,10 @@ For any application whose certification or qualification cannot be confirmed, th
 | **Migration feasibility** | Discovery, conversions, dependencies, downtime, restore, rollback, staging | Pilot evidence for named representative workload classes |
 | **Manufacturing/OT assurance** | Exact OEM/ISV support letters, guest OS/hypervisor releases, site design and validation scope | Documented eligible applications and required qualification controls |
 | **Economics and supplier risk** | Recurring support/license, new hardware/software, labor, dual-run, migration/requalification, recovery, vendor durability | Comparable **3–5-year** TCO/risk scenarios; no unsupported public savings assumptions |
+
+### Conclusion — analyst synthesis
+
+**Authorize an evidence-backed evaluation of selected infrastructure alternatives without committing to a replacement outcome.** Assess which VM classes are portable, whether alternate platforms meet application and operating requirements, and whether change is economical after transition costs. **Infrastructure substitution is a workload and operating-model decision—not simply a supplier decision.**
 
 ## Focused evaluation sequence
 
@@ -318,7 +395,7 @@ For any application whose certification or qualification cannot be confirmed, th
 - Which named customer references most closely match the enterprise's workload, scale and service model?
 - What independent technical and operating evidence would overturn the preferred option?
 
-**Final strategic conclusion:** **VMware alternatives are credible and consequential, but substitution is not a single supplier decision.** Leadership can use the present external evidence to frame competitive evaluation and peer-informed questions; supplier selection and migration sequencing require an enterprise-specific, auditable workload assessment.
+
 
 ---
 
