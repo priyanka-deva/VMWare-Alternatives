@@ -1,9 +1,19 @@
-# OT Master Roster: VMware and Alternative-Hypervisor Support
+# Hypervisor OT Compatibility — Master Register
 
 **Prepared by:** Priyanka Deva  
-**As of:** 30 October 2026 · Version 1.5 — source-link validation revision  
+**As of:** 30 October 2026 · Version 1.6 — synchronized leadership heatmap  
 **Classification:** Internal use  
-**Basis:** The pinned v1.5 Markdown at commit 2919a0259b53e350a75dafd5b18b34a50cfe9757 is the sole base for this source-link revision. Original inventory and support classifications are retained; link corrections and document-identity qualifications are recorded below.
+**Basis:** The complete v1.5 Markdown at commit e51d9156c6ba11f03ebb3aca98f487fef71af2ec is the sole content base for v1.6. All 97 roster entries, 1,164 platform classifications, 65 original inventory groups, 147 source references and the Enterprise Context appendix are retained. No new live search or research was performed for this presentation revision.
+
+## Version 1.6 — leadership presentation and synchronization
+
+**Report title:** Hypervisor OT Compatibility. **Content baseline:** [e51d9156c6ba11f03ebb3aca98f487fef71af2ec](https://github.com/priyanka-deva/VMWare-Alternatives/blob/e51d9156c6ba11f03ebb3aca98f487fef71af2ec/reports/OT_Master_Roster_Alternative_Support_2026-10-30.md).
+
+The interactive report opens with an executive summary, followed by separate navigation for the compatibility heatmap, enterprise context and source register. All 97 entries and 12 platform columns are available; filters distinguish application hosting, backup protection and provider-hosted cores. Selecting a cell exposes its exact register classification, scope, remaining confirmation and entry-level sources. The navy, teal and neutral palette follows the supplied METI V2.3 reference report.
+
+Cohesity–VMware is **B, published backup interoperability**; HPE remains **BA, guest-agent protection**, and Proxmox remains **BR, repository/Remote Adapter workflow**. Mixed outcomes and explicit component exclusions are retained without promoting a generic policy, related product or backup method to application-hosting approval. Empty research results remain gaps rather than unsupported classifications.
+
+The application provenance in the Enterprise Context appendix is carried into the interactive report. The source register also retains unresolved access and document-identity qualifications. The v1.5 audit sections below document the earlier research and link-check passes; they do not represent new research performed for v1.6.
 
 ## Latest source-link validation — 30 October 2026
 
@@ -33,7 +43,7 @@ All 97 original entries remain. VMware has been added without assuming support f
 
 **Scope completed:** all 97 roster entries received fresh live research and a recorded disposition; all 133 existing source-reference routes were reopened (including repeated URLs; access failures are recorded); application, equipment-OEM, platform and hypervisor material was considered. The original 65-group cross-reference remains intact. Searches covered the named software or supplier, virtualization/support requirements and relevant target names. Broad platform searches and primary support policies covered VMware plus the ten alternative families, with Hyper-V and Azure Local treated separately. This is complete coverage of the supplied roster, **not proof that every possible publication, customer-only matrix or platform combination has been found**.
 
-**Authority and edit order:** this Markdown is the only authoritative research base. Future evidence changes must be made and committed here first. The existing HTML/PNG heatmaps are derived, older views and are **not synchronized to v1.5 by this update**. Neither an old report nor a heatmap overrides this file.
+**Authority and edit order:** this Markdown is the only authoritative research base. Future evidence changes must be made and committed here first. The [v1.6 interactive heatmap](../interactive/OT_Application_Support_Heatmap_2026-10-30_v1.6.html) is generated from this register and retains its exact matrix classifications. Earlier HTML/PNG heatmaps remain historical views. This register controls any difference in interpretation.
 
 **Evidence rules:** an application manufacturer's release/component statement establishes application support within its conditions. A hypervisor's guest-OS support or application-agnostic claim establishes a different layer. Equipment-OEM configuration, interfaces, database/OS support, hardware qualification and entitlement still have to align. Backup interoperability is recorded separately from application hosting. A SaaS core, container platform, RPA agent and VM application server are not interchangeable workloads. Two pages repeating one vendor claim are not independent validation.
 
