@@ -12,7 +12,7 @@ from collections import Counter
 
 ROOT = Path(__file__).resolve().parents[1]
 VERSION = '2.0'
-BASE_COMMIT = '837cc8e068ce0b1adb3c3490d01d19e7403387f1'
+BASE_COMMIT = '373fcd9407dea1a186eb08fbc5c909d664dd39b1'
 MASTER_NAME = 'OT_Master_Roster_Alternative_Support_2026-10-30'
 HEATMAP_NAME = 'OT_Application_Support_Heatmap_2026-10-30'
 MASTER = ROOT / 'reports' / (MASTER_NAME + '_v' + VERSION + '.md')

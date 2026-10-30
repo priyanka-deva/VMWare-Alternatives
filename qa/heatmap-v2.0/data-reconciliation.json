@@ -1,7 +1,7 @@
 {
   "version": "2.0",
-  "base_commit": "837cc8e068ce0b1adb3c3490d01d19e7403387f1",
-  "master_sha256": "2723dc257a314c08e8b944dd0e3b0f1432c96f015896eb540e72f1934d3bf189",
+  "base_commit": "373fcd9407dea1a186eb08fbc5c909d664dd39b1",
+  "master_sha256": "586eb6d3553aa30412520e79b8d3d57eaccddfe60b1a817d172e1a798978df6e",
   "rows": 97,
   "platforms": 12,
   "cell_count": 1164,
@@ -29,7 +29,7 @@
   "distinct_urls": 156,
   "all_cell_codes_copied_from_markdown": true,
   "external_requests": 0,
-  "html_sha256": "3e3f6549078fa7ae81c73585e431cfb58e60dae91464e0056465c70f8fff40d6",
+  "html_sha256": "c828648df290658e74d7937ce93b3ea6e9206eeb114d8cbd2ca0a03b9698bce3",
   "inventory_context_rows": 43,
   "software_identity_rows": 4,
   "dated_history_records": 6,

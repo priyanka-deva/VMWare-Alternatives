@@ -59,7 +59,7 @@ get('reset').click();get('status-filter').value='I';get('status-filter').events.
 get('reset').click();columns[1].checked=false;columns[1].events.change[0]();check(run('shownPlatforms.length')===11,'Column toggle');get('all-platforms').click();check(run('shownPlatforms.length')===12,'Restore columns');
 get('source-scope').value='';run('setTab("sources")');check((get('source-grid').innerHTML.match(/class="source-card"/g)||[]).length===158,'All 158 references render');
 check(!get('source-grid').innerHTML.includes('N12'),'Removed N12 remains absent');
-check(get('provenance').innerHTML.includes('837cc8e')&&!get('provenance').innerHTML.includes('v1.7'),'Provenance pins new committed master');
+check(get('provenance').innerHTML.includes('373fcd9')&&!get('provenance').innerHTML.includes('v1.7'),'Provenance pins new committed master');
 const context=get('context-content').innerHTML;check(context.includes('Upper Hutt')&&context.includes('cmdb_ci_ot_system_service')&&context.includes('OT097'),'Complete enterprise source lineage retained');
 for(const r of run('D.rows'))for(const p of run('D.platforms')){run('openDetail('+JSON.stringify(r.id)+','+JSON.stringify(p.id)+')');assert(get('detail-body').innerHTML.includes('Exact matrix scope'));assert(!/undefined|\[object Object\]/.test(get('detail-body').innerHTML));get('detail').close();}
 check(true,'All 1164 detail combinations render');
