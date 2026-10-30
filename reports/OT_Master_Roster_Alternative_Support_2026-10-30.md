@@ -1,9 +1,17 @@
 # OT Master Roster: VMware and Alternative-Hypervisor Support
 
 **Prepared by:** Priyanka Deva  
-**As of:** 30 October 2026 · Version 1.5 — final live-search audit revision  
+**As of:** 30 October 2026 · Version 1.5 — source-link validation revision  
 **Classification:** Internal use  
-**Basis:** The committed v1.5 Markdown (commit cac3d05826c2075521787168ebb4d6f0a33fea49) is the sole base for this final revision; all original inventory entries and cross-references are preserved. Fresh primary-source audit performed 30 October 2026.
+**Basis:** The pinned v1.5 Markdown at commit 2919a0259b53e350a75dafd5b18b34a50cfe9757 is the sole base for this source-link revision. Original inventory and support classifications are retained; link corrections and document-identity qualifications are recorded below.
+
+## Latest source-link validation — 30 October 2026
+
+All148 source references /146 distinct URLs in the pinned v1.5 revision were checked individually.137 original URLs returned readable content through the web retrieval service;9 could not be inspected. One same-document route was repaired (A23), and two unavailable routes now cite clearly labelled alternative official product-context pages (A39,A44). A51 points to the actual candidate DataLogging product page; A03/P10 use verified canonical destinations.
+
+**Six source URLs remain unresolved:** A26 (403), A50 (timeout), A60 (reader-size limit), A82 (404 with an unstable alternative), S25 (403), N12 (known404 lead). Their availability must not be represented as verified. The HPE N02/N04 landing-page Download links were followed to matching PDFs. S16 is a move notice/customer portal, N10 is a third-party mirror, S06 has a V21/V19 applicability conflict, and S28's visible course body does not confirm version5.1. These are not clean release-specific support certificates.
+
+The individual outcomes, original URLs, document identities and replacements are in [OT_Source_Link_Audit_2026-10-30.md](OT_Source_Link_Audit_2026-10-30.md). This latest availability record takes precedence over earlier same-day access notes. Earlier entry research dispositions remain a record of that content-audit pass, not a claim that every source opens now. Web-reader retrieval may use indexed/cached content and is not a guarantee of browser access, entitlement or application compatibility. No support status was upgraded by this link check.
 
 ## What this roster shows
 
@@ -40,7 +48,7 @@ All 97 original entries remain. VMware has been added without assuming support f
 
 **Retained qualifications:** Nutanix brand wording in FactoryTalk, Desigo and Empower still does not prove AHV. The WinCC Unified V21 route still contains V19 installation text. PCS7/NVR and the newly recovered legacy PI policy remain versioned/historical evidence. Desigo specification wording is not a qualification matrix. The OpenLab CDS 3.0 component table was checked again against its rendered page: VMware supports AIC/client/server components; Hyper-V supports client, excludes AIC and has server TBD; workstation is excluded on both. None of this approves every Agilent instrument. [S04] [S06] [S07] [S08] [S09] [S12] [S31] [A83]
 
-**Access limits:** octoplant documentation remains gated and the Cohesity S25 route returned 403; this does not negate public Cohesity support evidence. Some SAP/Nutanix pages had no readable body. Climet and Roche routes had retrieval limits; the Thomas control-upgrade route was readable in the final pass, and a legacy ProCal document redirected. Such routes are labelled in the register and are not promoted to validated support statements. Search snippets, community answers, migration examples and generic OS compatibility do not close an application support gap.
+**Access limits:** Use the latest source-link validation above for current availability. A26,A50,A60,A82,S25,N12 could not be fully inspected in this pass. A23 has a verified route repair; A39/A44 now use labelled alternate publisher product-context pages. Search snippets, portal notices, community answers and generic OS compatibility do not close application support gaps.
 
 ## Final audit revision — what changed and what was actually checked
 
@@ -488,7 +496,7 @@ All source IDs retain their existing meaning. Notes distinguish support, archite
 | S25 | [Cohesity DataProtect 7.2.2 OpenShift Virtualization documentation route](https://docs.cohesity.com/docs/dataprotect/7.2.2/Content/Container/rhov-overview.htm) | Opened to authentication notice; substantive requirements unavailable. Not promoted to a validated support matrix. |
 | S26 | [Red Hat VM compatibility guidance](https://access.redhat.com/articles/7074700) | Original page opened; guest OS / virtual hardware compatibility only. No application-specific approval inferred. |
 | S27 | [Oracle Linux/Virtualization ISV catalog](https://apexapps.oracle.com/pls/apex/f?p=10263:17::::::) | Original catalog opened. No qualifying named application/product-release record retrieved; catalog existence is not certification. |
-| S28 | [Siemens SIPAT 5.1 course description](https://training.plm.automation.siemens.com/ilt/iltdescription.cfm?pID=ILT949003_____SIPA_5.1____B1221) | Original page opened; confirms software identity/version context, not hypervisor support. |
+| S28 | [Siemens SIPAT course description — version unconfirmed](https://training.plm.automation.siemens.com/ilt/iltdescription.cfm?pID=ILT949003_____SIPA_5.1____B1221) | Readable Siemens SIPAT functional-training page. Version5.1 is present in the URL parameter but not confirmed by the visible course body. Identity context only, not versioned hypervisor support. |
 | S29 | [METTLER TOLEDO current LabX product page](https://www.mt.com/us/en/home/products/lab-solutions/lab-software/labx.html) | Original page opened; no inspected release-specific alternative-hypervisor matrix. Does not resolve the current support policy. |
 | S30 | [Synergis Adept Server Overall Requirements](https://onpremises-docs.synergissoftware.com/adept-system-requirements/Spring-26/adept-server-overall-requirements) | Application manufacturer; Adept 11.4.5 / Spring 26. General Deployment Guidance item 2 supports VM platforms when system requirements are met or exceeded. Hypervisor brands/builds are not named. Original HTML opened and passage checked on 30 Oct 2026. |
 | S31 | [LenelS2 NVR 7.8 System User Guide](https://prod-edam.honeywell.com/content/dam/honeywell-edam/hbt/en-us/documents/manuals-and-guides/user-manuals/lenels2/hon-ba-security-lenel-nvr-7-8-system-user-guide.pdf) | Application manufacturer manual, hosted by Honeywell; DOC-909 revision 12.002, January 2022, printed p.9, Virtual Environment Deployments. Explicit Hyper-V support for the NVR component. No host build specified. Does not establish support for the complete OnGuard access-control application. Original PDF opened and passage checked on 30 Oct 2026. Historical 2022 manual; current product lifecycle and support entitlement were not established. The same NVR passage also explicitly names VMware vSphere. |
@@ -648,7 +656,7 @@ All routes below were opened on 30 October 2026. Failed, empty or redirected rou
 |---|---|---|
 | A01 | [Cohesity DataProtect supported workloads](https://www.cohesity.com/platform/dataprotect/) | Live product page, supported hypervisors/workloads section. Names DataProtect coverage; not a release-by-release matrix. |
 | A02 | [Nutanix Cohesity alliance](https://www.nutanix.com/en_gb/partners/technology-alliances/cohesity) | Platform-vendor alliance page explicitly describes AHV backup integration. Corroborates protection, not OT application hosting. |
-| A03 | [Red Hat catalog DataProtect](https://catalog.redhat.com/software/applications/detail/67c9ac8dc122ce530edd5e62) | Official Red Hat catalog entry: Partner Validated, OpenShift Virtualization, backup/recovery. Do not rename this application certification. |
+| A03 | [Red Hat catalog DataProtect](https://catalog.redhat.com/en/software/applications/detail/67c9ac8dc122ce530edd5e62) | Official Red Hat catalog entry: Partner Validated, OpenShift Virtualization, backup/recovery. Do not rename this application certification. |
 | A04 | [Red Hat Cohesity overview](https://www.redhat.com/en/resources/cohesity-resilience-for-openshift-virtualization-overview) | Red Hat overview dated 6 August 2026. DataProtect and NetBackup are distinct protection engines. |
 | A05 | [Cohesity Proxmox and OpenShift announcement](https://www.cohesity.com/blogs/cohesity-data-cloud-now-protects-red-hat-openshift-virtualization-and-proxmox-ve-workloads/) | Cohesity article dated 30 July 2024, Proxmox VE section. NFS backup-target/native restore and Remote Adapter script methods; current release eligibility still needs confirmation. |
 | A06 | [Commvault current platform support](https://documentation.commvault.com/v11/software/virtualized_platform_support.html) | Current v11 platform overview reopened. HPE is explicitly listed; Oracle VM and RHV labels alone are not OLVM or OpenShift evidence. |
@@ -664,10 +672,10 @@ All routes below were opened on 30 October 2026. Failed, empty or redirected rou
 | A19 | [Signals Notebook SaaS](https://revvitysignals.com/products/research/signals-notebook-eln) | Manufacturer product page confirms Signals Notebook SaaS offering; local software/integrations are outside that statement. |
 | A21 | [Veeva AWS infrastructure](https://www.veeva.com/resources/veeva-and-aws-expand-10-year-relationship/) | Veeva statement dated 25 June 2025: AWS infrastructure for Vault applications. Does not establish internal alias/component configuration. |
 | A22 | [Appian container self managed FAQ](https://docs.appian.com/suite/help/26.6/aok-faq.html) | Appian26.6 FAQ: self-managed core from25.4 uses Kubernetes/Operator. Container support is not OpenShift Virtualization certification. |
-| A23 | [Appian RPA agents](https://docs.appian.com/suite/help/26.4/rpa-9.20/agents.html) | RPA agent VM-host guidance; explicitly a different component from the Appian core/CLUE workload. |
+| A23 | [Appian RPA agents](https://docs.appian.com/suite/help/26.3/rpa-9.20/agents.html) | Same RPA9.20 agent document at the verified Appian26.3 route; the previous26.4/RPA9.20 URL returned404. Agent VM-host guidance is separate from Appian core/CLUE hosting. |
 | A24 | [AWS EVS deployment architecture](https://docs.aws.amazon.com/evs/) | AWS EVS documentation: VCF on EC2 bare metal in customer VPC. Platform, not application approval. |
 | A25 | [MetricStream SaaS trust](https://www.metricstream.com/about-us/trust-center.htm) | Manufacturer Trust Center describes multi-instance SaaS architecture. Internal EEOL/QRMS deployment remains to be identified. |
-| A26 | [Kneat SaaS vs on premises](https://kneat.com/article/how-kneats-saas-platform-is-empowering-customers-through-covid-19/) | Historical manufacturer SaaS article distinguishes on-premise and SaaS Kneat Gx. Does not establish the eVal product mapping or current VM support. |
+| A26 | [Kneat SaaS vs on premises](https://kneat.com/article/how-kneats-saas-platform-is-empowering-customers-through-covid-19/) | Historical manufacturer Kneat SaaS article remains403 in the latest repeated checks. Indexed snippets do not validate current public access, eVal identity or named-hypervisor support. |
 | A27 | [Belimed server virtualization services](https://www.steelcobelimed.com/us/service/services-in-pharma/retrofits-and-upgrades/) | OEM Control system upgrades section includes server virtualization without naming target hypervisors/builds. |
 | A28 | [MECO SCADA HMI virtualization services](https://www.meco.com/services/automation-services/) | OEM System Integration section includes SCADA/HMI virtualization, without a target/platform-release matrix. |
 | A29 | [Getinge WinCC Unified](https://www.getinge.com/int/company/news/press-releases/2025/5246777-Getinge-boosts-cleanroom-efficiency-with-modern-interface-for/) | OEM press release identifies newer WinCC Unified controls; no hypervisor approval or installed-generation match. |
@@ -679,19 +687,19 @@ All routes below were opened on 30 October 2026. Failed, empty or redirected rou
 | A36 | [Alpha Celsius services](https://www.alphacelsius.com.sg/our-services/) | Supplier services page; plausible identity only, not exact internal-system verification. |
 | A37 | [Thermometrics evaluation software](https://amphenol-sensors.com/en/thermometrics/infrared-sensors/2553-ztpd-evm-kit-0-0) | Sensor evaluation-kit Windows software context only; not the installed calibration solution. |
 | A38 | [Evoqua Rivo control systems](https://www.xylem.com/en-sg/catalog/products--services/disinfection-systems/disinfection-process-analyzers--controllers/rivo-i-control-system--water-treatment-control-system/) | Rivo control-product description; no verified Wilson deployment or virtualization support pairing. |
-| A39 | [Lives XpertLog software](https://lives-international.com/wp-content/uploads/2023/08/xpertlog-software-lives-international.pdf) | XpertLog software sheet: network/database features; no named-hypervisor commitment. |
+| A39 | [Lives International XpertLog product context — alternate source](https://lives-international.com/xpertlog-software) | Alternative current manufacturer XpertLog product page, replacing an unavailable2023 PDF route. Central database/Active Directory context is readable; no named-hypervisor approval. Original failed URL is retained in the link audit. |
 | A40 | [Puretech Genesys controls](https://puretech.uk.com/product-genesys/) | OEM control/HMI architecture description; no target-specific support commitment. |
 | A41 | [Sensitech software deployment](https://www.sensitech.com/en/products/software/) | Manufacturer software portfolio distinguishes cloud applications from local tools. Exact installed product unresolved. |
 | A42 | [Stilmas control options](https://www.stilmas.com/ultrapure_lsx_me) | OEM control options; no installed release/host support matrix. |
 | A43 | [Agilent Cary UV Workstation](https://www.agilent.com/en/p/spectroscopy/molecular/uv-vis-uv-vis-nir/software/cary-uv-workstation) | Cary UV Workstation identity/architecture; no virtualization approval inferred. |
-| A44 | [AGU SDC middleware](https://agu.de/SDC/) | Manufacturer SDC middleware identity/integration description; target support unresolved. |
+| A44 | [AGU SDC identity facts — alternate source](https://www.agu.de/grounding_sdc.html) | Alternative official AGU machine-readable SDC identity/integration facts page; original /SDC route timed out. Product context only; no hypervisor support inferred. |
 | A45 | [bioMerieux BACT ALERT 3D](https://www.biomerieux.com/us/en/our-offer/clinical-products/bact-alert-3d-automated-system.html) | BACT/ALERT3D architecture/connectivity; no hypervisor approval inferred. |
 | A46 | [BioTek 405 TS control software](https://www.agilent.com/cs/library/specifications/public/405-TS-technical-details-5994-5501EN-agilent.pdf) | 405TS technical sheet, local versus LHC2 computer-control options; context only. |
 | A47 | [Bruker MALDI software context](https://www.bruker.com/en/products-and-solutions/microbiology-and-diagnostics/microbial-identification/maldi-biotyper-reference-libraries.html) | MALDI reference-library/software context only; no match to all supplied NIR/MALDI systems. |
 | A48 | [Charles River EndoScan V requirements](https://www.criver.com/sites/default/files/resources/MS-PS-EndoScan-V-product-sheet.pdf) | EndoScan-V PC/client/services requirements; no named-hypervisor approval. |
 | A49 | [Chatillon ForceTest requirements](https://www.ametektest.com/-/media/ametektest/download_links/force-testing-software-forcetest-1712.pdf) | ForceTest manufacturer manual, system requirements; no named-hypervisor approval. |
 | A50 | [Climet software identities](https://climet.com/software/index.html) | Indexed official Climet software page; direct open timed out. Unvalidated lead, not support evidence. |
-| A51 | [IPT DataLogging possible identity](https://iptnet.eu/system/) | Manufacturer IPT DataLogging product; a candidate identity only. Does not prove IPT-IPC inventory mapping. |
+| A51 | [IPT DataLoggingV7 — possible identity](https://iptnet.eu/produkte/pruefdatenmanagement-software-iptdatalogging/?lang=en) | Direct IPT DataLoggingV7 candidate-product page, replacing the generic /system landing page. Does not prove IPT/IPC inventory mapping or named-platform support. |
 | A52 | [Lighthouse headspace software](https://lighthouseinstruments.com/benchtop-instruments/) | Manufacturer benchtop/GxP database software description; no hypervisor approval. |
 | A53 | [Mason software services](https://www.masontechnology.ie/services/software-services-scientific-equipment/) | Distributor-owned service material identifies distinct software packages; no shared platform qualification. |
 | A54 | [MBV MAS100 software](https://www.mbv.ch/media/user_manual_mas-100_iso_nt_en.pdf) | MAS100 ISO NT manufacturer manual, PC SOFTWARE section. Instrument connectivity, not VM support. |
@@ -701,7 +709,7 @@ All routes below were opened on 30 October 2026. Failed, empty or redirected rou
 | A58 | [OGP Focus software](https://www.ogpnet.com/products/metrology-systems/optical-comparators/contour-projectors/focus-contour-projectors/) | Focus software options; no named-hypervisor support. |
 | A59 | [Growth Direct implementation](https://www.rapidmicrobio.com/learning-center/rapid-blog/the-growth-directtm-system-implementation-process-from-start-to-finish) | Network integration/implementation services; backups and remote access are not hypervisor approval. |
 | A60 | [Roche Cedex HiRes installation](https://elabdoc-prod.roche.com/eLD/api/downloads/b3b9f7d3-8340-eb11-0291-005056a71a5d?countryIsoCode=DE) | Manufacturer Cedex document indexed; reader rejected11.5MB body. No VM conclusion from snippet. |
-| A61 | [Shimadzu UV Vis LabSolutions](https://www.shimadzu.com/an/sites/shimadzu.com.an/files/pim/pim_document_file/brochures/25086/c101-e184.pdf) | LabSolutions UV-Vis CS/DB architecture; no blanket Shimadzu/CETAC hypervisor approval. |
+| A61 | [Shimadzu UV-2600i Plus/UV-2700i Plus brochure — LabSolutions context](https://www.shimadzu.com/an/sites/shimadzu.com.an/files/pim/pim_document_file/brochures/25086/c101-e184.pdf) | Manufacturer UV-2600i Plus/UV-2700i Plus brochure, including LabSolutions DB/CS UV-Vis context. Not a LabSolutions requirements manual, exact installed-model match or hypervisor approval. |
 | A62 | [Thermo BindIt requirements](https://assets.thermofisher.com/TFS-Assets/LSG/manuals/BindIt_4_KingFisherInstrumentsUserManual.pdf) | BindIt4 manufacturer manual, Installing BindIt/minimum PC requirements. USB/serial and OS requirements are not VM approval. |
 | A64 | [Antares traceability deployment](https://antaresvisiongroup.com/lifescience/pharmaceutical-track-and-trace-solutions/) | Manufacturer track/trace page describes on-premise/cloud/hybrid options. Does not qualify ATS B15 on a named hypervisor. |
 | A65 | [Fette modernization](https://www.fette-compacting.com/en/production-solutions/services/modernization) | OEM modernization services; not a virtualization matrix. |
@@ -721,7 +729,7 @@ All routes below were opened on 30 October 2026. Failed, empty or redirected rou
 | A79 | [Asahi Planova related products](https://planova.ak-bio.com/products/related-products/) | Asahi-owned related filtration products; no exact supplied controller/software support matrix. |
 | A80 | [WinCC OA virtual environment support](https://www.winccoa.com/documentation/WinCCOA/latest/en_US/virtualization/virtualization_basics.html) | Live/latest WinCC OA Virtual Environment Support. Reference-tested platforms and conditional other-platform support; application release must be pinned separately. |
 | A81 | [SuccessFactors Learning cloud deployment](https://www.sap.com/products/hcm/corporate-lms.html) | SAP-owned Learning product page explicitly calls the product cloud-based. Confirm MyLearning/internal mapping and local adjuncts. |
-| A82 | [HxGN EAM 12.2 software requirements](https://docs.hexagonali.com/r/en-US/HxGN-EAM-Product-Family-Software-Requirements/12.2/1261898) | HxGN EAM12.2 Oracle requirements. Database/OS requirements do not establish hypervisor support; no database support transitivity assumed. |
+| A82 | [HxGN EAM 12.2 software requirements](https://docs.hexagonali.com/r/en-US/HxGN-EAM-Product-Family-Software-Requirements/12.2/1261898) | Original HxGN EAM12.2 requirements route returned404 in the latest link audit. An alternate publisher host was inconsistent and is not approved as a stable replacement. Earlier DB/OS context is not a hypervisor support statement. |
 | A83 | [OSIsoft historical PI virtualization guide](https://support.rockwellautomation.com/cc/okcsFattachCustom/get/451936_4) | OSIsoft-authored legacy Virtualization and the PI System guide, hosted by Rockwell, pp5–6. Explicit ESX/Hyper-V policy; no current-release or RtReports certificate. |
 | A84 | [OpenText Documentum deployment overview](https://www.opentext.com/cn/media/product-overview/opentext-documentum-content-management-po-en.pdf) | OpenText Documentum product overview, VM/container and managed-cloud deployment options. Not an exact MEDS product/release support matrix. |
 | A85 | [TrackWise on premises product](https://www.spartasystems.com/trackwise-qms-software/) | Manufacturer TrackWise on-premise product page; identity/model only. |
@@ -739,7 +747,7 @@ All routes below were opened on 30 October 2026. Failed, empty or redirected rou
 | P07 | [HPE Morpheus software QuickSpecs](https://www.hpe.com/au/en/collaterals/collateral.a50009231enw.html) | HVM versus managed VMware is distinct. Commvault integration is corroborated; no portfolio-wide OT application approval follows. |
 | P08 | [Proxmox VE architecture](https://www.proxmox.com/en/products/proxmox-virtual-environment/overview) | KVM/LXC platform capability is not application certification. Acronis/Commvault backup and WinCC OA evidence have separate product boundaries. |
 | P09 | [Oracle KVM guests](https://docs.oracle.com/en/operating-systems/oracle-linux/8/kvm-user/kvm-GuestOperatingSystemRequirements.html) | Guest OS lists and ISV catalog existence are not a named application certificate. OLVM, legacy Oracle VM and generic KVM are distinct. |
-| P10 | [Canonical MicroCloud architecture](https://documentation.ubuntu.com/microcloud/latest/explanation/microcloud/) | MicroCloud and OpenStack are different stacks. Generic OpenStack backup API support does not establish a Canonical distribution/version pairing. |
+| P10 | [Canonical MicroCloud architecture](https://canonical.com/microcloud/docs/latest/explanation/microcloud/) | MicroCloud and OpenStack are different stacks. Generic OpenStack backup API support does not establish a Canonical distribution/version pairing. |
 | P11 | [Canonical OpenStack third party integration](https://discourse.ubuntu.com/t/learn-which-design-considerations-to-take-into-account-when-architecting-the-cloud/44743) | MicroCloud and OpenStack are different stacks. Generic OpenStack backup API support does not establish a Canonical distribution/version pairing. |
 | P12 | [Scale HyperCore support scope](https://docs.scalecomputing.com/articles/sc-hypercore-user-guide/software-support-guide/) | Platform support scope/guest configuration is documented; application-OEM support remains separate. Acronis evidence is backup only. |
 | P13 | [XCP-ng guest support](https://docs.xcp-ng.org/vms/) | Guest templates/tools and hypervisor support do not qualify an application. Citrix XenServer support must not be transferred to XCP-ng. |
@@ -860,7 +868,7 @@ These are the actual 194 initial fresh queries, run 30 October 2026, followed by
 
 [A01]: https://www.cohesity.com/platform/dataprotect/
 [A02]: https://www.nutanix.com/en_gb/partners/technology-alliances/cohesity
-[A03]: https://catalog.redhat.com/software/applications/detail/67c9ac8dc122ce530edd5e62
+[A03]: https://catalog.redhat.com/en/software/applications/detail/67c9ac8dc122ce530edd5e62
 [A04]: https://www.redhat.com/en/resources/cohesity-resilience-for-openshift-virtualization-overview
 [A05]: https://www.cohesity.com/blogs/cohesity-data-cloud-now-protects-red-hat-openshift-virtualization-and-proxmox-ve-workloads/
 [A06]: https://documentation.commvault.com/v11/software/virtualized_platform_support.html
@@ -876,7 +884,7 @@ These are the actual 194 initial fresh queries, run 30 October 2026, followed by
 [A19]: https://revvitysignals.com/products/research/signals-notebook-eln
 [A21]: https://www.veeva.com/resources/veeva-and-aws-expand-10-year-relationship/
 [A22]: https://docs.appian.com/suite/help/26.6/aok-faq.html
-[A23]: https://docs.appian.com/suite/help/26.4/rpa-9.20/agents.html
+[A23]: https://docs.appian.com/suite/help/26.3/rpa-9.20/agents.html
 [A24]: https://docs.aws.amazon.com/evs/
 [A25]: https://www.metricstream.com/about-us/trust-center.htm
 [A26]: https://kneat.com/article/how-kneats-saas-platform-is-empowering-customers-through-covid-19/
@@ -891,19 +899,19 @@ These are the actual 194 initial fresh queries, run 30 October 2026, followed by
 [A36]: https://www.alphacelsius.com.sg/our-services/
 [A37]: https://amphenol-sensors.com/en/thermometrics/infrared-sensors/2553-ztpd-evm-kit-0-0
 [A38]: https://www.xylem.com/en-sg/catalog/products--services/disinfection-systems/disinfection-process-analyzers--controllers/rivo-i-control-system--water-treatment-control-system/
-[A39]: https://lives-international.com/wp-content/uploads/2023/08/xpertlog-software-lives-international.pdf
+[A39]: https://lives-international.com/xpertlog-software
 [A40]: https://puretech.uk.com/product-genesys/
 [A41]: https://www.sensitech.com/en/products/software/
 [A42]: https://www.stilmas.com/ultrapure_lsx_me
 [A43]: https://www.agilent.com/en/p/spectroscopy/molecular/uv-vis-uv-vis-nir/software/cary-uv-workstation
-[A44]: https://agu.de/SDC/
+[A44]: https://www.agu.de/grounding_sdc.html
 [A45]: https://www.biomerieux.com/us/en/our-offer/clinical-products/bact-alert-3d-automated-system.html
 [A46]: https://www.agilent.com/cs/library/specifications/public/405-TS-technical-details-5994-5501EN-agilent.pdf
 [A47]: https://www.bruker.com/en/products-and-solutions/microbiology-and-diagnostics/microbial-identification/maldi-biotyper-reference-libraries.html
 [A48]: https://www.criver.com/sites/default/files/resources/MS-PS-EndoScan-V-product-sheet.pdf
 [A49]: https://www.ametektest.com/-/media/ametektest/download_links/force-testing-software-forcetest-1712.pdf
 [A50]: https://climet.com/software/index.html
-[A51]: https://iptnet.eu/system/
+[A51]: https://iptnet.eu/produkte/pruefdatenmanagement-software-iptdatalogging/?lang=en
 [A52]: https://lighthouseinstruments.com/benchtop-instruments/
 [A53]: https://www.masontechnology.ie/services/software-services-scientific-equipment/
 [A54]: https://www.mbv.ch/media/user_manual_mas-100_iso_nt_en.pdf
@@ -948,7 +956,7 @@ These are the actual 194 initial fresh queries, run 30 October 2026, followed by
 [P07]: https://www.hpe.com/au/en/collaterals/collateral.a50009231enw.html
 [P08]: https://www.proxmox.com/en/products/proxmox-virtual-environment/overview
 [P09]: https://docs.oracle.com/en/operating-systems/oracle-linux/8/kvm-user/kvm-GuestOperatingSystemRequirements.html
-[P10]: https://documentation.ubuntu.com/microcloud/latest/explanation/microcloud/
+[P10]: https://canonical.com/microcloud/docs/latest/explanation/microcloud/
 [P11]: https://discourse.ubuntu.com/t/learn-which-design-considerations-to-take-into-account-when-architecting-the-cloud/44743
 [P12]: https://docs.scalecomputing.com/articles/sc-hypercore-user-guide/software-support-guide/
 [P13]: https://docs.xcp-ng.org/vms/
