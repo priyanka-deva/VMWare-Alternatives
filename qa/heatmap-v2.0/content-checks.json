@@ -1,0 +1,26 @@
+{
+  "roster_identities_and_descriptions_unchanged": 97,
+  "original_groups_unchanged": 65,
+  "enterprise_context_sections_unchanged": 7,
+  "historical_records_unchanged": 6,
+  "only_changed_matrix_rows": [
+    "OT002",
+    "OT053",
+    "OT067"
+  ],
+  "applicability_counts": {
+    "Server software": 12,
+    "Mixed / deployment to confirm": 27,
+    "Supplier / service record": 7,
+    "Container application": 2,
+    "Equipment record \u2014 isolate software": 28,
+    "Instrument / control workstation": 15,
+    "Backup protection": 3,
+    "Provider-hosted core": 3
+  },
+  "source_ids": 158,
+  "urls": 156,
+  "access_code_in_current_heatmap": false,
+  "csv_columns": 22,
+  "passed": true
+}

@@ -1,0 +1,6 @@
+{
+  "method": "Actual report JavaScript executed in a minimal DOM model; not browser layout verification",
+  "checks": 44,
+  "all_1164_details_checked": true,
+  "passed": true
+}
