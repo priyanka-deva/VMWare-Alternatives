@@ -15,6 +15,8 @@ The individual outcomes, original URLs, document identities and replacements fro
 
 ## What this roster shows
 
+**Enterprise context and application provenance:** see the [Enterprise Context appendix](#appendix--enterprise-context) for supplied source files, declared CMDB/supplier-registry origins, coverage limits and complete row-level inventory lineage.
+
 Every one of the **97 detailed supplier/application entries** in “OT and VMware.md” is retained, in its original category and order. All **65 entries** in “OT Applications.md” are cross-referenced below. These are source entries, not 97 distinct applications or independently verified internal deployments. Original vendor/product text is preserved; possible naming errors are not silently corrected.
 
 **How to identify gaps:** Read the status column. A published supported configuration, conditional support and a deployment example are different outcomes. “Public support not established” means the documented live searches and source inspections did not establish sufficient public evidence. **Unresolved software identity, inaccessible documentation and an unvalidated pairing are not evidence that an alternative is unsupported.** No entry has been classified as universally unsupported.
@@ -864,6 +866,182 @@ These are the actual 194 initial fresh queries, run 30 October 2026, followed by
 
 **Targeted follow-ups included:** Cohesity/HPE protection methods and reference architecture; Cognex4.2 versus Dell blueprint; LabX13 document number/provenance; SoftMax live PDF versus indexed support table; iFIX current primary documentation; UNICORN; LabWare; EAM versus SmartP&ID; SAP source clauses; current backup-platform requirements. Results that were unrelated products, mirrors, inaccessible pages or stale search snippets were not promoted to support.
 
+
+## Appendix — Enterprise Context
+
+### Why these applications are in scope
+
+The application scope comes from two supplied internal compilations: **EC01, OT Applications.md**, and **EC02, OT and VMware.md**. EC01 states that its roster was consolidated from Global Supplier Management & Audit Trackers and CMDB system inventories; EC02 expands the roster and adds internal identifiers and architecture context. The research retained the complete EC02 roster and reconciled every EC01 group. External vendor and hypervisor publications were then used to assess published support for those supplied entries.
+
+**Provenance boundary:** these are supplied internal documents, not direct extracts independently obtained from the underlying CMDB, supplier registry, audit repositories or SharePoint. The source documents do not supply extract dates, record owners, underlying record URLs or record-level lineage to each named registry. Their statements establish the supplied basis for this research; they do not independently verify current installation, ownership, criticality, licensing or production architecture. The roster counts below refer to source entries, which can combine suppliers, products, equipment and services.
+
+### Input register and deduplication
+
+| Context ID | Supplied file | Unique contribution and treatment |
+|---|---|---|
+| EC01 | OT Applications.md | 65 grouped entries across six operational categories; describes supplier/audit and site-inventory origins, site examples and an explicit Animal Health coverage exclusion. All 65 groups remain in the original-entry cross-reference. |
+| EC02 | OT and VMware.md | 97 detailed entries across the same six categories; supplies CSID/CS identifiers where present, additional supplier/application entries, internal solution aliases and VMware dependency context. This is the detailed roster baseline, not a public support certificate. |
+| EC03 | OT_Master_Roster_Alternative_Support_2026-10-30.md — attached copy | Earlier v1.5 research snapshot. Its roster and research content are already represented in the current master; it adds no new inventory entries. Later source-link corrections take precedence. |
+| EC04 | OT_Master_Roster_Alternative_Support_2026-10-30(1).md — attached copy | Byte-for-byte identical to EC03 (223,201 bytes each). Counted as one research snapshot, with no duplicate application rows or duplicated evidence. |
+
+The supplied copies of EC01/EC02 in the project sources match the attached inventory files byte for byte. The current master remains the editing base. Superseded support assertions and inaccessible-source material from earlier report copies are not reinstated by this appendix.
+
+### Enterprise records and coverage stated by the inputs
+
+| Stated source or coverage | Where the input says this | What it contributes to scope |
+|---|---|---|
+| CMDB OT System Services, table `cmdb_ci_ot_system_service` | EC02, opening Sources declaration | Declared system-service inventory origin; record-level extracts were not supplied. |
+| Global DMMD Supplier Transparency (ST) Registry | EC02, opening Sources declaration | Declared supplier-registry origin; not an independently inspected deployment list. |
+| Global Supplier Management & Audit Trackers; IT/OT Audit Trackers | EC01, opening paragraph; EC02, Sources declaration | Declared supplier/audit coverage. EC01 cites West Point, Wilson and Durham as tracker site examples. These examples are not a complete site-by-application mapping. |
+| Dublin Biotech (SDB) CMDB/system inventory | EC01, opening paragraph; EC02, Sources declaration | Declared site-inventory contribution. |
+| Singapore (SI7) CMDB/system inventory | EC01, opening paragraph; EC02, Sources declaration | Declared site-inventory contribution. |
+| Internal Hypervisor Strategy Documentation | EC02, opening Sources declaration | Declared source of enterprise virtualization context; no separate strategy document or approval record accompanied that declaration. |
+| Human Health Biotech, Small Molecule and Global DMMD | EC01, final coverage note | Stated coverage of the compiled roster; no claim of complete enterprise or Animal Health coverage follows. |
+| Upper Hutt and Intervet Singapore Animal Health inventory files | EC01, final coverage note | EC01 reports that these SharePoint files returned “file not found” during its compilation. Animal Health coverage is therefore incomplete; this is a limitation reported by EC01, not a fresh SharePoint access check. |
+
+### How the application roster was assembled
+
+The 65 EC01 groups map to **83 of the 97 detailed EC02 entries**. Some groups split into several supplier rows, and EC02 also contains **14 additional entries** without an EC01 group. Thus 65 and 97 are different levels of inventory granularity, not two independent application populations. The full 65-group mapping remains in [Cross-reference to every original OT Applications.md entry](#cross-reference-to-every-original-ot-applicationsmd-entry); the row-level lineage below locates all 97 entries in EC02.
+
+| Operational category | EC01 groups | EC02/master entries | Master IDs |
+|---|---:|---:|---|
+| Global core OT, automation, DCS and MES | 11 | 11 | OT001–OT011 |
+| Bioprocessing and production skids | 14 | 17 | OT012–OT028 |
+| Packaging, serialization and vision | 4 | 4 | OT029–OT032 |
+| Clean utilities, water and facility controls | 6 | 10 | OT033–OT042 |
+| Laboratory OT, analytical instruments and QC | 22 | 30 | OT043–OT072 |
+| Enterprise OT support, EAM, validation and resilience | 8 | 25 | OT073–OT097 |
+| **Total source entries** | **65** | **97** | **All retained** |
+
+The 14 EC02-only entries are **OT054 IPC, OT055 LabWare, OT057 Mason Technology / Midwest Information Systems, OT075 AJJITEC, OT076 AliHealth, OT078 AWS, OT080 Cohesity, OT084 Hyland, OT086 Global Solutions, OT088 OpenText, OT089 Oracle & SailPoint, OT092 SAP, OT093 ServiceNow and OT095 SuccessFactors**. They remain in scope because they appear in the supplied detailed inventory; absence from EC01 does not establish absence from the enterprise.
+
+### Unique enterprise context carried forward from EC02
+
+These are **statements reported by the supplied internal source**. They explain why these workloads matter to the Cloud leader; they do not change any audited support status or establish an independently verified deployment plan.
+
+| Enterprise context from EC02 | Source locator | Implication for this assessment |
+|---|---|---|
+| The estate spans DC Critical, Edge Enterprise/Jump, and Shop Floor / Lab Floor Networks (SFN/LFN); EC02 describes vSphere, ESXi, vCenter and vSAN as foundational infrastructure. | §1, opening paragraph | Assess the workload/node and deployment tier, rather than treating every supplier as one movable VM application. No tier-by-record mapping was supplied. |
+| DC Critical is described as having high VMware dependency, particularly an Emerson DeltaV stretch cluster and a “Data Center in-a-Rack” configuration. | §1, DC Critical bullet; §2, Emerson row | Match actual topology, release, hardware and support terms. The public DeltaV evidence in OT004 does not independently confirm this internal production VMware architecture. |
+| Edge SFN/LFN changes are described as paced by OT vendor support matrices and version qualification. | §1, Edge bullet | Match exact application/OEM configurations and target versions; a technically viable platform alone does not close the application support gap. |
+| AWS EVS is described as selected for MES dev/test, CTC DR and AME migration. | §1, Cloud-Hosted VMware bullet; §2, PAS-X row | Keep these internal workload/use-case statements distinct from externally established EVS platform facts in OT078. Selection, implementation status and the meanings of CTC/AME were not independently established. |
+| EC02 associates SCADA, PAT/SIPAT and qualified building management with site clusters, and PI/RtReports with time-series aggregation on Windows servers. | §2, Siemens and AVEVA rows | Separate products, server roles and releases. These statements describe source-reported dependencies, not blanket certification. |
+| Laboratory client/server acquisition and instrument control are described as site-VM workloads, while some local instrument controllers remain physical OEM PCs. | §2, Waters/Mettler Toledo/Agilent row | Distinguish application/database servers, acquisition nodes and physical device interfaces; backup protection does not establish that instrument control can migrate. |
+| Octoplant is described as supporting PLC/SCADA version-control and recovery operations. | §2, AUVESY-MDT row | Treat its operational role separately from the current access gap in its server/agent support documentation (OT002). |
+| EC02 states an intended transition from Commvault to Cohesity by the end of 2026. | §2, backup row | Retain as a source-reported plan only. No programme approval, completion status or scope was supplied; OT080/OT081 assess published protection methods separately. |
+| EC02 frames changes within GxP qualification and refers to EU GMP Annex 11/15 and GAMP 5. | §1, governance paragraph and DC Critical bullet | Obtain the applicable site quality/change-control decision and validation scope. This appendix does not turn the source's wording into a legal determination or a universal requirement for full requalification. |
+
+The earlier EC02 compatibility matrix contains broad supplier/platform assertions that were tested and qualified by the current research. Its VMware-dependency narrative is retained here as enterprise context; support conclusions remain those in the current master and evidence matrix. The original grouping of TIA Portal under Rockwell, ambiguous supplier/software identities and OEM/software boundaries remain visible in the research rather than being silently normalized.
+
+### Complete application-source lineage
+
+**How to read:** EC02 §3.x / item n is the nth supplier bullet in that source category, excluding headings. The EC01 column uses the existing original-entry IDs A001–A065; **“EC02 only”** means one of the 14 detailed additions. These inventory cross-reference IDs are distinct from the A-series public-evidence source IDs. Identifiers below are copied from the supplied description, not looked up or validated against a live CMDB. A dash means no identifier was supplied, not that none exists.
+
+| Master ID | Supplier label from EC02 | EC02 locator | EC01 group | Supplied identifier |
+|---|---|---|---|---|
+| OT001 | AVEVA Software, LLC / OSIsoft Inc. | §3.1 / item 1 | A005 | CS-0DM753 |
+| OT002 | AUVESY GmbH / Auvesy-MDT (with Milestone Automation Solutions Ltd.) | §3.1 / item 2 | A007 | CSID 5122051 / CSID 3590269 |
+| OT003 | CIM | §3.1 / item 3 | A011 | CSID 759714 |
+| OT004 | Emerson / Emerson Process Management / Emerson Automation Solutions | §3.1 / item 4 | A001 | CSID 2882751 / CSID 757434 |
+| OT005 | Industrial Automation Systems, Inc | §3.1 / item 5 | A010 | — |
+| OT006 | Körber Pharma Software, Inc. (formerly Werum) | §3.1 / item 6 | A006 | CSID 756669 |
+| OT007 | Rockwell Automation | §3.1 / item 7 | A003 | — |
+| OT008 | Rovisys | §3.1 / item 8 | A009 | — |
+| OT009 | Schneider Electric / Schneider Electric Singapore Pte Ltd | §3.1 / item 9 | A008 | — |
+| OT010 | Siemens | §3.1 / item 10 | A002 | CSID 750375 / CSID 1870216 |
+| OT011 | Yokogawa Engineering Asia Pte Ltd | §3.1 / item 11 | A004 | CSID 894080 |
+| OT012 | 3WS | §3.2 / item 1 | A025 | — |
+| OT013 | Alexanderwerk GmbH | §3.2 / item 2 | A020 | CSID 1573921 |
+| OT014 | Alfa Laval / Alfa Laval Tumba AB | §3.2 / item 3 | A016 | CSID 5856018 |
+| OT015 | AsahiKASEI | §3.2 / item 4 | A023 | CSID 3799795 |
+| OT016 | AZO Controls | §3.2 / item 5 | A025 | — |
+| OT017 | Belimed | §3.2 / item 6 | A022 | CSID 753947 |
+| OT018 | Cytiva Sweden AB (formerly GE Healthcare) | §3.2 / item 7 | A012 | CSID 751451 / CSID 758456 |
+| OT019 | Fette / FETTE Compacting | §3.2 / item 8 | A017 | — |
+| OT020 | Freund-Vector Corporation | §3.2 / item 9 | A019 | — |
+| OT021 | GEA | §3.2 / item 10 | A021 | — |
+| OT022 | Getinge | §3.2 / item 11 | A022 | — |
+| OT023 | Glatt | §3.2 / item 12 | A018 | — |
+| OT024 | ILC Dover | §3.2 / item 13 | A025 | — |
+| OT025 | (Millipore) | §3.2 / item 14 | A014 | CSID 751543 |
+| OT026 | Repligen Corporation & C Technologies, Inc. | §3.2 / item 15 | A015 | CSID 4284243 / CSID 1786311 |
+| OT027 | Sartorius / Sartorius Stedim Systems GmbH / Sartorius Lab Instruments GmbH & Co. KG / Umetrics | §3.2 / item 16 | A013 | CSID 3151604 / CSID 3058332 / CSID 1207479 |
+| OT028 | Thomas Engineering Inc. | §3.2 / item 17 | A024 | — |
+| OT029 | Antares Vision | §3.3 / item 1 | A027 | — |
+| OT030 | Cognex | §3.3 / item 2 | A026 | — |
+| OT031 | EyeC America, LLC & GMS Pacific Pty Ltd | §3.3 / item 3 | A029 | CSID 6775329 |
+| OT032 | SEA Vision | §3.3 / item 4 | A028 | — |
+| OT033 | Alpha Celcius Pte Ltd | §3.4 / item 1 | A035 | CSID 3178081 |
+| OT034 | Amphenol Thermometrics | §3.4 / item 2 | A035 | CSID 757093 |
+| OT035 | Christ Aqua Pharmma & Biotech | §3.4 / item 3 | A032 | — |
+| OT036 | Evoqua Water Technologies | §3.4 / item 4 | A032 | — |
+| OT037 | Lives International | §3.4 / item 5 | A033 | CSID 5302494 |
+| OT038 | MECO | §3.4 / item 6 | A031 | CSID 947227 |
+| OT039 | Puretech | §3.4 / item 7 | A032 | — |
+| OT040 | Sensitech | §3.4 / item 8 | A034 | — |
+| OT041 | Stilmas | §3.4 / item 9 | A030 | CSID 758633 |
+| OT042 | US Filter | §3.4 / item 10 | A032 | — |
+| OT043 | AB Sciex Pte. Ltd. / Beckman Coulter (via Lab Plan) | §3.5 / item 1 | A044 | CSID 1920545 / CSID 753175 |
+| OT044 | Advanced Instruments & Gonotec (via Focus Scientific Solutions Ltd & Resolve Scientific) | §3.5 / item 2 | A053 | CSID 3276347 / CSID 758944 |
+| OT045 | Agilent Technologies / Agilent Technologies LDA UK Ltd. | §3.5 / item 3 | A037 | CSID 4956862 |
+| OT046 | AGU | §3.5 / item 4 | A040 | CSID 6647822 |
+| OT047 | bioMérieux / Biomerieux UK Ltd. | §3.5 / item 5 | A042 | CSID 755561 / CSID 1007021 / CSID 5519591 |
+| OT048 | BioTek (via Mason Technology) | §3.5 / item 6 | A056 | — |
+| OT049 | Bruker / Bruker Singapore Pte Ltd | §3.5 / item 7 | A045 | CSID 4053563 |
+| OT050 | Camag | §3.5 / item 8 | A057 | — |
+| OT051 | Charles River Microbial Solutions International Limited | §3.5 / item 9 | A041 | CSID 1542612 |
+| OT052 | Chatillon | §3.5 / item 10 | A057 | — |
+| OT053 | Climet Instruments Company (via Optical Sciences Ireland Ltd.) | §3.5 / item 11 | A051 | CSID 752746 / CSID 752879 |
+| OT054 | IPC | §3.5 / item 12 | EC02 only | — |
+| OT055 | LabWare, Inc. | §3.5 / item 13 | EC02 only | — |
+| OT056 | Lighthouse | §3.5 / item 14 | A057 | — |
+| OT057 | Mason Technology / Midwest Information Systems | §3.5 / item 15 | EC02 only | CSID 756484 |
+| OT058 | MBV AG (via Optical Sciences Ireland Ltd.) | §3.5 / item 16 | A051 | CSID 3008327 |
+| OT059 | Metrohm | §3.5 / item 17 | A049 | CSID 1446657 |
+| OT060 | Mettler Toledo | §3.5 / item 18 | A039 | CSID 750092 / CSID 757405 |
+| OT061 | Mitutoyo / Mitutoyo PTE LTD | §3.5 / item 19 | A057 | — |
+| OT062 | Molecular Devices | §3.5 / item 20 | A050 | CSID 752980 |
+| OT063 | Nova Biomedical (via Fannin Ltd) | §3.5 / item 21 | A054 | — |
+| OT064 | OGP (Optical Gaging Products) | §3.5 / item 22 | A057 | — |
+| OT065 | PerkinElmer | §3.5 / item 23 | A046 | — |
+| OT066 | Rapid Micro Biosystems, Inc. (with Fisher Scientific Ireland) | §3.5 / item 24 | A052 | CSID 5895121 / CSID 753056 |
+| OT067 | Roche Diagnostics GmbH | §3.5 / item 25 | A043 | CSID 756993 |
+| OT068 | Shimadzu Scientific Instruments, Inc. (with Mason Technology & Teledyne CETAC Technologies) | §3.5 / item 26 | A047 | CSID 3128480 |
+| OT069 | Siemens Healthcare Diagnostics Manufacturing (via Cruinn Diagnostics Limited) | §3.5 / item 27 | A055 | CSID 756374 |
+| OT070 | Sotax / Sotax AG | §3.5 / item 28 | A048 | — |
+| OT071 | ThermoFisher Scientific (ThermoFisher Scientific-ACFM / Ireland) | §3.5 / item 29 | A038 | CSID 756438 |
+| OT072 | Waters Corporation | §3.5 / item 30 | A036 | CSID 1104163 |
+| OT073 | Accenture | §3.6 / item 1 | A064 | CSID 3559264 |
+| OT074 | Acronis, Incorporated | §3.6 / item 2 | A061 | — |
+| OT075 | AJJITEC MEXICANA S.A. DE C.V | §3.6 / item 3 | EC02 only | CSID 6891225 |
+| OT076 | AliHealth China | §3.6 / item 4 | EC02 only | CSID 4432424 |
+| OT077 | Appian | §3.6 / item 5 | A065 | — |
+| OT078 | AWS (Amazon Web Services) | §3.6 / item 6 | EC02 only | — |
+| OT079 | Cognizant Technology Solutions | §3.6 / item 7 | A064 | CSID 3576173 |
+| OT080 | Cohesity | §3.6 / item 8 | EC02 only | — |
+| OT081 | Commvault | §3.6 / item 9 | A061 | — |
+| OT082 | Dynamic Security LLC & Lenel | §3.6 / item 10 | A063 | — |
+| OT083 | Hexagon | §3.6 / item 11 | A058 | CSID 6768821 |
+| OT084 | Hyland | §3.6 / item 12 | EC02 only | — |
+| OT085 | Kneat | §3.6 / item 13 | A060 | — |
+| OT086 | Global Solutions | §3.6 / item 14 | EC02 only | — |
+| OT087 | MetricStream | §3.6 / item 15 | A065 | — |
+| OT088 | OpenText Inc. | §3.6 / item 16 | EC02 only | — |
+| OT089 | Oracle & SailPoint | §3.6 / item 17 | EC02 only | — |
+| OT090 | Prime Technologies | §3.6 / item 18 | A059 | — |
+| OT091 | Revvity Signals Software | §3.6 / item 19 | A065 | — |
+| OT092 | SAP | §3.6 / item 20 | EC02 only | — |
+| OT093 | ServiceNow, Inc. | §3.6 / item 21 | EC02 only | — |
+| OT094 | Sparta Systems Inc. | §3.6 / item 22 | A065 | — |
+| OT095 | SuccessFactors | §3.6 / item 23 | EC02 only | — |
+| OT096 | Synergis | §3.6 / item 24 | A062 | CSID 5895100 |
+| OT097 | Veeva Systems Inc. | §3.6 / item 25 | A065 | CSID 3231575 |
+
+### Provenance handoff for an installed-estate decision
+
+The supplied documents establish **why each research entry was included** and preserve its source label and supplied identifier. To validate the actual estate, the next handoff needs the underlying record/export, extraction date, owning team/site, actual software/component and release, current hosting location and criticality, plus the applicable vendor/OEM support and quality approvals. These fields were not inferred from registry names or public vendor pages.
+
+**Appendix reconciliation:** all 97 EC02 supplier labels and descriptions match the existing master in source order; all 65 EC01 groups remain mapped; the two attached report copies are deduplicated; no inventory entry, support classification or external evidence reference is changed by this appendix.
 
 [A01]: https://www.cohesity.com/platform/dataprotect/
 [A02]: https://www.nutanix.com/en_gb/partners/technology-alliances/cohesity
