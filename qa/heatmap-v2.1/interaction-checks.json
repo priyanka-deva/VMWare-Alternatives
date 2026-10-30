@@ -1,0 +1,7 @@
+{
+  "checks": 36,
+  "passed": true,
+  "requirement_statements_checked": 97,
+  "technical_details_checked": 1164,
+  "method": "Actual report JavaScript executed in a minimal DOM model; browser layout not verified"
+}

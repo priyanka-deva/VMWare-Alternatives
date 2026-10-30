@@ -1,0 +1,14 @@
+{
+  "execution_statements_reconciled": 97,
+  "platform_codes_unchanged": 1164,
+  "original_inventory_identities_and_descriptions_unchanged": 97,
+  "original_groups_unchanged": 65,
+  "enterprise_context_sections_unchanged": 7,
+  "source_definitions": 163,
+  "distinct_urls": 160,
+  "requirements_csv_rows": 97,
+  "requirements_csv_columns": 7,
+  "technical_csv_rows": 691,
+  "technical_csv_columns": 23,
+  "passed": true
+}

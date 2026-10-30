@@ -11,8 +11,8 @@ import re
 from collections import Counter
 
 ROOT = Path(__file__).resolve().parents[1]
-VERSION = '2.0'
-BASE_COMMIT = '373fcd9407dea1a186eb08fbc5c909d664dd39b1'
+VERSION = '2.1'
+BASE_COMMIT = '40f8536cc83eb6d1fa8bd4cc5ffc4f1c229785bd'
 MASTER_NAME = 'OT_Master_Roster_Alternative_Support_2026-10-30'
 HEATMAP_NAME = 'OT_Application_Support_Heatmap_2026-10-30'
 MASTER = ROOT / 'reports' / (MASTER_NAME + '_v' + VERSION + '.md')
@@ -61,7 +61,7 @@ def citations(text, sources):
 
 def parse_register(text):
     definitions=dict(re.findall(r'^\[([ASPN]\d+)\]:\s*(https://\S+)',text,re.M))
-    assert len(definitions)==158, 'Source inventory drift'
+    assert len(definitions)==163, 'Source inventory drift'
     sources={k:{'id':k,'url':v,'title':'','note':''} for k,v in definitions.items()}
     for line in text.splitlines():
         if not line.startswith('| '): continue
@@ -89,6 +89,10 @@ def parse_register(text):
         v['qualification']=access.get(k,'')
     sources['N18']['qualification']='Manufacturer-authored brochure on a third-party host; legacy architecture only'
     sources['N20']['qualification']='Manufacturer-authored 2020 addendum on a third-party host; release match required'
+    sources['N24']['qualification']='Previously inspected brochure; publisher route returned 404 in the execution-requirement review'
+    sources['S17']['qualification']='Historical 2014 guide; route timed out in the execution-requirement review'
+    sources['N28']['qualification']='AUVESY-authored 23 January 2018 requirements on a partner host; historical prerequisites only'
+    sources['N30']['qualification']='Release-specific Empower 3.8.0 guide; not an installed-release match'
     sources['N26']['qualification']='Manufacturer-authored user-guide page on a third-party host; component scope only'
     matrix_section=text.split('## Complete roster–platform evidence matrix',1)[1].split('\n## ',1)[0]
     status_descriptions={}
@@ -112,6 +116,13 @@ def parse_register(text):
             applicability[c[0]]={'category':c[1],'unit':c[2],'relevance':c[3],
                                    'nextStep':c[4],'references':citations(c[5],sources)}
     assert len(applicability)==97
+    execution_section=text.split('### Complete execution requirement statements — all 97 records',1)[1].split('\n## ',1)[0]
+    execution={}
+    for line in execution_section.splitlines():
+        if re.match(r'^\| OT\d{3} \|',line):
+            c=cells(line);assert len(c)==4
+            execution[c[0]]={'statement':c[2],'references':citations(c[3],sources)}
+    assert len(execution)==97
     scope_section=text.split('## Inventory scope review — every former I entry',1)[1].split('\n## ',1)[0]
     scope_records={}
     for line in scope_section.splitlines():
@@ -148,8 +159,8 @@ def parse_register(text):
                  'inventoryContext':m['codes']==['W']*12,
                  'scopeReview':scope_records.get(c[0]),
                  'history':[h for h in history if re.search(r'\b'+c[0]+r'\b',h['boundary'])],
-                 'applicability':applicability[c[0]]}
-            row['references']=list(dict.fromkeys(row['references']+row['applicability']['references']))
+                 'applicability':applicability[c[0]],'execution':execution[c[0]]}
+            row['references']=list(dict.fromkeys(row['references']+row['applicability']['references']+row['execution']['references']))
             for code in row['codes']:
                 assert all(part in LABELS for part in code.split('/')), code
             rows.append(row)
@@ -167,7 +178,7 @@ def parse_register(text):
         if re.match(r'^\| A\d{3} \|',line):
             c=cells(line);original_groups.append({'id':c[0],'supplier':c[1],'description':c[2],'rows':c[3]})
     assert len(original_groups)==65
-    appendix=text.split('## Appendix — Enterprise Context',1)[1].split('\n## Fresh applicability source register',1)[0].split('\n[A01]:',1)[0]
+    appendix=text.split('## Appendix — Enterprise Context',1)[1].split('\n## ',1)[0].split('\n[A01]:',1)[0]
     lineage=[]
     for line in appendix.splitlines():
         if re.match(r'^\| OT\d{3} \|',line):
@@ -189,7 +200,7 @@ def parse_register(text):
         'platforms':[{'id':p[0],'name':p[1],'sub':p[2]} for p in PLATFORMS],
         'rows':rows,'sources':sources,'statuses':statuses,'originalGroups':original_groups,
         'contextSections':context_sections,'history':history,'scopeReview':scope_records,
-        'applicability':applicability,
+        'applicability':applicability,'execution':execution,
         'counts':{'rows':97,'platforms':12,'cells':1164,'categories':6,'sources':len(sources),'urls':len(set(definitions.values())),
                   'groups':65,'mappedRows':83,'detailedOnly':14,'backupRows':3,'hostedRows':3,
                   'inventoryContext':43,'assessmentRows':54,'softwareIdentity':4}}
@@ -213,7 +224,7 @@ def main():
             'all_cell_codes_copied_from_markdown':True,'external_requests':0,
             'html_sha256':hashlib.sha256(html.encode()).hexdigest()}
     report.update({'inventory_context_rows':43,'software_identity_rows':4,
-                   'dated_history_records':6,'H_rows_with_dates':4})
+                   'dated_history_records':6,'H_rows_with_dates':4,'execution_statements':len(data['execution'])})
     qa=ROOT/('qa/heatmap-v'+VERSION)
     qa.mkdir(parents=True,exist_ok=True)
     (qa/'data-reconciliation.json').write_text(json.dumps(report,indent=2))
