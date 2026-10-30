@@ -5,11 +5,125 @@ Merck Enterprise Technology Innovation
 Global Technology  
 **As of:** 30 October 2026  
 **Classification:** Internal use only  
-**Basis:** The committed master remains the sole research register. This revision adds a fresh, targeted documentation inspection and an applicability review for all 97 supplied records. Deployment applicability and published hypervisor support are separate judgments; neither proves the installed estate. Original supplier identities and descriptions remain unchanged.
+**Basis:** The Markdown is the sole research register. This revision adds a documented execution-requirement statement for each of the 97 records and separates that question from optional VM compatibility and backup interoperability. Original inventory identities and descriptions remain intact.
+
+## Execution requirements — one statement per roster entry
+
+**Leadership read:** requiring a hypervisor to run and being supported on a selected hypervisor are different questions. Octoplant has a documented physical-server option; it must not be presented as dependent on a hypervisor merely because a named-platform support statement is unresolved. [N27] The inspected versiondog requirements are historical and separately dated. [N28]
+
+The default report view presents one plain-language execution statement per record, with sources and component/release boundaries. It does not assign requirement codes or repeat a requirement across twelve platform columns. Published VM compatibility and backup interoperability remain available in the separate **Published VM support** view and technical evidence matrix for cases where virtual deployment or VM protection is being considered.
+
+Every supplied record was reviewed. The live route pass revisited 87 existing documentation routes; 83 returned readable material and four did not. Relevant installation, workstation, native/container and physical/VM passages were inspected in targeted follow-ups. Readable route counts are not a claim of complete inspection of every page of every manual. Product overviews do not establish technical prerequisites; unidentified applications and unconfirmed deployment editions remain explicitly unresolved. A Windows OS list alone is not proof of physical-only operation, and absence of a hypervisor in a prerequisite list is reported as that limited finding.
+
+**Material distinction:** Project Configuration Tool 2 for Windows requires Hyper-V, while its Linux edition runs natively; this does not establish a Hyper-V requirement for all EcoStruxure production components. [S13] Appian 25.4+ self-managed cores require Kubernetes containers, which must not be equated with a mandatory hypervisor. [A22]
+
+### Complete execution requirement statements — all 97 records
+
+| Master ID | Supplier / application | Execution requirement statement | Evidence |
+|---|---|---|---|
+| OT001 | AVEVA Software, LLC / OSIsoft Inc. | The retained PI guide describes physical and virtual deployment; current PI, interface and RtReports release requirements must be matched before asserting a hypervisor prerequisite. | [A83] [N09] |
+| OT002 | AUVESY GmbH / Auvesy-MDT (with Milestone Automation Solutions Ltd.) | Octoplant does not require a hypervisor because AMDT expressly permits physical-server deployment; versiondog's inspected 2018 requirements specify a Windows server, with its installed release and current support terms still to confirm. | [N27] [N28] [N16] [N17] |
+| OT003 | CIM | The exact CIM-integrated PM-Server product is unidentified, so its execution requirements cannot be determined from this inventory label. | EC02 inventory; no matched technical prerequisite established |
+| OT004 | Emerson / Emerson Process Management / Emerson Automation Solutions | DeltaV has physical workstation/server options, so a hypervisor is not a universal requirement; selecting DeltaV Virtual Studio for HCI creates a separate Hyper-V dependency for that virtualized configuration. | [N29] [S01] |
+| OT005 | Industrial Automation Systems, Inc | This is a custom automation supplier record; identify the delivered control application before determining its execution requirements. | [N21] |
+| OT006 | Körber Pharma Software, Inc. (formerly Werum) | NextGen PAS-X has a published cloud-native deployment model, but the inspected announcement does not establish a mandatory hypervisor or the infrastructure requirements of the installed PAS-X release. | [S14] |
+| OT007 | Rockwell Automation | FactoryTalk Services Platform 6.60 specifies Windows and host-computer resources without a hypervisor prerequisite; the installed FactoryTalk View/PlantPAx components require their own release match. | [S08] [S35] |
+| OT008 | Rovisys | RoviSys supplies integrated control systems rather than one named application; determine the delivered HMI, SCADA, historian and server components before assessing a hypervisor requirement. | [N22] |
+| OT009 | Schneider Electric / Schneider Electric Singapore Pte Ltd | Project Configuration Tool 2 requires Hyper-V on Windows but runs natively on Linux; this engineering-tool requirement must not be assigned to every EcoStruxure production server or controller. | [S13] |
+| OT010 | Siemens | TIA Portal V21 STEP 7/WinCC engineering packages can run on a suitable Windows PC without a hypervisor; optional VM deployment and other Siemens components have separate requirements. | [S05] |
+| OT011 | Yokogawa Engineering Asia Pte Ltd | The HY-V option specifically requires Microsoft's Hyper-V platform; the exact Yokogawa application and whether it uses HY-V are not identified in this record. | [S02] |
+| OT012 | 3WS | The supplied dispensing-system identity is not securely matched to the public 3WS software namesake, so a hypervisor requirement cannot be assigned. | [A78] |
+| OT013 | Alexanderwerk GmbH | The roller compactor is physical equipment; identify the delivered FactoryTalk View runtime, PC and controller roles before stating the software's hypervisor requirement. | [S08] |
+| OT014 | Alfa Laval / Alfa Laval Tumba AB | Culturefuge is documented as equipment with integrated controls; a hypervisor requirement for separately delivered HMI or monitoring software is not established by that equipment description. | [N23] |
+| OT015 | AsahiKASEI | The inspected page identifies filter-test equipment, not a release-specific software deployment; confirm the data-acquisition application before deciding whether it needs a hypervisor. | [A79] |
+| OT016 | AZO Controls | The record identifies dispensing equipment and controls without an assessable software product, so its software execution requirements remain to be identified. | EC02 inventory; no matched technical prerequisite established |
+| OT017 | Belimed | Washer/autoclave controls and optional central software are separate components; Belimed's virtualization service does not establish that a hypervisor is required by this installed system. | [A27] [N07] |
+| OT018 | Cytiva Sweden AB (formerly GE Healthcare) | The inspected Figurate architecture is a related virtualized system rather than proof of the listed UNICORN installation, so a mandatory hypervisor cannot be assigned to this record. | [S32] |
+| OT019 | Fette / FETTE Compacting | Fette documents embedded Windows control-system upgrades; the installed press-control software and any external servers must be identified before asserting a hypervisor requirement. | [A65] |
+| OT020 | Freund-Vector Corporation | COMPU control equipment and its SCADA software must be separated; the previously inspected brochure did not establish a mandatory hypervisor and its publisher route now returns 404. | EC02 inventory; no matched technical prerequisite established |
+| OT021 | GEA | The IBC blender is equipment; identify its actual PLC, HMI and any external recipe/data software before assessing software execution requirements. | [A66] |
+| OT022 | Getinge | The washer/sterilizer HMI announcement does not establish a mandatory hypervisor; the installed WinCC generation, controller and external server roles require confirmation. | [A29] |
+| OT023 | Glatt | The Glatt skid and its actual iFIX component must be identified separately; another customer's virtualized iFIX deployment does not establish a hypervisor prerequisite for this skid. | [S20] |
+| OT024 | ILC Dover | The supplied record names PLC/panel equipment without a specific hostable application, so the software's execution requirements cannot yet be determined. | EC02 inventory; no matched technical prerequisite established |
+| OT025 | (Millipore) | The filter-integrity instrument and any separately installed data-management application must be identified before a hypervisor requirement can be stated. | EC02 inventory; no matched technical prerequisite established |
+| OT026 | Repligen Corporation & C Technologies, Inc. | The inspected SoloVPE 3.1 specification describes a Windows control PC without a hypervisor prerequisite; ATF, PLUS and other Repligen components remain separate assessments. | [S33] |
+| OT027 | Sartorius / Sartorius Stedim Systems GmbH / Sartorius Lab Instruments GmbH & Co. KG / Umetrics | The grouped freeze-thaw, filling and analytics systems do not identify one software deployment, so their execution requirements must be determined component by component. | EC02 inventory; no matched technical prerequisite established |
+| OT028 | Thomas Engineering Inc. | The coater-control upgrade page does not establish a hypervisor prerequisite; confirm the installed HMI/runtime and control-PC requirements. | [A67] |
+| OT029 | Antares Vision | The track-and-trace offering spans line, site and enterprise components, and the inspected product page does not establish one common hypervisor prerequisite for those tiers. | [A64] |
+| OT030 | Cognex | VisionPro Deep Learning and Deep Learning Service 4.2 do not require a hypervisor and are explicitly excluded from VMs; the installed Cognex product has not been identified as either component. | [N05] |
+| OT031 | EyeC America, LLC & GMS Pacific Pty Ltd | The inspected EyeC Proofiler RS specification describes a Windows-based system without a hypervisor prerequisite; confirm the supplied scanner/software model and release. | [A34] |
+| OT032 | SEA Vision | The Yudoo suite's inspected product overview does not establish a mandatory hypervisor; obtain the installed line/site/server component requirements. | [A35] |
+| OT033 | Alpha Celcius Pte Ltd | The environmental-equipment/service record does not identify an EMS or other software product, so its software execution requirements cannot be determined. | [A36] |
+| OT034 | Amphenol Thermometrics | The inspected Thermometrics evaluation kit uses Windows PC software, but it is not a verified match to the supplied calibration-equipment record and cannot establish that record's hypervisor requirement. | [A37] |
+| OT035 | Christ Aqua Pharmma & Biotech | The water-system record identifies equipment and a WinCC reference without the installed software release or node role, so a hypervisor requirement cannot be assigned. | EC02 inventory; no matched technical prerequisite established |
+| OT036 | Evoqua Water Technologies | The inspected Rivo control-system page is a related product lead, not a confirmed match to the supplied Evoqua system or its software execution requirements. | [A38] |
+| OT037 | Lives International | XpertLog is documented as data-collection software, but the inspected product page does not establish the installed release's physical/virtual prerequisites. | [A39] |
+| OT038 | MECO | MECO offers SCADA/HMI virtualization services, but this does not make a hypervisor mandatory for every WFI control system or identify the installed software configuration. | [A28] |
+| OT039 | Puretech | The Genesys water-system page does not establish the execution requirements of the installed HMI/data-logging software, which must be identified separately. | [A40] |
+| OT040 | Sensitech | TempTale devices, local software and hosted services have different execution models; the actual product and deployment must be identified before stating a hypervisor requirement. | [A41] |
+| OT041 | Stilmas | The clean-steam generator is equipment, and any separate control/HMI or logging application must be identified before determining its execution requirements. | [A42] |
+| OT042 | US Filter | The legacy water-system label and WinCC reference do not identify a current software release or hosting role, so a hypervisor requirement cannot be determined. | EC02 inventory; no matched technical prerequisite established |
+| OT043 | AB Sciex Pte. Ltd. / Beckman Coulter (via Lab Plan) | The PA 800 Plus January 2026 guide specifies a supplied Windows controller without a hypervisor prerequisite; Biomek control software and any alternative controller remain separate, OEM-qualified configurations. | [A31] |
+| OT044 | Advanced Instruments & Gonotec (via Focus Scientific Solutions Ltd & Resolve Scientific) | OsmoTECH XT's documented onboard operation does not require a customer hypervisor; optional external software and the grouped Osmomat/Sievers systems require separate product identification. | [N26] |
+| OT045 | Agilent Technologies / Agilent Technologies LDA UK Ltd. | OpenLab CDS 3.0 documents a workstation configuration without a hypervisor requirement, but that related product cannot establish the execution requirements of every listed Vaya, Cary or dissolution component. | [S12] |
+| OT046 | AGU | The SDC middleware page identifies a software integration product but does not provide an inspected release-specific hypervisor prerequisite; obtain its actual server/runtime requirements. | [A44] |
+| OT047 | bioMérieux / Biomerieux UK Ltd. | BACT/ALERT equipment and any extraction/control or middleware software must be separated; the inspected instrument overview does not establish one hypervisor requirement for the grouped entry. | [A45] |
+| OT048 | BioTek (via Mason Technology) | The BioTek 405 TS runs onboard protocols without a hypervisor; optional LHC2/LHC2 Secure PC control is a separate software workload requiring its own installation requirements. | [A46] |
+| OT049 | Bruker / Bruker Singapore Pte Ltd | The inspected MALDI library page does not establish execution prerequisites for the actual Bruker acquisition/analysis applications, which must be identified by product and release. | [A47] |
+| OT050 | Camag | The inspected visionCATS 4.2 requirements describe a Windows PC installation without a hypervisor prerequisite and treat VM deployment separately, subject to processor-feature and component-role restrictions. | [A32] |
+| OT051 | Charles River Microbial Solutions International Limited | EndoScan-V 6.0 specifies Windows PC/server requirements without a hypervisor prerequisite; the installed reader, client, services and database roles must match that release. | [A48] |
+| OT052 | Chatillon | ForceTest's inspected manual specifies Windows and PC resources without a hypervisor prerequisite; the actual Chatillon instrument/software release must match the manual. | [A49] |
+| OT053 | Climet Instruments Company (via Optical Sciences Ireland Ltd.) | The inspected legacy DataPro 3 brochure specifies Windows-compatible computers rather than a mandatory hypervisor; confirm whether the installation uses DataPro 3, DataPro 2.5e or FMS and obtain current requirements. | [N18] |
+| OT054 | IPC | IPC is not securely mapped to the candidate IptDataLogging product, so its software execution requirements cannot be determined from this record. | [A51] |
+| OT055 | LabWare, Inc. | LabWare offers self-hosted and provider-hosted deployments, but its public overview does not establish a release-specific physical/VM prerequisite for the supplied GLIMS installation. | [N31] [S18] [A33] |
+| OT056 | Lighthouse | The Lighthouse analyzer model and its acquisition/database software are not identified sufficiently to determine a hypervisor prerequisite. | [A52] |
+| OT057 | Mason Technology / Midwest Information Systems | This is a distributor/software-services record rather than one named application; identify the OEM product and release before assessing execution requirements. | [A53] |
+| OT058 | MBV AG (via Optical Sciences Ireland Ltd.) | The MAS-100 ISO NT manual describes instrument operation with Windows C&C software without a hypervisor prerequisite; the installed model, software and connection requirements must match that manual. | [A54] |
+| OT059 | Metrohm | The grouped Metrohm NIR/titration record does not identify one software product or release, so no common hypervisor prerequisite can be assigned from the tiamo product page. | [A55] |
+| OT060 | Mettler Toledo | The retained 2014 LabX guide describes direct hardware installation as well as virtualization, but its route timed out in this pass and current release requirements remain unconfirmed. | [S17] |
+| OT061 | Mitutoyo / Mitutoyo PTE LTD | The inspected QV system offer includes a Windows Dell PC and QVPAK rather than a mandatory hypervisor; confirm the installed QV model, software and OEM controller configuration. | [A56] |
+| OT062 | Molecular Devices | SoftMax Pro's inspected licence permits physical or virtual computers, so a hypervisor is not intrinsically required; the installed release's technical requirements and acquisition role remain to be matched. | [A10] [N11] |
+| OT063 | Nova Biomedical (via Fannin Ltd) | The BioProfile analyzer and any external software/integrations must be distinguished; the inspected product overview does not establish a mandatory hypervisor for separately hosted components. | [A57] |
+| OT064 | OGP (Optical Gaging Products) | The Focus Contour record identifies optical equipment without a securely matched software deployment, so a software hypervisor prerequisite cannot be determined. | [A58] |
+| OT065 | PerkinElmer | The Frontier/Spectrum FAQ specifies version-dependent Windows software rather than a hypervisor prerequisite; the separately listed ELN is unidentified and must not inherit that finding. | [N25] |
+| OT066 | Rapid Micro Biosystems, Inc. (with Fisher Scientific Ireland) | The Growth Direct implementation overview does not establish execution prerequisites for every instrument, software, LIMS interface and recovery component; obtain the installed architecture. | [A59] |
+| OT067 | Roche Diagnostics GmbH | The Roche-authored October 2020 Cedex HiRes addendum specifies a Roche control unit/Windows image rather than a mandatory hypervisor, with limited support on other hardware and an installed-release match required. | [N20] |
+| OT068 | Shimadzu Scientific Instruments, Inc. (with Mason Technology & Teledyne CETAC Technologies) | The inspected LabSolutions brochure describes workstation and central-server choices, but it cannot establish a common hypervisor prerequisite across the grouped Shimadzu/CETAC instruments and releases. | [A61] |
+| OT069 | Siemens Healthcare Diagnostics Manufacturing (via Cruinn Diagnostics Limited) | RAPIDComm 7.1 expressly supports a physical or virtual server, so its server does not require a hypervisor; the listed blood-gas instruments are separate components and not confirmed to use RAPIDComm. | [N08] |
+| OT070 | Sotax / Sotax AG | The q-doc product page does not establish a mandatory hypervisor for the installed release; distinguish the data-management software from AT70 instrument control and obtain their requirements. | [S21] |
+| OT071 | ThermoFisher Scientific (ThermoFisher Scientific-ACFM / Ireland) | BindIt 4's inspected manual specifies a Windows PC and instrument interfaces without a hypervisor prerequisite; the grouped PCR and ACFM components require separate software identification. | [A62] |
+| OT072 | Waters Corporation | Empower 3.8.0 documents a standalone Personal workstation, so a hypervisor is not a universal Empower requirement; Enterprise server virtualization and instrument-acquisition roles have separate support conditions. | [N30] [S09] |
+| OT073 | Accenture | Accenture is an integration/service provider in this record; identify the delivered MES/OT software before stating its execution requirements. | [A68] |
+| OT074 | Acronis, Incorporated | Acronis protects physical and virtual workloads using different agents/methods; the hypervisor comparison concerns VM protection, while the installed product's own hosting requirements depend on its edition and components. | [S24] |
+| OT075 | AJJITEC MEXICANA S.A. DE C.V | The regional provider record does not identify one application, so a hypervisor requirement cannot be determined until the delivered software and support owner are known. | [A69] |
+| OT076 | AliHealth China | The AliHealth legal entity, service and customer/provider responsibilities are not identified sufficiently to determine a software execution requirement. | EC02 inventory; no matched technical prerequisite established |
+| OT077 | Appian | Appian 25.4 and later self-managed cores require Kubernetes-managed containers, which is not itself a mandate for a hypervisor; the CLUE mapping, supported Kubernetes infrastructure and separate RPA agents must be confirmed. | [A22] |
+| OT078 | AWS (Amazon Web Services) | Amazon EVS specifically provides VMware Cloud Foundation on EC2 bare-metal hosts, so its VMware hypervisor is part of that selected service; the MANTIS/RAFT applications' own prerequisites remain separate. | [A24] |
+| OT079 | Cognizant Technology Solutions | Cognizant is an integration/service provider in this record; its virtualization white paper does not determine the execution requirements of delivered ISV/custom applications. | [A70] |
+| OT080 | Cohesity | Cohesity's VMware coverage concerns backup/recovery interoperability, not a claim that all Cohesity software requires VMware; DataProtect hosting and each protection/restore method must be scoped separately. | [S37] [N01] |
+| OT081 | Commvault | Commvault's platform matrix describes protection interoperability rather than a universal hypervisor prerequisite for Commvault; identify the installed management, media and access-node deployment requirements separately. | [A06] |
+| OT082 | Dynamic Security LLC & Lenel | The inspected OnGuard guide distinguishes physical resource sizing from optional VM certification; a hypervisor is not established as mandatory, and core, communication, NVR and video-client roles require separate release matching. | [A74] |
+| OT083 | Hexagon | The retained HxGN EAM requirements route and its alternate return 404, so a current hypervisor prerequisite is not verified; obtain the installed EAM release's deployment requirements from its support owner. | EC02 inventory; no matched technical prerequisite established |
+| OT084 | Hyland | OnBase's virtual-environment policy describes an optional deployment context, but DRBCS/MEDS has not been confirmed as OnBase, so the supplied solution's execution prerequisites remain unidentified. | [A75] |
+| OT085 | Kneat | The eVal-to-Kneat product and SaaS/on-premise mapping remain unconfirmed, so a hypervisor requirement cannot be assigned from the inaccessible related SaaS article. | EC02 inventory; no matched technical prerequisite established |
+| OT086 | Global Solutions | The internal solution aliases do not identify their commercial/custom runtimes or hosting owners, so a hypervisor prerequisite cannot be determined without component mapping. | EC02 inventory; no matched technical prerequisite established |
+| OT087 | MetricStream | MetricStream publishes a SaaS model, but EEOL/QRMS has not been matched to that offering or a customer-hosted deployment, so the installed execution requirements remain unconfirmed. | [A25] |
+| OT088 | OpenText Inc. | MEDS is not confirmed as Documentum or another OpenText product, so related VM/container product material cannot establish its hypervisor prerequisite. | [A84] |
+| OT089 | Oracle & SailPoint | The SailPoint Identity Services virtual appliance requires its supported virtual/cloud deployment, but it is not IdentityIQ core or an identified Oracle application, so the grouped entry needs component-specific requirements. | [A12] [A13] |
+| OT090 | Prime Technologies | The ProCal edition and hosting model must be identified because the inspected current pricing page describes hosted offerings and does not establish the execution prerequisites of a legacy ProCalV5 installation. | [A77] |
+| OT091 | Revvity Signals Software | Signals Notebook's published SaaS core does not require a customer-installed hypervisor; any local connectors or integration software require separate assessment. | [A19] |
+| OT092 | SAP | COMET/IPI has not been mapped to exact SAP application, database and infrastructure releases, so no universal hypervisor prerequisite can be assigned from general SAP virtualization guidance. | [A76] [A15] |
+| OT093 | ServiceNow, Inc. | ServiceNow offers provider-hosted and self-hosted models, so the actual offering and any local integration/MID servers must be identified before assigning execution prerequisites. | [A18] |
+| OT094 | Sparta Systems Inc. | TrackWise and TrackWise Digital are different deployment offerings, and QSAT/QCTS has not been mapped to an exact edition and release, so its hypervisor requirement remains unconfirmed. | [A85] [A86] |
+| OT095 | SuccessFactors | SuccessFactors Learning's published hosted core does not require a customer-installed hypervisor; confirm MyLearning's tenant mapping and any customer-operated adjuncts separately. | [A81] |
+| OT096 | Synergis | Adept Spring 26 specifies server resources and permits VM platforms when those requirements are met, so a hypervisor is not listed as a mandatory runtime prerequisite; match the installed server/database roles. | [S30] |
+| OT097 | Veeva Systems Inc. | Veeva Vault's published provider-hosted core does not require a customer-installed hypervisor; customer-operated integrations and any local software have separate requirements. | [A21] |
+
+The original inventory identities and descriptions are preserved. A statement about a documented component or legacy release must not be inherited by an entire supplier, grouped equipment record or unidentified internal solution. The current installed estate is not certified by this execution review.
 
 ## Deployment applicability — leadership findings
 
-**Leadership decision:** build the hypervisor qualification shortlist from identifiable software components. Keep physical equipment, supplier records, hosted cores and backup protection in their own decision scopes. An inventory of 97 supplier/application entries is not 97 VM migration candidates.
+**Supporting scope context:** the execution statements above take precedence for prerequisite wording; build any optional virtual-deployment qualification shortlist from identifiable software components. Keep physical equipment, supplier records, hosted cores and backup protection in their own decision scopes. An inventory of 97 supplier/application entries is not 97 VM migration candidates.
 
 **Applicability comes before compatibility.** Identify the installed product/release and component role; inspect its deployment architecture, hardware/interface requirements and licensing; check explicit VM permissions or exclusions; then qualify the specific hypervisor/OS/database and OEM configuration. A USB/serial interface, Windows support, a network connection or a vendor name alone cannot establish VM eligibility or ineligibility.
 
@@ -28,7 +142,7 @@ The fresh pass reopened 78 existing documentation routes and inspected targeted 
 | Backup protection | Compare protection methods and restore paths; backup interoperability is not application-hosting approval. |
 | Mixed / deployment to confirm | Separate the components and confirm the software identity and deployment model before assigning applicability. |
 
-The category describes the **assessment unit or lead listed below**, not every product sold by a supplier. Equipment-only and supplier records are outside direct VM-hosting assessment at that record level; attached or delivered software still needs assessment. Container applications retain infrastructure dependencies and are not automatically outside virtualization scope. A workstation remains a conditional candidate unless the manufacturer explicitly excludes the named component from VMs. Public product architecture does not independently establish how the internal installation is deployed.
+These supporting deployment categories are inventory metadata, not hypervisor requirement classifications. The category describes the **assessment unit or lead listed below**, not every product sold by a supplier. Equipment-only and supplier records are outside direct VM-hosting assessment at that record level; attached or delivered software still needs assessment. Container applications retain infrastructure dependencies and are not automatically outside virtualization scope. A workstation remains a conditional candidate unless the manufacturer explicitly excludes the named component from VMs. Public product architecture does not independently establish how the internal installation is deployed.
 
 ### Material documentation findings
 
@@ -248,6 +362,8 @@ The documented search pass ran **194 fresh queries: two per roster entry**, cove
 **Leadership interpretation:** the matrix below is a record of published evidence, including unresolved cases. It is not a migration approval, a certification of the installed estate, or a ranking by raw green-cell count. No assumption of support is made from shared KVM technology, supported guest OS, VMware installation history, cloud hosting, database support, backups or successful VM import. A product-specific restriction takes precedence over a general policy for that same release/component.
 
 ## Complete roster–platform evidence matrix
+
+This is the technical record of published VM support or backup interoperability if that deployment/protection method is selected. These codes do not state whether a hypervisor is required. Use the execution statements at the start of the register for that question.
 
 Every one of the 97 roster entries has an explicit disposition for each of 12 platform columns (**1,164 cells**). Read the evidence/scope column and full roster before using a cell. A status concerns only the component the source actually names, never all products of a supplier.
 
@@ -1290,6 +1406,112 @@ The supplied documents establish **why each research entry was included** and pr
 
 **Appendix reconciliation:** all 97 EC02 supplier labels and descriptions match the existing master in source order; all 65 EC01 groups remain mapped; the two attached report copies are deduplicated; no inventory entry, support classification or external evidence reference is changed by this appendix.
 
+## Execution requirement source additions and inspection record
+
+Sources added for this pass were opened on 30 October 2026. Manufacturer-authored partner republications are labelled and retain their publication dates.
+
+| Reference | Document | Inspected scope and limitation |
+|---|---|---|
+| N27 | [AMDT octoplant terms — physical-server permission][N27] | AMDT-authored terms, August 2025, Definitions/Campus on printed page 9: permits licences on a physical server. Directly opened and passage inspected. Supports a physical-deployment option, not a current technical OS or named-hypervisor matrix. |
+| N28 | [AUVESY versiondog hardware/software requirements — 2018 copy][N28] | AUVESY-authored requirements, last updated 23 January 2018, partner-hosted PDF. Server and client/agent Windows/hardware tables inspected on printed pages 3–4. Historical prerequisites only; does not certify a current release or support lifecycle. |
+| N29 | [Emerson DeltaV physical and virtual infrastructure options][N29] | Manufacturer page inspected: physical workstation/server hardware offered alongside Virtual Studio; FAQ describes transition from physical servers to virtualization. Establishes deployment choices, not approval of the internally described cluster. |
+| N30 | [Waters Empower 3.8.0 installation/configuration guide][N30] | Manufacturer guide 715008196 Version 01, 2023; section 1.2 describes standalone Empower Personal and section 1.7.1, printed page 20, specifies the Waters workstation. Optional virtualization is separate. Applies to 3.8.0 and named roles, not every installed Empower release. |
+| N31 | [LabWare self-hosted LIMS deployment option][N31] | Directly inspected manufacturer page describing on-premises self-hosting alongside hosted alternatives. Does not specify a release-level physical/VM prerequisite and does not identify the internal GLIMS configuration. |
+
+### Existing routes revisited for execution review
+
+These outcomes concern retrieval only; specific execution statements above retain their own evidence boundaries. N24 returned 404, S17 timed out, A82 returned 404 and A26 returned 403. Their prior research is historical context rather than newly verified prerequisites.
+
+| Reference | Entry leading to inspection | Fresh route outcome | Route |
+|---|---|---|---|
+| A83 | OT001 | Readable route returned | https://support.rockwellautomation.com/cc/okcsFattachCustom/get/451936_4 |
+| N16 | OT002 | Readable route returned | https://amdt.com/resources/backup-for-manufacturing-a-service-for-all-global-bosch-locations/ |
+| S01 | OT004 | Readable route returned | https://www.emerson.com/is/content/emerson/en/systems-and-software/deltav-distributed-control-system-dcs/product-data-sheets/documents/deltav-virtual-studio-for-hci.pdf |
+| N21 | OT005 | Readable route returned | https://www.indautosys.com/about.html |
+| S14 | OT006 | Readable route returned | https://www.koerber.com/en/about-us/news-and-press/nextgen-pas-x-mes-operations |
+| S08 | OT007 | Readable route returned | https://literature.rockwellautomation.com/idc/groups/literature/documents/in/ftsp-in001_-en-p.pdf |
+| N22 | OT008 | Readable route returned | https://www.rovisys.com/capabilities/control-systems-integration/ |
+| S13 | OT009 | Readable route returned | https://ecostruxure-building-help.se.com/bms/topics/show?id=12297&locale=en-US&prerelease=false&productversion=7.0 |
+| S05 | OT010 | Readable route returned | https://docs.tia.siemens.cloud/r/en-us/v21/installation/system-requirements-for-installation/general-software-and-hardware-requirements |
+| S02 | OT011 | Readable route returned | https://library.yokogawa.com/document/download/AxkHnJ89/0000032952//EN/ |
+| A78 | OT012 | Readable route returned | https://www.wayaheadsystems.com/3ws/ |
+| N23 | OT014 | Readable route returned | https://www.alfalaval.com/products/separation/centrifugal-separators/separators/culturefuge/ |
+| A79 | OT015 | Readable route returned | https://planova.ak-bio.com/products/related-products/ |
+| A27 | OT017 | Readable route returned | https://www.steelcobelimed.com/us/service/services-in-pharma/retrofits-and-upgrades/ |
+| S32 | OT018 | Readable route returned | https://cdn.cytivalifesciences.com/api/public/content/BL2UCf3jFEy-e6yYLuJj8g-pdf |
+| A65 | OT019 | Readable route returned | https://www.fette-compacting.com/en/production-solutions/services/modernization |
+| N24 | OT020 | Route not retrieved | https://webmail.freund-vector.com/en/salespdf/Compu%204%20Process%20Info%20Sheet.pdf |
+| A66 | OT021 | Readable route returned | https://www.gea.com/es/products/product-handling-systems/contained-materials-handling-systems/ibc-blenders/ |
+| A29 | OT022 | Readable route returned | https://www.getinge.com/int/company/news/press-releases/2025/5246777-Getinge-boosts-cleanroom-efficiency-with-modern-interface-for/ |
+| S20 | OT023 | Readable route returned | https://www.gevernova.com/software/customer-stories/tacoma-power-reduces-cost-and-risk-ge-vernovas-proficy-hmi-scada-virtualization |
+| S33 | OT026 | Readable route returned | https://ctech.repligen.com/wp-content/uploads/2022/01/DOC0057-CTech-SoloVPE-System-Specification-Sheet.pdf |
+| A67 | OT028 | Readable route returned | https://thomasprocessing.com/coating-sub-systems/coater-control-upgrades/ |
+| A64 | OT029 | Readable route returned | https://antaresvisiongroup.com/lifescience/pharmaceutical-track-and-trace-solutions/ |
+| N05 | OT030 | Readable route returned | https://docs.cognex.com/deep-learning_420/web/EN/deep-learning/Content/Topics/getting-started/supported-operating-systems.htm?TocPath=Getting+Started%7CSystem+Requirements%7C_____3 |
+| A34 | OT031 | Readable route returned | https://www.eyec.com/eyec-proofiler-rs/ |
+| A35 | OT032 | Readable route returned | https://seavision-group.com/4-0-pharmaceutical-software-suite/ |
+| A36 | OT033 | Readable route returned | https://www.alphacelsius.com.sg/our-services/ |
+| A37 | OT034 | Readable route returned | https://amphenol-sensors.com/en/thermometrics/infrared-sensors/2553-ztpd-evm-kit-0-0 |
+| A38 | OT036 | Readable route returned | https://www.xylem.com/en-sg/catalog/products--services/disinfection-systems/disinfection-process-analyzers--controllers/rivo-i-control-system--water-treatment-control-system/ |
+| A39 | OT037 | Readable route returned | https://lives-international.com/xpertlog-software |
+| A28 | OT038 | Readable route returned | https://www.meco.com/services/automation-services/ |
+| A40 | OT039 | Readable route returned | https://puretech.uk.com/product-genesys/ |
+| A41 | OT040 | Readable route returned | https://www.sensitech.com/en/products/software/ |
+| A42 | OT041 | Readable route returned | https://www.stilmas.com/ultrapure_lsx_me |
+| A31 | OT043 | Readable route returned | https://sciex.com/content/dam/SCIEX/pdf/customer-docs/software-installation-guide/pa-800-sw-install-guide-en.pdf |
+| N26 | OT044 | Readable route returned | https://www.easymanua.ls/advanced-instruments/osmotech-xt/manual?p=88 |
+| S12 | OT045 | Readable route returned | https://www.agilent.com/cs/library/usermanuals/public/CDS_v3.0_Requirements_en.pdf |
+| A44 | OT046 | Readable route returned | https://www.agu.de/grounding_sdc.html |
+| A45 | OT047 | Readable route returned | https://www.biomerieux.com/us/en/our-offer/clinical-products/bact-alert-3d-automated-system.html |
+| A46 | OT048 | Readable route returned | https://www.agilent.com/cs/library/specifications/public/405-TS-technical-details-5994-5501EN-agilent.pdf |
+| A47 | OT049 | Readable route returned | https://www.bruker.com/en/products-and-solutions/microbiology-and-diagnostics/microbial-identification/maldi-biotyper-reference-libraries.html |
+| A32 | OT050 | Readable route returned | https://visioncats-doc.camag.com/402/InstallationService/installation/system_requirements.html |
+| A48 | OT051 | Readable route returned | https://www.criver.com/sites/default/files/resources/MS-PS-EndoScan-V-product-sheet.pdf |
+| A49 | OT052 | Readable route returned | https://www.ametektest.com/-/media/ametektest/download_links/force-testing-software-forcetest-1712.pdf |
+| N18 | OT053 | Readable route returned | https://pdf.medicalexpo.com/pdf/climet-instruments-company/datapro-3-software-remote-sensor-particle-counters-remote-sensor-particle-counters/115077-179817.html |
+| A51 | OT054 | Readable route returned | https://iptnet.eu/produkte/pruefdatenmanagement-software-iptdatalogging/?lang=en |
+| S18 | OT055 | Readable route returned | https://www.labware.com/purchasing-lims |
+| A52 | OT056 | Readable route returned | https://lighthouseinstruments.com/benchtop-instruments/ |
+| A53 | OT057 | Readable route returned | https://www.masontechnology.ie/services/software-services-scientific-equipment/ |
+| A54 | OT058 | Readable route returned | https://www.mbv.ch/media/user_manual_mas-100_iso_nt_en.pdf |
+| A55 | OT059 | Readable route returned | https://www.metrohm.com/en_in/service/software-center/tiamo.html |
+| S17 | OT060 | Route not retrieved | https://www.mt.com/dam/MT-NA/SMP/LabX_2014_Preinstallation_Guide.pdf |
+| A56 | OT061 | Readable route returned | https://measure.mitutoyo.com/qv-active-promo |
+| A10 | OT062 | Readable route returned | https://www.moleculardevices.com/sites/default/files/en/assets/legal/br/softmax-pro-eula-v7-0-0.pdf |
+| A57 | OT063 | Readable route returned | https://www.novabiomedical.com/cell-culture-analyzers/bioprofile-flex2/ |
+| A58 | OT064 | Readable route returned | https://www.ogpnet.com/products/metrology-systems/optical-comparators/contour-projectors/focus-contour-projectors/ |
+| N25 | OT065 | Readable route returned | https://www.perkinelmer.co.jp/support/faq/ftir/spectrometer.html |
+| A59 | OT066 | Readable route returned | https://www.rapidmicrobio.com/learning-center/rapid-blog/the-growth-directtm-system-implementation-process-from-start-to-finish |
+| N19 | OT067 | Readable route returned | https://custombiotech.roche.com/global/en/products/instruments/cedex-hires-ins-2157.html |
+| A61 | OT068 | Readable route returned | https://www.shimadzu.com/an/sites/shimadzu.com.an/files/pim/pim_document_file/brochures/25086/c101-e184.pdf |
+| N08 | OT069 | Readable route returned | https://doclib.siemens-healthineers.com/rest/v1/view?document-id=827889 |
+| S21 | OT070 | Readable route returned | https://www.sotax.com/data_management/data_management_software_q_docr |
+| A62 | OT071 | Readable route returned | https://assets.thermofisher.com/TFS-Assets/LSG/manuals/BindIt_4_KingFisherInstrumentsUserManual.pdf |
+| S09 | OT072 | Readable route returned | https://support.waters.com/KB_Inf/Empower_Breeze/WKB253811_What_is_Waters_position_on_the_use_of_virtualization_technology_with_Empower |
+| A68 | OT073 | Readable route returned | https://www.accenture.com/en/services/digital-engineering-manufacturing/production-operations |
+| S24 | OT074 | Readable route returned | https://www.acronis.com/en/support/documentation/CyberProtectionService/supported-virtualization-platforms.html |
+| A69 | OT075 | Readable route returned | https://ajjitec.com/assets/pdf/T%C3%A9rminos%20y%20Condiciones%20P%C3%A1gina%20web%20Ajj%202023.pdf |
+| A22 | OT077 | Readable route returned | https://docs.appian.com/suite/help/26.6/aok-faq.html |
+| A24 | OT078 | Readable route returned | https://docs.aws.amazon.com/evs/ |
+| A70 | OT079 | Readable route returned | https://www.cognizant.com/en_us/services/documents/cognizant-rise-of-alternative-virtualization.pdf |
+| S37 | OT080 | Readable route returned | https://www.cohesity.com/solutions/vmware/ |
+| A06 | OT081 | Readable route returned | https://documentation.commvault.com/v11/software/virtualized_platform_support.html |
+| A74 | OT082 | Readable route returned | https://prod-edam.honeywell.com/content/dam/honeywell-edam/hbt/en-us/documents/manuals-and-guides/installation-guides/lenels2/hon-ba-security-advanced-installation-guide.pdf?download=false |
+| A82 | OT083 | Route not retrieved | https://docs.hexagonali.com/r/en-US/HxGN-EAM-Product-Family-Software-Requirements/12.2/1261898 |
+| A75 | OT084 | Readable route returned | https://docs.hyland.com/r/OnBase/Technical-Requirements-Overview-for-New-Installations-and-Upgrades/Foundation-26.1/Technical-Requirements-Overview-for-New-Installations-and-Upgrades/Part-8-Technical-Support-and-Upgrade-Information/About-Virtual-Environments?contentId=1pxdCqqRx9xentRoDFjyBA |
+| A26 | OT085 | Route not retrieved | https://kneat.com/article/how-kneats-saas-platform-is-empowering-customers-through-covid-19/ |
+| A25 | OT087 | Readable route returned | https://www.metricstream.com/about-us/trust-center.htm |
+| A84 | OT088 | Readable route returned | https://www.opentext.com/cn/media/product-overview/opentext-documentum-content-management-po-en.pdf |
+| A12 | OT089 | Readable route returned | https://documentation.sailpoint.com/saas/help/va/requirements_va.html |
+| A77 | OT090 | Readable route returned | https://www.tmasystems.com/products/procal/pricing |
+| A19 | OT091 | Readable route returned | https://revvitysignals.com/products/research/signals-notebook-eln |
+| A76 | OT092 | Readable route returned | https://pages.community.sap.com/topics/virtualization |
+| A18 | OT093 | Readable route returned | https://www.servicenow.com/community/product-launch-blogs/self-hosted-offering-deploy-the-full-servicenow-ai-platform-on/ba-p/3524144 |
+| A85 | OT094 | Readable route returned | https://www.spartasystems.com/trackwise-qms-software/ |
+| A81 | OT095 | Readable route returned | https://www.sap.com/products/hcm/corporate-lms.html |
+| S30 | OT096 | Readable route returned | https://onpremises-docs.synergissoftware.com/adept-system-requirements/Spring-26/adept-server-overall-requirements |
+| A21 | OT097 | Readable route returned | https://www.veeva.com/resources/veeva-and-aws-expand-10-year-relationship/ |
+
 ## Fresh applicability source register
 
 Sources below were opened in the fresh pass on 30 October 2026. Manufacturer-authored republications are labelled separately from directly retrieved manufacturer-hosted material. A republication can document a historical component architecture without certifying a current installed release. Host chatbot/AI summaries were not evidence.
@@ -1595,3 +1817,13 @@ The initial route pass returned readable text for 75 of 78 routes. This records 
 [N25]: https://www.perkinelmer.co.jp/support/faq/ftir/spectrometer.html
 
 [N26]: https://www.easymanua.ls/advanced-instruments/osmotech-xt/manual?p=88
+
+[N27]: https://octoplant.com/wp-content/uploads/2025/11/gtc-amdt-en-82025.pdf
+
+[N28]: https://versiondog.cz/wp-content/uploads/2018/05/Hardware_software_requirements_2018-1.pdf
+
+[N29]: https://www.emerson.com/en/automation-systems/distributed-control-systems-dcs/deltav-distributed-control-system/deltav-virtualization
+
+[N30]: https://help.waters.com/content/dam/waters/en/support/usermanuals/2023/715008196/715008196v01.pdf
+
+[N31]: https://www.labware.com/lims/self-hosted
