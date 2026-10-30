@@ -149,17 +149,17 @@ The classification basis and assessment unit preserve ambiguity rather than assi
 
 **Coverage:** Server software: 12; Mixed / deployment to confirm: 27; Supplier / service record: 7; Container application: 2; Equipment record — isolate software: 28; Instrument / control workstation: 15; Backup protection: 3; Provider-hosted core: 3. These are record-scope categories, not counts of supported or deployable applications.
 
-## Presentation update — title attribution
+## Version 1.9 — retained presentation change history
 
 The heatmap title area identifies Priyanka Deva, followed by **Merck Enterprise Technology Innovation** and **Global Technology** on separate lines. The top-right Master register link and the displayed report version are removed. The classification reads **Internal use only**. The Print current view button remains available.
 
-This is a presentation update only; all inventory identities, compatibility classifications, evidence and source dates remain unchanged. The [current interactive heatmap](../interactive/OT_Application_Support_Heatmap_2026-10-30_v1.9.html) is generated from this Markdown.
+Version 1.9 changed presentation only; classifications and evidence were unchanged at that revision. The [archived v1.9 heatmap](../interactive/OT_Application_Support_Heatmap_2026-10-30_v1.9.html) reflects the register at that revision. The applicability review at the start of this document supersedes its former access-gap classifications.
 
 ## Version 1.8 — Supplier / Application selection
 
 The compatibility heatmap now uses a **Supplier / Application** dropdown in place of the free-text supplier/software/roster-ID search. Options show the supplied supplier and application descriptions, sorted alphabetically, with an **All suppliers / applications** choice. The list follows the selected workload scope, category and classification. Reset filters restores all entries. Roster IDs remain in the detailed register and application detail for traceability; they are not required to use the selector.
 
-This is a navigation update only. The 97 entries, 1,164 classifications, source references, historical dates and inventory-context decisions are unchanged from v1.7. The [v1.8 interactive heatmap](../interactive/OT_Application_Support_Heatmap_2026-10-30_v1.8.html) is generated from this Markdown.
+Version 1.8 changed navigation only; its 97 entries, 1,164 classifications, references and dates were unchanged from v1.7. The [archived v1.8 heatmap](../interactive/OT_Application_Support_Heatmap_2026-10-30_v1.8.html) reflects the register at that revision.
 
 ## Version 1.7 — scope-aware assessment and explicit evidence age
 
@@ -169,7 +169,7 @@ All **47 former I entries** were reviewed against their supplied descriptions an
 
 **H — Dated legacy evidence** identifies release-bound material whose present applicability is not established. It has **no universal age threshold** and does not mean end of support, incompatibility or withdrawal of vendor support. Every H-bearing matrix cell is linked to the dated evidence register below; the heatmap displays the reference date and approximate age as of **30 October 2026**. Current-looking document retrieval dates are never used as publication dates. The cover date is used where stated; partial month/year dates produce approximate ages, not invented day-level precision.
 
-The heatmap keeps supplier/equipment context separate from platform-assessment rows and offers a dedicated inventory-context view. W rows show one mapping action across the platform area rather than twelve apparent compatibility failures. The four executive cards share the same teal accent treatment. The [v1.7 heatmap](../interactive/OT_Application_Support_Heatmap_2026-10-30_v1.7.html) is generated from this Markdown after the correction is committed.
+The heatmap keeps supplier/equipment context separate from platform-assessment rows and offers a dedicated inventory-context view. W rows show one mapping action across the platform area rather than twelve apparent compatibility failures. The four executive cards share the same teal accent treatment. The [archived v1.7 heatmap](../interactive/OT_Application_Support_Heatmap_2026-10-30_v1.7.html) reflects the register at that revision.
 
 ## Version 1.6 — leadership presentation and synchronization
 
@@ -181,13 +181,13 @@ Cohesity–VMware is **B, published backup interoperability**; HPE remains **BA,
 
 The application provenance in the Enterprise Context appendix is carried into the interactive report. The source register also retains unresolved access and document-identity qualifications. The v1.5 audit sections below document the earlier research and link-check passes; they do not represent new research performed for v1.6.
 
-## Latest source-link validation — 30 October 2026
+## Earlier source-link validation — 30 October 2026
 
 The pre-applicability snapshot contained147 source references /145 distinct URLs after removal of an inaccessible GE iFIX policy source and its dependent text. The earlier pinned-v1.5 audit checked148 references /146 distinct URLs:137 original URLs returned readable content and9 could not be inspected. Those figures describe that earlier snapshot, not the current source inventory. One same-document route was repaired (A23), and two unavailable routes now cite clearly labelled alternative official product-context pages (A39,A44). A51 points to the actual candidate DataLogging product page; A03/P10 use verified canonical destinations.
 
 **Earlier source-link audit record:** five retained source URLs were unresolved: A26 (403), A50 (timeout), A60 (reader-size limit), A82 (404 with an unstable alternative), S25 (403). Their availability must not be represented as verified. The HPE N02/N04 landing-page Download links were followed to matching PDFs. S16 is a move notice/customer portal, N10 is a third-party mirror, S06 has a V21/V19 applicability conflict, and S28's visible course body does not confirm version5.1. These are not clean release-specific support certificates.
 
-The individual outcomes, original URLs, document identities and replacements from the earlier148-reference snapshot are retained in the historical [OT_Source_Link_Audit_2026-10-30.md](OT_Source_Link_Audit_2026-10-30.md). The current document's retained-source counts and removal supersede that snapshot's inventory. The fresh applicability inspection and technical record above take precedence for the three re-investigated cases; the remaining notes retain their original scope. Earlier entry research dispositions remain a record of that content-audit pass, not a claim that every source opens now. Web-reader retrieval may use indexed/cached content and is not a guarantee of browser access, entitlement or application compatibility. No support status was upgraded by this link check.
+The individual outcomes, original URLs, document identities and replacements from the earlier148-reference snapshot are retained in the historical [OT_Source_Link_Audit_2026-10-30.md](OT_Source_Link_Audit_2026-10-30.md). The current document's retained-source counts and removal supersede that snapshot's inventory. The fresh applicability inspection and technical inspection record below take precedence for the three re-investigated cases; the remaining notes retain their original scope. Earlier entry research dispositions remain a record of that content-audit pass, not a claim that every source opens now. Web-reader retrieval may use indexed/cached content and is not a guarantee of browser access, entitlement or application compatibility. No support status was upgraded by this link check.
 
 ## What this roster shows
 
@@ -201,7 +201,7 @@ The earlier report covered a priority subset. Version 1.5 records fresh research
 
 ## Reading the updated roster
 
-All 97 original entries remain. VMware has been added without assuming support from installed use. The v1.5 audit findings are reconciled below. Limited-scope, conditional, identity and access gaps remain visible; there is no portfolio-wide compatibility percentage.
+All 97 original entries remain. VMware has been added without assuming support from installed use. The v1.5 audit findings are reconciled below. Limited-scope and conditional findings, unresolved software identities and support evidence gaps remain visible; there is no portfolio-wide compatibility percentage.
 
 ## Version 1.5 — full-roster public-evidence audit
 
@@ -1322,7 +1322,7 @@ The retained baseline still contains historical access notes and audit dispositi
 
 ### Documentation routes reopened in the fresh applicability pass
 
-The initial route pass returned readable text for75 of78 routes. This records retrieval, not full-document certification. A32 was readable in the later targeted retry; A26/A82 remained unresolved in this route pass. The three original access-gap cases and their alternate inspection paths are documented above. Relevant controller/interface/deployment sections were followed up separately.
+The initial route pass returned readable text for 75 of 78 routes. This records retrieval, not full-document certification. A32 was readable in the later targeted retry; A26/A82 remained unresolved in this route pass. The three original access-gap cases and their alternate inspection paths are documented above. Relevant controller/interface/deployment sections were followed up separately.
 
 | Reference | Entry leading to inspection | Initial route result | Route |
 |---|---|---|---|
