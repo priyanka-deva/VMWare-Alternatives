@@ -1,9 +1,15 @@
 # Hypervisor OT Compatibility — Master Register
 
 **Prepared by:** Priyanka Deva  
-**As of:** 30 October 2026 · Version 1.7 — inventory scope and dated legacy evidence  
+**As of:** 30 October 2026 · Version 1.8 — Supplier / Application dropdown  
 **Classification:** Internal use  
-**Basis:** The v1.6 Markdown at commit 25464adec82645863861423c25e13ccab3198a50 is the sole research baseline. Version 1.7 corrects how supplier/equipment records are represented, dates the legacy evidence using retained source captures and makes the four executive cards visually consistent. All 97 original identities, 65 original groups and 147 source references remain. This is a classification and presentation correction; no new live search or research was added.
+**Basis:** The v1.7 Markdown at commit d284c6becbfff0eb429dcecf1c12397ab64114ab is the sole research baseline. Version1.8 changes the heatmap selector to Supplier / Application without changing the 97 entries, 1,164 classifications, 147 source references, dated legacy evidence or inventory-context decisions. No new live search or research was added.
+
+## Version 1.8 — Supplier / Application selection
+
+The compatibility heatmap now uses a **Supplier / Application** dropdown in place of the free-text supplier/software/roster-ID search. Options show the supplied supplier and application descriptions, sorted alphabetically, with an **All suppliers / applications** choice. The list follows the selected workload scope, category and classification. Reset filters restores all entries. Roster IDs remain in the detailed register and application detail for traceability; they are not required to use the selector.
+
+This is a navigation update only. The 97 entries, 1,164 classifications, source references, historical dates and inventory-context decisions are unchanged from v1.7. The [v1.8 interactive heatmap](../interactive/OT_Application_Support_Heatmap_2026-10-30_v1.8.html) is generated from this Markdown.
 
 ## Version 1.7 — scope-aware assessment and explicit evidence age
 
@@ -53,7 +59,7 @@ All 97 original entries remain. VMware has been added without assuming support f
 
 **Scope completed:** all 97 roster entries received fresh live research and a recorded disposition; all 133 existing source-reference routes were reopened (including repeated URLs; access failures are recorded); application, equipment-OEM, platform and hypervisor material was considered. The original 65-group cross-reference remains intact. Searches covered the named software or supplier, virtualization/support requirements and relevant target names. Broad platform searches and primary support policies covered VMware plus the ten alternative families, with Hyper-V and Azure Local treated separately. This is complete coverage of the supplied roster, **not proof that every possible publication, customer-only matrix or platform combination has been found**.
 
-**Authority and edit order:** this Markdown is the only authoritative research base. Future evidence or classification changes must be made and committed here first. The [v1.7 interactive heatmap](../interactive/OT_Application_Support_Heatmap_2026-10-30_v1.7.html) is generated from this register. Version1.6 remains the pre-correction snapshot; its I labels are superseded by the scope review above. This register controls any difference in interpretation.
+**Authority and edit order:** this Markdown is the only authoritative research base. Future evidence or classification changes must be made and committed here first. The [v1.8 interactive heatmap](../interactive/OT_Application_Support_Heatmap_2026-10-30_v1.8.html) is generated from this register. Version1.6 remains the pre-correction snapshot; its I labels are superseded by the scope review above. This register controls any difference in interpretation.
 
 **Evidence rules:** an application manufacturer's release/component statement establishes application support within its conditions. A hypervisor's guest-OS support or application-agnostic claim establishes a different layer. Equipment-OEM configuration, interfaces, database/OS support, hardware qualification and entitlement still have to align. Backup interoperability is recorded separately from application hosting. A SaaS core, container platform, RPA agent and VM application server are not interchangeable workloads. Two pages repeating one vendor claim are not independent validation.
 

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build the self-contained v1.7 heatmap from the sole Markdown register.
+"""Build the self-contained v1.8 heatmap from the sole Markdown register.
 
 No network calls, research, or inference of cell classifications.
 Run from the repository root: python3 scripts/generate_ot_heatmap.py
@@ -11,7 +11,7 @@ import re
 from collections import Counter
 
 ROOT = Path(__file__).resolve().parents[1]
-VERSION = '1.7'
+VERSION = '1.8'
 BASE_COMMIT = 'd284c6becbfff0eb429dcecf1c12397ab64114ab'
 MASTER_NAME = 'OT_Master_Roster_Alternative_Support_2026-10-30'
 HEATMAP_NAME = 'OT_Application_Support_Heatmap_2026-10-30'
