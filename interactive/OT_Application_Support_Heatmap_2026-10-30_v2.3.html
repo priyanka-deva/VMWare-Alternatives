@@ -185,7 +185,6 @@ function renderLeaderHeatmap(){
 }
 function renderMatrix(){
  if($('report-view').value==='leader')return renderLeaderHeatmap();
- if($('report-view').value==='leader')return renderLeaderHeatmap();
  if($('report-view').value==='simple'){return renderSimpleCompatibility();}
 
  const technical=$('report-view').value==='platforms',cat=$('category').value,filter=technical?$('status-filter').value:'',selection=$('supplier').value,deployment=$('deployment').value;
